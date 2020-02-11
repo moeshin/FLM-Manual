@@ -4,7 +4,7 @@
 
 ![Main Interface](../assets/images/MainUI.png)
 
-{% bilibili %} 29552167#37 {% endbilibili %}
+https://www.bilibili.com/video/av29552167?p=37
 
 你可以在 [这里 ](https://www.bilibili.com/video/av29552167)查看所有教程，并且在 [这里](https://support.image-line.com/redirect/flmobile_forum) 查看  **FL Studio Mobile 支持论坛**。这是一个提出问题并获得其他免费内容的好地方。要访问论坛，请点击 **HELP > Users & support forums**。如果这是您第一次访问该页面，则将要求您注册以获得访问权限。如果您已经有一个 [Image-Line Account](https://support.image-line.com/member/profile.php) 帐户，请确保使用相同的登录密码。
 

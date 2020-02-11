@@ -1,0 +1,14 @@
+{
+  "name": "gitbook-plugin-custom",
+  "version": "1.0.0",
+  "author": "moeshin",
+  "description": "Custom plugin for this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "license": "CC-BY-NC-SA"
+}

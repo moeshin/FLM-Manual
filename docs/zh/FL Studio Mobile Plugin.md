@@ -12,7 +12,7 @@
 
 1. <font color="red">**重要信息：**</font>FL Studio Mobile **插件** 会经常更新，请 **始终** [从 FL Studio 用户论坛](http://support.image-line.com/redirect/flmobile_flplugin) 下载并安装最新的插件。
 2. 将 FL Studio Mobile 项目转移到计算机上。请参阅本手册的 [共享项目](FL Studio Mobile_HomePanel.md#share（共享）) 部分。**首次** 执行此操作时，请确保试用「**SEND ALL**」选项。这还将把设备上的采样和乐器转移到 FL Studio 插件中。
-   {% bilibili %} 29552167#3 {% endbilibili %}
+   https://www.bilibili.com/video/av29552167?p=3
 3. 打开 FL Studio Mobile 插件，然后正常在 FL Studio Mobile（插件）中加载项目。
 4. FL Studio Mobile 插件将自动同步到 FL Studio 中的播放列表。速度也从遵从 FL Studio 的宿主速度。
 5. 添加一个至少等于您的 FL Studio Mobile 项目长度的空样式，然后在FL Studio（桌面版）中按 Play（播放）。

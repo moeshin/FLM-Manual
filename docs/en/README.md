@@ -4,7 +4,7 @@
 
 ![Main Interface](../assets/images/MainUI.png)
 
-{% bilibili %} 29552167#37 {% endbilibili %}
+https://www.bilibili.com/video/av29552167?p=37
 
 ### Get it here
 

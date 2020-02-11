@@ -158,7 +158,7 @@
 
 ![Share](../assets/home/Share.png)
 
-{% bilibili %} 29552167#3 {% endbilibili %}
+https://www.bilibili.com/video/av29552167?p=3
 
 1.  确保您在设备上使用的是最新版本的 FL Studio Mobile，并且具有 [最新的FL Studio插件](http://support.image-line.com/redirect/flmobile_flplugin)。
 2.  将您的PC和或任何移动设备连接到同一个网络。通常情况下是通过 **Wi-Fi** 连接，但如果你同时使用 Wi-Fi 和 **以太网** 连接也可以。重要的一点就是 **所有设备都得连接到同一个网络**。

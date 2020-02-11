@@ -12,7 +12,7 @@ How to work with the FL Studio Mobile plugin:
 
 1. **IMPORTANT:** The FL Studio Mobile **plugin** is updated frequently, **always** download and install the latest plugin - [here from the FL Studio Users forum](http://support.image-line.com/redirect/flmobile_flplugin).
 2. Transfer your FL Studio Mobile projects to your computer. See the [Sharing Projects](FL Studio Mobile_HomePanel.md#sharingdata) section of this manual. **The first time** you do this, make sure to use the '**SEND ALL**' option. This will additionally transfer the factory samples and instruments to the FL Studio plugin.
-   {% bilibili %} 29552167#37 {% endbilibili %}
+   https://www.bilibili.com/video/av29552167?p=3
 3. Open the FL Studio Mobile plugin and then load your project as normal in FL Studio Mobile (plugin).
 4. FL Studio Mobile plugin will automatically sync to the Playlist in FL Studio. The tempo is also slaved to FL Studio's host tempo.
 5. Add an empty pattern at least equal-to the length of your Mobile project and press Play in FL Studio (desktop).

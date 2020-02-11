@@ -160,7 +160,7 @@ SHARE / SYNC Files Between FL Studio Mobile Installations
 
 ![Share](../assets/home/Share.png)
 
-{% bilibili %} 29552167#3 {% endbilibili %}
+https://www.bilibili.com/video/av29552167?p=3
 
 1.  Make sure you are using the latest version of FL Studio Mobile on your device AND have the latest FL Studio plugin update - [get it here](http://support.image-line.com/redirect/flmobile_flplugin).
 2.  Connect your PC and or any Mobile devices to the same network. Normally this will be via **Wi-Fi**, but it's OK if you have a combination of Wi-Fi and **Ethernet** connections. The important factor is **all devices are connected to the same Network**.
