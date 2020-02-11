@@ -1,4 +1,4 @@
+#!/usr/bin/env bash
 
-gitbook install docs
-./run.sh
-#rm public/index.html
+gitbook build docs public
+ln -s ../docs/assets public/assets
