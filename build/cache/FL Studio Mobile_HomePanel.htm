@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<h1>FL Studio Mobile - Home Panel</h1>
+<p>The Home Panel contains administrative settings grouped according to the SONGS, SETTINGS, SHOP and SHARE tabs.
+<p class="justImages">
+<img src="../img_plug/flmobile_homepanel.png" width="700">
+<p><a id="paramaters"></a>
+<h2>Parameters</h2>
+<p>Tap the <b>Home Button</b> to access the following:
+<p><b>NOTE:</b> <font color="red">Not all features are available on all operating systems. </font>
+<p><a id="songs"></a>
+<p><a id="help"></a>
+<h3>HELP (Button)</h3>
+<p>The help button is your friend! Under it you can find...
+<ul>
+<li><b>Manual</b> - You are reading it.
+<li><b>Video Tutorials</b> - An extensive YouTube <a class="extLink" href="http://support.image-line.com/redirect/flstudiomobile_videos" target="_blank">FL Studio Mobile video playlist</a>.
+<li><b>Users & Support Forums</b> - The <a class="extLink" href="http://support.image-line.com/redirect/flmobile_forum" target="_blank">Users Forum</a> is a great place to ask 'How-To' questions, make feature-requests or to report bugs. If something does not work, reporting it is the quickest way to get it fixed.
+<li><b>Play Tutorial</b> - Play the <a class="extLink" href="https://support.image-line.com/redirect/flmobile_introvideo" target="_blank">introductory video tutorial</a>.
+<li><b>Register at Image-Line</b> - Create an account with us at Image-Line software. This will give you access to the <a class="extLink" href="http://support.image-line.com/redirect/flmobile_forum" target="_blank">Users Forum</a>.
+</ul>
+<p><a id="songs"></a>
+<h3>SONGS</h3>
+<p><b>Songs</b> - Load and save FL Studio Mobile projects and MIDI files.
+<ul>
+<p><a id="timesignature"></a>
+<li><b>New</b> - Opens the New Project template.
+<p class="justImages">
+<img src="../img_plug/flmobile_home_new.png" width="800">
+<p><b>Starting a new project...</b>
+<ol>
+<li><b>New</b> - Opens the new project dialog
+<li><b>Tempo</b> - Choose from a common range of tempos. You can always change this later or set an exact tempo from the <a href="FL%20Studio%20Mobile_Playlist.htm#flmobile_transportbar">BPM control</a> on the lower transport bar.
+<li><b>Mode</b> - You can set the time ruler in FL Studio mobile to one of two modes:
+<ul>
+<li><b>Time signature</b> (traditional) - Select <b>Beats per bar </b>/ <b>Beat value</b>. The Stepsequencer will show 1/16th notes according to the Beat value.
+<li><b>Time division</b> (advanced) - Set <b>Steps per beat</b> and <b>Beats per bar</b>. The Stepsequencer will show the number of steps per beat selected.
+</ul>
+<p><b>NOTE:</b> Time signatures and divisions can only be set at the time a project is created. These can't be changed afterward.
+<li><b>OK</b> - Start the new project with the selected settings. <b>NOTE:</b> Only a single Time Signature can be set per project. You can't change the Time Signature of an existing project.
+</ol>
+<p><a id="render"></a>
+<p><a id="save"></a>
+<li><b>Save</b> - Saves the current project. <b>NOTE:</b> Setting a '<b>SEND</b>' destination, allows you to send content via email and file-sharing Apps. Options include:
+<p class="justImages">
+<img src="../img_plug/flmobile_home_save.png" width="800">
+<p><b>Saving or sending files...</b>
+<ol>
+<li><b>SONGS Tab > Save</b> - From the SONGS tab select <b>Save</b>
+<li><b>Rename file</b> (optional) - If you want to rename the project tap here and enter a new name
+<li><b>Select format</b> - Choose the save format. FLM is a project file. MIDI is note data. WAV, FLAC, MP3 and AAC are audio formats.
+<li><b>SEND</b> (optional) - This is an alternative to saving to your device. Tap here to select email and any other external locations available through Applications that can share files on your device. <b>NOTE:</b> This is different to '<a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a>' TAB that allows you share files directly between FL Studio Mobile installations.
+<li><b>SAVE</b> - This saves to the default FL Studio Mobile user data folders. When saving Audio formats you will see the following options:
+<p class="justImages">
+<img src="../img_plug/flmobile_home_saveoptions.png" width="400">
+<ul>
+<li><b>Normalize level</b> - Maximize level so the loudest peaks reach 100% volume.
+<li><b>Trim initial silence</b> - Removes silence from the start of the render.
+<li><b>High quality</b> - Sets highest quality audio. Action depends on render format - WAV 32 Bit (HQ) / 16 Bit (Off). FLAC 24 Bit (HQ) / 16 Bit (Off), MP3 320 kbps (HQ) / 192 (Off). AAC 320 kbps (HQ) / 192 (off).
+<li><b>Render to last bar</b> - Rendering stops at the end of the last Bar. This can avoid long tails on audio files where effects may run-on.
+</ul>
+</ol>
+<li><b>File Name</b> - Tap to edit the file name.
+<li><b>Save format</b> - Choose the type of file to save.
+<ul>
+<li><b>FLM</b> - FL Studio Mobile project format (<b>.flm</b> extension when viewed in a file browser).
+<li><b>MIDI</b> - MIDI is a data format for sharing FL Studio Mobile project data (Notes and control information) with other DAW software (<b>.mid</b> extension when viewed in a file browser). <b>NOTE:</b> This option saves the first 16 tracks of the project to a single MIDI file. If you have more than 16 tracks you can rearrange the track order and do multiple saves OR save the additional tracks separately with the per-track <a href="FL%20Studio%20Mobile_Playlist.htm#channel_menu">Save as MIDI</a>.
+<li><b>WAV (audio)</b> - Highest quality, large file size. Wave is a lossless audio format and preferred (along with FLAC) for handling audio in a production environment. Files are 16 Bit WAV format (<b>.wav</b> extension when viewed in a file browser), unless you have set 'High quality' at save pop-up options (see above) and then it uses 32 Bit format.
+<li><b>FLAC (Audio)</b> - Free Lossless Audio Codec, is similar to WAV format in retaining all audio information in the encoded waveform. FLAC has the additional benefit of significantly reducing the file size. FLAC files are typically between 20 to 30% smaller than the equivalent WAV file, all while retaining a bit-perfect copy of the original data. The 'High quality' at save pop-up options (see above) toggles between 16 and 24 bits per sample.
+<li><b>MP3 (audio)</b> - Lesser quality, smaller file size. Files are 192 or 320 kbps (HQ) (<b>.mp3</b> extension when viewed in a file browser).
+<li><b>AAC (audio)</b> - Lesser quality, smaller file size. Files are 192 or 320 kbps (HQ) (<b>.aac</b> extension when viewed in a file browser).
+</ul>
+<p><b>TIP:</b> Use <b>WAV</b> for reuse in FL Studio Mobile and <a href="FL%20Studio%20Mobile_FLStudioPlugin.htm">other DAW software</a>. Use <b>MP3</b> for music distribution and listening.
+<li><b>SEND</b> - The destinations shown will depend on your device and operating system (they will be shown AFTER you set '<b>SEND</b>' and THEN tap SAVE). Examples include: <b>email</b>, <b>online cloud storage</b> and <b>internal folders</b>.
+</ul>
+<p><b>NOTE:</b> For <font color="red"><b>advanced file sharing</b></font> see the section - <a href="#userdata">Your Files! (Where are Project, WAV, MP3, MIDI files located?)</a>
+<p><a id="settings"></a>
+<h3>SETTINGS</h3>
+<p><b>Settings</b> - Select MIDI input/s, CPU/Audio settings and Metronome loudness.
+<h4>MIDI Device</h4>
+<ul>
+<li><b>MIDI Input</b> - When a <a href="FL%20Studio%20Mobile_Controllers.htm#flm_externalcontrollers">external MIDI device</a> is detected you can use this control to set it to play the selected Playlist track.
+<li><b>Enable MIDI over Bluetooth LE</b> - Select this to connect to Bluetooth MIDI devices. On <b>Android</b> this will open a <b>Location Access</b> permission. <b>Location Access permission</b>. This is <a class="extLink" href="https://developer.android.com/guide/topics/connectivity/bluetooth-le.html#permissions" target="_blank">required by Google</a> (See 'LE Beacons note), as it's possible to guess your location from nearby Bluetooth devices. We ONLY use Bluetooth for MIDI keyboards and we DO NOT try to guess your location or send any data to our servers
+</ul>
+<p><b>NOTE:</b> For more information on working with MIDI Controllers, <a href="FL%20Studio%20Mobile_Controllers.htm#flm_externalcontrollers">see here</a>.
+<h4>Application</h4>
+<ul>
+<li><b>Enable count-in when recording</b> - Skip the count-in when recording.
+<li><b>Display names of the keys on the keyboard</b> - Adds names for all white notes (A,B,C,D,E,F and G) between the octave names.
+<li><b>Metronome level</b> - Use this to adjust the relative volume of the metronome. The Metronome can be accessed from the <b>TMP</b> button on the Transport Panel.
+<li><b>Normalize rendered songs</b> - Makes the song louder by increasing the amplitude of the waveform so that the loudest sample is at the maximum possible level. Normalization determines the multiplication factor that will make the loudest waveform peak reach 100%, then multiplies all samples in the waveform by this value, rescaling them.
+<li><b>Control Sizing</b> - Change the size of the controls to better suit your use-case or device. <b>NOTE:</b> You must restart FL Studio Mobile for this setting to take effect.
+<p><b>Troubleshooting:</b> If a scaling option makes the UI unusable, delete the <b>uiscale</b> file located in <a href="#userdata">..\FLM User Files</a>.
+<li><b>Enable sharing</b> - This enables the <a href="#sharingdata">SHARE</a> tab option. Normally you can leave this on. It means FL Studio Mobile will poll the network periodically to see if other instances are in use on other devices. When they are, they will appear as destination options for your data. <b>NOTE:</b> When connecting to desktop operating systems (Windows/OS X/macOS) you may see a security pop-up for your firewall. Allow FL Studio Mobile access.
+</ul>
+<p><a id="audio"></a>
+<h4>Audio</h4>
+<ul>
+<li><b>Audio Input</b> (Shows Microphone by default) - Select the audio input, when multiple inputs are available. On mobile devices with stereo microphones you will see 'Recording Source Stereo' and the option to select the Left or Right Channel (Mic). This is sometimes necessary when one mic is inferior to the other. This can happen if a mic is designed primarily used for noise-cancellation duties and not capturing the voice. When an <b>Audio Interface</b> is connected (on mobile devices, <a href="../img_plug/flmobile_otg_adapters.jpg" target="_blank">via adapters</a>), other input options will be available. You may need to try them all to find the input you are looking for, if they are not explicitly and correctly identified. Input options on iOS also includes <a href="FL Studio Mobile_iOS_InterApp.htm">Audiobus inputs</a>.
+<p><a id="latency_compensation"></a>
+<li><b>Enable audio recording latency compensation</b> - Ensures recorded audio is correctly aligned with the Playlist. For example, if you record the sound of FL Studio Mobile playing it's own kick track, latency calibration will ensure the kick recorded from the microphone is tightly aligned with the sequenced kick. This is necessary because on mobile devices there is usually a significant delay between the time when a sound was generated in the Playlist, to when it is audible from the speakers. This device <b>audio latency</b> is usually between 40 and 200 ms. If you are singing or playing in-time with the live audio, you are actually performing between 40 to 200 ms <b>behind</b> the sequenced events making the sound. Without latency compensation recordings made in time with live output will lag behind the internal sequencing. The compensation process removes a slice of audio, equal to the detected round-trip audio delay, from the start of the recording. This is the most accurate method to calibrate device latency.
+<p><b>Calibrate</b> - To perform a calibration, FL Studio Mobile must be able to record it's own output. The process measures the output-to-input delay for recorded audio by recording a single beep sound.
+<ul>
+<li><b>Using an internal microphone</b> - 1. Seek a quiet location. 2. Disconnect headphones. 3 Turn up the volume to around 80-100% 4. Tap <b>Calibrate</b>.
+<li><b>Using an external microphone</b> - 1. Seek a quiet location. 2. Turn up the volume to around 50%. 3. Hold the mic close to a speaker or against one of your headphone speakers. 4. Tap <b>Calibrate</b>.
+</ul>
+<p><b>If the calibration fails</b> - This usually means the calibration beep was not detected. You can usually correct this by 1. Turning up the volume. 2. Making sure not to move, bump or scuff your device while calibrating. 3. Making sure you know where the microphone is and that it is clear to receive audio. 4. Making sure it is as quiet as possible when you tap Calibrate. <b>Audio Interface</b> - Make sure the <b>Input</b> selector matches the microphone you are using. Hold the microphone to the headphones.
+<li><b>Use 32 Bit format when rendering and recording audio</b> - Switches from 16 Bit wav to 32 Bit floating-point wav files for all created, .wav format, audio files. <b>NOTE:</b> This format preserves the highest quality when post-processing the audio in another application such as FL Studio for the PC. Only use 32 Bit when you have a specific reason to do so. If you are not sure, use 16 Bit. 32 Bit .wav won't work in many consumer-level media players.
+<li><b>Enable background audio</b> (iOS) - Allows the App to play when minimized.
+<li><b>Sound mode</b> (Android) - This is an audio-engine option to reduce audio glitches and or crackling:
+<ul>
+<li><b>Fast</b> - Lowest latency for devices that can handle this setting. Latency is the delay between tapping on the keyboard and hearing sound.
+<li><b>Safe</b> - Can reduce audio glitching at the expense of increased latency.
+<li><b>Ultrasafe</b> - Longest latency, but has the widest compatibility with devices.
+</ul>
+<p><a id="optimiseaudio"></a>
+<p><b>Troubleshooting:</b> There are two options relating to audio performance, <b>Multi core processing</b> and <b>Sound mode</b>. Together these give 6 possible combinations. Try them all and see if any combination solves your issues: ON/FAST, ON/SAFE, ON/ULTRASAFE, OFF/FAST, OFF/SAFE & OFF/ULTRASAFE.
+<li><b>Multi core processing</b> - This is a CPU option to reduce audio glitches and or crackling. Multi-core ON may actually be worse than OFF depending on the device used. Try both positions.
+</ul>
+<p><a id="shop"></a>
+<h3>SHOP</h3>
+<p><b>Shop</b> - You can download free content and or purchase additional content from this tab.
+<ul>
+<li><b>To purchase content</b> - Tap the <b>Buy</b> button and complete the transaction through the App store.
+<li><b>Restore purchases</b> - If you have already purchased content and then later re-installed FL Studio Mobile on a new device (or after deleting and installing it on the same device), the <b>SHOP</b> tab will show a <b>RESTORE</b> button. Tapping this should restore your purchase. Providing you are logged into the same App Store Account used to purchase the Application. For products provided by Image-Line, if you have registered your device with your <a class="extLink" href="https://support.image-line.com/member/profile.php" target="_blank">Image-Line Account</a>, when you re/install FL Studio Mobile on a device, tap the '<b>Users & support forum</b>' button, THEN re/registered your device to your Image-Line Account, this <b>content will be unlocked</b>.
+</ul>
+<p><b>NOTE:</b> In-app purchases, like FL Studio Mobile itself, are not transferable between operating systems (Android, iOS and Windows). For more details on why this is so, see <a class="extLink" href="https://support.image-line.com/knowledgebase/base.php?ans=497" target="_blank">this Knowledge Base article</a>.
+<p><a id="sharingdata"></a>
+<h3>SHARE / SYNC Files Between FL Studio Mobile Installations</h3>
+<p><b>Share</b> - You can share project related files between your mobile devices running FL Studio Mobile. When your devices are <a href="FL%20Studio%20Mobile_WiFi.htm">connected to the same network (including WiFi)</a> choose a target device receive '<b>Your Files</b>', that is everything in the <b>FLM User Files</b> folder. This page allows you to sync projects across a network and between FL Studio Mobile installation on ALL detected Android, iOS and Windows (App and FL Plugin) devices. <b>NOTE:</b> The first time you do this with a computer, you may see a <b>Firewall pop-up security message</b>. Allow FL Studio Mobile access to your Network. <b>How to Share:</b>
+<p class="justImages">
+<img src="../img_plug/flmobile_home_share.png" width="700">
+<p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/5dYBwoQeFuk" frameborder="0" allowfullscreen></iframe>
+<ol>
+<li>Make sure you are using the latest version of FL Studio Mobile on your device AND have the latest FL Studio plugin update - <a class="extLink" href="http://support.image-line.com/redirect/flmobile_flplugin" target="_blank">get it here</a>.
+<li>Connect your PC and or any Mobile devices to the same network. Normally this will be via <b>Wi-Fi</b>, but it's OK if you have a combination of Wi-Fi and <b>Ethernet</b> connections. The important factor is <b>all devices are connected to the same Network</b>.
+<li>Open FL Studio Mobile on the PC and on the Mobile device.
+<li>From the PC and Mobile device/s select the <b>Share</b> tab. <b>NOTE:</b> On the PC, the first time you do this, you will see a <b>Firewall pop-up security message</b>. Allow FL Studio Mobile access to your Network.
+<li>On the <b>Share</b> tab, you should see all other instances of FL Studio Mobile, on all devices listed. Sharing goes <b>FROM</b> the device you are using <b>TO</b> the one you select.
+<li>Tap on the device and <b>Your Files</b> (see below) is transferred to that device.
+<li>You will need to restart the destination FL Studio Mobile instance to see the new data as it is scanned at start-up.
+<li>Make a shortcut on your Computer desktop to your My Files location, then you can manually copy files in and out of this location and then use SHARE to send them to your Mobile Device, or get them after a SHARE to your computer, easy!
+</ol>
+<p><b><font color="red">IMPORTANT NOTE:</b></font> The first time you use the <b>FL Studio Plugin</b> version, you should <b>Send All</b> library content to it. By default, the plugin version only ships with a limited library of sounds so you will need to update it with the complete library from a Mobile version. If you don't do this, projects will be missing sounds on the plugin version. This can take several minutes to complete.
+</ul>
+</ul>
+<p><a id="manageuserfiles"></a>
+<h2>Managing User Files</h2>
+<p>This section relates to the internal file browser that opens when you choose Presets or add Audio Clips. The options here are available <b>only for user files</b>. They do not apply for factory installed content.
+<p class="justImages">
+<img src="../img_plug/flstudiomobile_userfilesmanagement.png" width="400">
+<h4>Working with files</h4>
+<ol>
+<li>Tap Select open the file management options.
+<li>Tap 'select' buttons for the files you want to manage.
+<li>Choose the option/action you wish to perform for the files.
+</ol>
+<h4>Options</h4>
+<ul>
+<li><b>All</b> - Select all files.
+<li><b>Fold</b> - Create a folder and move selected files to it. <b>NOTE:</b> You must select files to create a folder.
+<li><b>Delete</b> - Delete selected files
+<li><b>Cut</b> - Choose files ready for moving to another location (Paste).
+<li><b>Paste</b> - Paste Cut files.
+<li><b>Export</b> - Export files with the OS supplied sharing options.
+<li><b>Wave</b> (iOS only) - Audio Paste.
+</ul>
+<p><a id="userdata"></a>
+<h2>Finding Your Files </h2>
+<p>Using mobile devices as creative tools can be frustrating as mobile Operating Systems (Android, iOS and Windows UWP), more or less, prevent easy access to internal folders used by Apps. Operating System specific instructions are <a href="#userdata_access">provided below</a> on how to access these folders. Under the FL Studio Mobile installation folder you can find the following sub-folders. Initially these folders are empty, they are for your data:
+<br><br>
+<p><b>FL Studio Mobile install sub-folders:</b>
+<ul>
+<li><b>My Drum templates</b> - Drum templates are collection of sounds that make up a drumkit. This is not drum-sample data, it's preset data that loads the samples into a Drumkit.
+<li><b>My Instruments</b> - Place <b><a href="FL%20Studio%20Mobile_Module_DirectWave.htm">DirectWave</a> Program (.dwp)</b> instrument files, including the sample sub-folder and the legacy-format FLM2 (<b>.instr</b>) format here. You can export .dwp and .instr directly from the <a class="extLink" href="http://www.image-line.com/flstudio/" target="_blank">FL Studio (PC version)</a> > <a class="extLink" href="https://www.image-line.com/support/flstudio_online_manual/html/plugins/DirectWave.htm" target="_blank">DirectWave</a> (plugin) > <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/Directwave_zonewindow.htm" target="_parent">PROGRAM > Right-click the Program label</a> and select '<b>Save program</b>'.
+<li><b>My MIDI</b> - Contains all MIDI format files <b>(.mid)</b>. These will show at the main <a href="FL Studio Mobile_HomePanel.htm#songs">SONGS Menu</a> and on the <a href="FL%20Studio%20Mobile_Playlist.htm#channel_menu">Channel Menu</a> ('Import MIDI Tracks' and 'Save as MIDI').
+<li><b>My Presets</b> - This folder contains all plugin presets (Instruments and Effects). There are no subfolders as presets contain meta-data inside the presets so FL Studio Mobile will only show compatible presets in the plugin you open to load them. Example files are MiniSynth (<b>.flms</b>) and all other presets including GMS, Transistor Bass and FX Modules (<b>.flmpst</b>).
+<li><b>My Recordings</b> - Audio recordings made from within FL Studio Mobile. WAV (uncompressed format, 16, 24 or 32 Bit). See <b>NOTE</b>.
+<li><b>My Samples</b> - One-shots, samples, sounds anything you want to include in WAV (uncompressed 16, 24 or 32 Bit format) or MP3. See <b>NOTE</b>.
+<li><b>My Songs</b> - Project files. These show at the top of the list on the <b>Home Page > Songs </b>tab.
+<li><b>My Tracks</b> - These audio files that are created when you render projects. Make sure to render to <b>Lossless</b> (WAV) or MP3 format if you want to re-use a track in FL Studio Mobile (create a new Playlist track of type 'Wave' to load). <b>Compressed </b>(AAC format) files will not show for use in FL Studio Mobile. These will play in your Media Player however.
+<p><b>Save CPU:</b> you can convert any Playlist Track to audio by Soloing it and rendering to Uncompressed (WAV) format from the <b>Home page > Songs > Render</b> button. Then load it back into the Playlist with the <b>+ button > Audio Wave</b> option (locate your render and load it).
+</ul>
+<p><b>NOTES:</b>
+<ol>
+<li>You must <b>restart FL Studio Mobile after adding new samples</b> for them to be scanned and be available for use.
+<li>Locations in FL Studio Mobile that load sample data - <b><a href="FL%20Studio%20Mobile_Editors.htm#stepsequencer">Drum Sampler</b></a>, <b>DirectWave</b> and the <b>Audio Clip</b> will scan <b>My Recordings</b>, <b>My Samples </b>and <b>My Tracks</b> for WAV (uncompressed, 16, 24 or 32 Bit) and MP3 (compressed) data and present it as a load option. So, you can also copy WAV/MP3 files to any of these locations. Too keep things organized, use 'My Samples' for your tuned and untuned instrument/percussion samples. 'My Recordings' for vocals and instrument samples. 'My Tracks' for stems and completed songs.
+</ol>
+<p><a id="userdata_access"></a>
+<h3>Accessing, Exporting & Importing Your Files (WAV, MP3, MID, FLM etc)</h3>
+<p>This section shows you how to get access to your data on each of the supported App platforms. This is so you can upload and download <b>custom samples</b>, <b>instruments</b>, <b>presets</b>, <b>music</b> and any other files as used above.
+<h4>All Operating Systems: Using SHARE</h4>
+<p>If you have access to a Desktop PC, by far, the easiest method is to use <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE with the FL Studio Plugin</a> TO and FROM the Mobile Device. In this case, add content to the FL Studio Mobile plugin folder on your PC, then SHARE to the mobile device. Or SHARE from the device to your PC. Alternatively, proceed as follows:
+<p><a id="userdata_android"></a>
+<h4>Android File Management</h4>
+<p>Android allows direct access to internal folders, there are two main options:
+<ol>
+<li>Connect your device to your computer with a <b>USB cable</b>. Then set the device to work in '<b>Data transfer</b>' mode. You should now have drag-and-drop access to your Data Folders. You will need to find the <b>FLM User Files</b> folder. This is usually in the root/top of the main storage.
+<p class="justImages">
+<img src="../img_plug/flmobile_mydata_android_windowsbrowser.png" width="700">
+<li><b>OR</b> 2. Use <a class="extLink" href="http://play.google.com/store/apps/details?id=com.sand.airdroid" target="_blank">AirDroid</a> that will allow you to use a <b>Web Browser</b> to access folders and files on any Android device (works on Windows and Macs). If you are working internal on an Android device, <a class="extLink" href="http://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander" target="_blank">Total Commander</a> will allow you to copy and paste your files between folders on the device. There are also a number of <a class="extLink" href="http://www.ghisler.com/androidplugins/googleplay/" target="_blank">plugins available</a> for working across networks, for example a <a class="extLink" href="https://play.google.com/store/apps/details?id=com.ghisler.tcplugins.LAN" target="_blank">LAN plugin</a>.
+<p class="justImages">
+<img src="../img_plug/flmobile_mydata_android_androidbrowser.png" width="700">
+</ol>
+<p><a id="userdata_ios"></a>
+<h4>Apple iOS File Management</h4>
+<p>There following methods are available:
+<ol>
+<li><b>System Import</b> - iOS will recognize most file-types associated with FL Studio Mobile (.flm, .mid, .flmpst, .flms, .wav, .mp3) in emails, cloud storage etc, and allow you to open them with FL Studio Mobile. <b>Long-tap on the attachment or file</b>, as show in your email or cloud storage App, then select <b>FL Studio Mobile</b> from the pop-up options to open the file.
+<p class="justImages">
+<img src="../img_plug/flmobile_copyfromemail.png" width="700">
+<p>When FL Studio Mobile starts, the file will be moved to the appropriate folder in the App. This method works, one file at a time.
+<p class="justImages">
+<img src="../img_plug/flmobile_copyfromemaildone.png" width="700">
+<li><b>iTunes Import/Export</b> - Connect your iOS device to your computer with iTunes. After syncing and selecting FL Studio Mobile 3, you will have access to the <b>FLM User Files</b> folders. You will be able to copy these folders in their entirety FROM FL Studio Mobile TO your computer via iTunes. (<font color="red"><b>YOU MUST</b></font> <b>select the files and or folder/s</b> and then use '<b>Save to...</b>' from iTunes. This will allow you to send files and folders across to your computer. You can't look inside these folders in iTunes.
+<p>To <b>upload all file types</b> (.flm, .mid, .flmpst, .flms, .wav, .mp3 etc), TO FL Studio Mobile, use the '<b>Add File...</b>' button so add files to the Root Folder of FL Studio Mobile. These will show under <b>My Samples</b>, <b>SONGS</b> and other appropriate locations in FL Studio Mobile automatically, the next time you restart the App.
+<p class="justImages">
+<img src="../img_plug/flmobile_mydata_ios_itunes.png" width="700">
+</ol>
+<p><a id="userdata_plugin"></a>
+<h4>FL Studio Plugin File Management </h4>
+<p><b>NOTE:</b> From FL Studio Mobile 3.2.47 up, the data location for the plugin moved from <b>C:\Program Files (x86)\Image-Line\FL Studio N\Plugins\Fruity\Generators\FL Studio Mobile\LocalData</b> to the <b>FL Studio User data folder</b> ...
+<p>Make a desktop shortcut to the <b>FL Studio User data folder</b>. Under <b>[user]\Documents\Image-Line\FL Studio Mobile\</b>. This is the same location for macOS and Windows. Then you can drag and drop any content to and from the folders as you need. Use the <a href="#sharingdata">Sharing function</a> to send this to your mobile device AND also back to your Windows or Mac computer.
+<p class="justImages">
+<img src="../img_plug/flmobile_mydata_windows_flplugin.png" width="700">
+<p><a id="userdata_windowsapp"></a>
+<h4>FL Studio Windows App File Management</h4>
+<p>The following options are available:
+<ol>
+<li><b>Windows App (Windows Desktop)</b> - Make a desktop shortcut to the FL Studio Mobile user data folder. The path has some custom data as shown in red. Normally under <b>C:\Users\<font color="red">YOUR_ACCOUNT</font>\AppData\Local\Packages\Image-Line.FLStudioMobile_<font color="red">RANDOM_LETTERS_NUMBERS</font>\LocalState</b>. <b>NOTE:</b> the <b>AppData</b> folder is hidden, so you will need to have '<b>Show hidden items</b>' selected in the file browser. If you don't have <b>permission to enter the folder</b>, check <a class="extLink" href="http://www.fixedbyvonnie.com/2013/12/where-are-apps-in-the-windows-store-installed" target="_blank">this guide</a>. Windows 8 and 10 are the same in this regard.
+<p class="justImages">
+<img src="../img_plug/flmobile_mydata_windows_app.png" width="700">
+<p><b>TIP:</b> The quickest way to find it is to save a project with a unique name... 'Lapooterbeekus' and search your <b>C:\Users\..</b> for it (Windows folder, usually C drive). Make sure 'Show hidden items' is selected in your Windows file browser.
+<li><b>Loading from within the App</b> - It's not possible to browse audio files in folders external to the App from FL Studio Mobile. To load audio files external to the App, open a regular Windows File Browser, then right-click the target file and choose '<b>Open with > FL Studio Mobile</b>'. This will import the file to the App.
+<p class="justImages">
+<img src="../img_plug/flmobile_home_share_loadexternal.png" width="700">
+</ol>
+<p><a id="userdata_windowsphone"></a>
+<h4>Windows Phone App File Management</h4>
+<p>It's not possible to access the FL Studio Mobile installation User folder on a Windows Phone. You have the following options:
+<ol>
+<li><b>To export data</b>- Two options ...
+<ul>
+<li>Use the '<b>Destination</b>' option to save your content to one of the folders visible when the phone is connected to a PC (or OneDrive).
+<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
+</ul>
+<li><b>To import data</b> - Two options ...
+<ul>
+<li>From the Playlist, tap the (+) button to add an <b>Audio Track</b>, then choose '<b>Import Sample</b>' and this will open a sample import dialog. After import the sample will be in <b>My Files > My Samples</b>.
+<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
+</ul>
+</ol>
+<hr>
+<p><b>Credits: </b>Maxx Claster, Daniel Schaack
+</td></tr></table></body>
+</html>
