@@ -1,0 +1,6 @@
+{
+	"title": "FL Studio Mobile",
+	"plugins": [
+		"-sharing", "-lunr", "-search", "search-plus", "anchors", "bilibili@https://github.com/moeshin/gitbook-plugin-bilibili.git"
+	]
+}

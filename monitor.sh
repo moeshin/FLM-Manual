@@ -1,0 +1,2 @@
+cd public || exit
+python -m SimpleHTTPServer 4000
