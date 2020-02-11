@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<h1>FL Studio Mobile Plugin</h1>
+<p><b>FL Studio Mobile</b> is available as a free plugin for <a class="extLink" href="http://www.image-line.com/flstudio/" target="_blank"><b>FL Studio (desktop version)</b></a> so you can take your mobile creations to the next level.
+<p class="justImages">
+<img src="../img_plug/flmobile_flstudioplugin.png" width="700">
+<p><b>NOTE:</b> From FL Studio Mobile 3 onward, you must load projects in the Plugin, they are no longer directly compatible with FL Studio for desktop.
+<p><a id="sharingdata"></a>
+<h3>FL Studio Mobile Plugin</h3>
+<p>How to work with the FL Studio Mobile plugin:
+<ol>
+<li><b><font color="red">IMPORTANT:</font></b> The FL Studio Mobile <b>plugin</b> is updated frequently, <b>always</b> download and install the latest plugin - <a class="extLink" href="http://support.image-line.com/redirect/flmobile_flplugin" target="_blank">here from the FL Studio Users forum</a>.
+<li>Transfer your FL Studio Mobile projects to your computer. See the <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">Sharing Projects</a> section of this manual. <b>The first time</b> you do this, make sure to use the '<b>SEND ALL</b>' option. This will additionally transfer the factory samples and instruments to the FL Studio plugin.
+<p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/5dYBwoQeFuk" frameborder="0" allowfullscreen></iframe>
+<li>Open the FL Studio Mobile plugin and then load your project as normal in FL Studio Mobile (plugin).
+<li>FL Studio Mobile plugin will automatically sync to the Playlist in FL Studio. The tempo is also slaved to FL Studio's host tempo.
+<li>Add an empty pattern at least equal-to the length of your Mobile project and press Play in FL Studio (desktop).
+<li>From this point on, you can add other plugins and use FL Studio with FL Studio Mobile providing the core of the project.
+<li>If needed you can route each Track in FL Studio Mobile to its own Mixer Track in FL Studio. See <a href="FL%20Studio%20Mobile_Rack.htm#flm_pluginrouting">FL Studio Plugin Version Routing</a>.
+<li>Optionally you can use the FL Studio Mobile per-track <a href="FL%20Studio%20Mobile_Playlist.htm#channel_menu">Save as MIDI</a> OR complete project <a href="FL%20Studio%20Mobile_HomePanel.htm#save">Save to MIDI</a> features to export MIDI data out of FL Studio Mobile and load these in FL Studio.
+</ol>
+<h4>Philosophy of use</h4>
+<p>Think of the FL Studio Mobile project as the core of the track. <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">SHARE</a> the .flm project between your desktop computer and your mobile device, adding and developing the project. When working inside the desktop version you can take advantage of the greater CPU to enhance it with the highest quality instrument and effect plugins in use by professionals. Alternatively you can make far more complex projects than your mobile device can handle. When transferring the project back, you can mute tracks to keep the CPU use under control.
+<hr>
+</td></tr></table></body>
+</html>
