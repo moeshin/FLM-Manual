@@ -49,6 +49,6 @@
   - [Audio Clips（音频片段）](FL Studio Mobile_Editors.md#audioclips)
 * [触摸控制器](FL Studio Mobile_Controllers.md)
 * [MIDI 控制](FL Studio Mobile_Controllers.md#flm_externalcontrollers)
-* [视频教程](https://support.image-line.com/redirect/flstudiomobile_videos)
+* [视频教程](https://www.bilibili.com/video/av29552167)
 * [FL Studio Mobile 用户论坛](https://support.image-line.com/redirect/flmobile_forum)
 * [FL Studio Mobile 网站](https://www.image-line.com/flstudiomobile/)

@@ -49,6 +49,6 @@
   - [Audio Clips](FL Studio Mobile_Editors.md#audioclips)
 * [Touch Controllers](FL Studio Mobile_Controllers.md)
 * [MIDI Control](FL Studio Mobile_Controllers.md#flm_externalcontrollers)
-* [Video Tutorials](https://support.image-line.com/redirect/flstudiomobile_videos)
+* [Video Tutorials](https://www.bilibili.com/video/av29552167)
 * [FL Studio Mobile User Forum](https://support.image-line.com/redirect/flmobile_forum)
 * [FL Studio Mobile Online](https://www.image-line.com/flstudiomobile/)
