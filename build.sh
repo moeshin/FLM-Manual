@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 
-gitbook build docs public
-ln -s ../docs/assets public/assets
+docs="docs"
+public="public"
+build="build"
+
+gitbook build "$docs" "$public"
+ln -s "../$docs/assets" "$public/assets"
+cp "$build/index.html" "$public"
+
