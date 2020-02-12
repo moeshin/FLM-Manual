@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<p><a id="wifi_setup"></a>
+<h2>Wi-Fi Setup & Connections</h2>
+<p><b>FL Studio Mobile connects automatically</b> to the FL Studio Mobile FL plugin when your computer and mobile device are connected to the same network <b>AND</b> sharing is activated on the SETTINGS tab. Typical networking scenarios would be a computer connected to a Wi-Fi capable modem/router by Wi-Fi or Ethernet cable and the Android/iOS device/s connected by Wi-Fi OR a laptop working as an <a href="#flmobile_adhoc">Ad-hoc Wi-Fi network</a>, and the Android/iOS device/s connected directly to that.
+<p>You can use the SHARE feature to <b>move data between mobile devices</b> (regardless of operating system) <b>and to/from a PC</b> (just make a shortcut to the FL Studio Mobile install folder).
+<p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/5dYBwoQeFuk" frameborder="0" allowfullscreen></iframe>
+<p><a id="flmobile_ExistingNetwork"></a>
+<h3>Connecting FL Studio Mobile and FL Studio Mobile on a PC over an Existing Wi-Fi Network</h3>
+<ol>
+<li><b>Log in</b> - Make sure your computer and FL Studio Mobile device are connected to the same network.
+<li><b>Security</b> - The first time you activate the FL Studio Mobile on your PC setting you will probably need to allow FL Studio access through the Windows firewall, at the usual security pop-up.
+</ol>
+<p><a id="flmobile_networktroubleshooter"></a>
+<h4>Network Troubleshooting</h4>
+<p>If you are having problems connecting try the following in this order:
+<ol>
+<li><b>Update</b> - Make sure you are using the latest version of the App on all devices. If you are sharing with FL Studio for the desktop, get the latest <b>FL Studio Mobile Plugin</b> <a class="extLink" href="http://support.image-line.com/redirect/flmobile_flplugin" target="_blank">update here</a>.
+<li><b>Share in both directions</b> - Try sharing from both sides. Sometimes this will 'wake up' the connection.
+<li><b>Aeroplane mode</b> - Switch Airplane mode on, wait 15 seconds then switch it off again. After the device is reconnected, check to see if Sharing now works.
+<li><b>Disable your Windows firewall</b> - If FL Studio Mobile now connects then, turn the Firewall back ON, and use the <b>Control Panel > System & Security > Windows Firewall > Allow an app through Windows firewall</b>. Allow <b>FL Studio Mobile</b> (if you are using the Windows App) or <b>FL Studio</b> if you are using the FL Plugin.
+<li><b>Disable anti-virus programs</b> - If this works, white-list FL Studio in the anti-virus program options. Look for any firewall options (integrated into the anti-virus program) as mentioned above.
+If there are options, allow FL Studio Mobile for local networks and enable port <b>7654</b> for UDP protocol.
+<li><b>Try the 32 Bit version of FL Studio</b> - If you are using the 64 Bit version of FL Studio, and failing, the 32 Bit version has been known to work for some people. All data ends up in the same folders as the 64 Bit version, so you can change to FL Studio 64 Bit after the transfer.
+<li><b>Check your network router's admin controls</b> - Look for IP filtering, MAC filtering (if your device can connect to the internet through your Wi-Fi network this won't be the cause),
+router firewalls etc. <b>Ports</b> - Try adding a manual rule to allow FL Studio Mobile for local networks <b>and enabling port 7654</b> for UDP protocol. FL Studio Mobile only uses port 7654, so
+add this exception anywhere you can find the opportunity.
+<li><b>Update your router's firmware</b> - This will involve getting into the admin options and installing a file that updates the router's internal programs. Check the manufacturers website for
+details.
+</ol>
+<p><a id="flmobile_adhoc"></a>
+<h3>Ad-Hoc Network Creation</h3>
+<p>If you are not connecting FL Studio and FL Studio Mobile over an existing Wi-Fi network, you can create an <a class="extLink" href="https://technet.microsoft.com/en-us/library/dd296746.aspx" target="_blank">Ad hoc (computer-to-computer) network</a>. This allows you to use the Wi-Fi built into a laptop/netbook or desktop PC with a Wi-Fi device attached, directly to your mobile device/s without passing through a network router.
+<h4>Windows 8/10</h4>
+<p>The '<b>Set up an ad hoc network</b>' setup options were removed from windows 8 and the boffins at Microsoft now expect you to type in Windows CMD entries. Fear not, we have written some batch files to take care of this faffing about for you.
+<ol>
+<li><b>Download</b> - <a class="extLink" href="http://support.image-line.com/redirect/Windows_8_Adhoc_Network_Scripts" target="_blank">Windows_8_Adhoc_Network_Scripts.zip</a> and extract '<b>start_adhoc_network.bat</b>' and '<b>stop_adhoc_network.bat</b>' to your computer.
+<li><b>Run the start network batch file</b> - Right-click '<b>start_adhoc_network.bat</b>' and select the pop-up menu option '<b>Run as administrator</b>'. Feel free to drag and drop these files
+on an open text editor window, to see what's inside, if running our batch files is too spooky for you.
+<li><b>Following the prompts</b> - Type the network name and password (at least 8 characters) and check the connection is listed in the Wi-Fi networks, and in the "waiting for users" state.
+<li><b>Android users</b> (conditional) - If you do not see the Ad-hoc network in the Wi-Fi networks list, you may need to install a Virtual Router application on your FL Studio computer. Two
+suggestions are <a class="extLink" href="http://support.image-line.com/redirect/flmobile_virtualrouter" target="_blank">Virtual Router</a> (free, open source) and
+<a class="extLink" href="http://support.image-line.com/redirect/flmobile_mypublicwifi" target="_blank">My Public Wi-Fi</a> (free), although any Virtual Router will work.
+This step is necessary with Android devices that don't show ad-hoc networks. Just enter the same network name and Password used in the steps above.
+<li><b>Press any key to continue...</b> - This message shows at the end of the script and will close the window.
+<li><b>Wi-Fi connection</b> - From your mobile device open the Wi-Fi settings and log into the network using the network name and password you used above.
+<li><b>Connect FL Studio & FL Studio Mobile</b> - Now follow the instructions for connecting to an <a href="#flmobile_ExistingNetwork">existing network</a> above. <b>NOTE:</b> When connecting to the ad-hoc network this can take up to 30 seconds before it's <i>really</i> established, even if the PC or mobile device says 'Connected', so be patient.
+<li><b>To stop the network</b> - Right-click '<b>stop_adhoc_network.bat</b>' and select '<b>Run as administrator</b>'
+</ol>
+<h4>Windows 7, Vista & XP</h4>
+<p>The Network and sharing center Wizard will take care of most steps as follows:
+<ol>
+<li>Open the '<b>Network & Sharing Center</b>' by clicking the Start button and then clicking Control Panel. In the search box, type <b>network</b>, and then click <b>Network and Sharing Center</b>.
+<li>Click '<b>Set up a new connection or network</b>' and then '<b>Next</b>'.
+<li><b>Following the Wizard</b> - Type the name and password of the network and Check that the connection is listed in the Wi-Fi networks, and in the "waiting for users" state.
+<li><b>Android users</b> (conditional) - If you do not see the Ad-hoc network in the Wi-Fi networks list, you may need to install a Virtual Router application on your FL Studio computer. Two suggestions are <a class="extLink" href="http://support.image-line.com/redirect/flmobile_virtualrouter" target="_blank">Virtual Router</a> (free, open source) and
+<a class="extLink" href="http://support.image-line.com/redirect/flmobile_mypublicwifi" target="_blank">My Public Wi-Fi</a> (free), although any Virtual Router will work.
+This step is necessary with Android devices that don't show ad-hoc networks. Just enter the same network name and Password used in the steps above.
+<li><b>Wi-Fi connection</b> - From your mobile device open the Wi-Fi settings and log into the network using the network name and password you used above.
+<li><b>Connect FL Studio & FL Studio Mobile</b> - Now follow the instructions for connecting to an <a href="#flmobile_ExistingNetwork">existing network</a> above. <b>NOTE:</b> When connecting to the ad-hoc network this can take up to 30 seconds before it's <i>really</i> established, even if the PC or Android device says 'Connected', so be patient.
+</ol>
+<h4>OS X / macOS</h4>
+<p>Proceed as follows:
+<ol>
+<li><b>Choose Create Network</b> from the Wi-Fi status icon in the menu bar. If the icon isn't in the menu bar, choose <b>Apple menu > System Preferences</b>, and then click Network. Click Wi-Fi and select
+the 'Show Wi-Fi status' in menu bar checkbox.
+<li>Give the <b>network a name</b>, and select a channel from the pop-up menu. The default channel is 11, but you can choose a different channel.
+<li><b>Select the Require Password checkbox</b> to protect your network with a password. Type the password you will use to join your network from your device. Type a password of exactly 5 ASCII
+characters or 10 hexadecimal digits if you chose '40-bit WEP (more compatible)' from the Security pop-up menu OR Type a password of exactly 13 ASCII characters or 26 hexadecimal digits if you
+chose '128-bit WEP' from the Security pop-up menu. <b>NOTE:</b> Don't use WPA or WPA2.
+</ol>
+<p><a id="flmobile_AdHocnetworktroubleshooter"></a>
+<h4>Ad-Hoc Network Troubleshooting</h4>
+<ul>
+<li><b>Windows delay</b> - Establishing an ad-hoc connection can take up to a <b>full minute after</b> it's shown as 'connected'. To check the connection is really up and working, go to the
+WiFi settings on your mobile device and check if it has been assigned an IP address.
+<li><b>Password encryption</b> - Don't use WPA/WPA2/PSK, try <b>WEP</b> encryption type for the password.
+</ul>
+<hr>
+</td></tr></table></body>
+</html>
