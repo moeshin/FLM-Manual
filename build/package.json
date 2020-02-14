@@ -1,0 +1,16 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "author": "moeshin",
+  "description": "Build tool",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "turndown": "^5.0.3",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "CC-BY-NC-SA"
+}
