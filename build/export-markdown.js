@@ -28,6 +28,8 @@ const $ = cheerio.load(html, {decodeEntities: false});
 $('a[id]').wrap('<p></p>');
 $('#rightcol>:first-child, hr:last-child, hr:nth-last-child(2), hr:nth-last-child(2)+p').remove();
 html = $('#rightcol').html();
+const a_href = [];
+let a_index = 0;
 // noinspection JSUnusedGlobalSymbols,JSUnresolvedFunction
 const md = new turndown({
     headingStyle: 'atx',
@@ -38,6 +40,34 @@ const md = new turndown({
     },
     keepReplacement: function (content, node) {
         return node.nodeName === 'A' && node.id ? node.outerHTML : '';
+    }
+}).addRule('a_replace', {
+    filter: function (node) {
+        if (node.nodeName === 'A' && node.hasAttribute('href')) {
+            let has_change = false;
+            const href = node.getAttribute('href').replace(/^([^\\/]+\.)[^#]+(.*)$/, function (m0, m1, m2) {
+                has_change = true;
+                return `${m1}md${m2}`;
+            }).replace(/ /g, function () {
+                has_change = true;
+                return '%20';
+            });
+            if (has_change) {
+                node.setAttribute('href', href);
+            }
+            const length = a_href.length;
+            for (let i = 0; i < length; i++) {
+                if (a_href[i] === href) {
+                    a_index = i + 1;
+                    return true;
+                }
+            }
+            a_href.push(href);
+        }
+        return false;
+    },
+    replacement: function (content) {
+        return `[${content}][${a_index}]`;
     }
 }).keep(node => node.nodeName === 'A' && node.id).turndown(html);
 fs.writeFileSync(out, md, CODING);
