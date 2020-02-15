@@ -2,7 +2,7 @@
 
 **FL Studio Mobile** is available as a free plugin for [**FL Studio (desktop version)**](http://www.image-line.com/flstudio/) so you can take your mobile creations to the next level.
 
-![FL Studio Plugin](../assets/images/FLStudioPlugin.png)
+![FL Studio Plugin](../assets/images/fl_studio_plugin.png)
 
 **NOTE:** From FL Studio Mobile 3 onward, you must load projects in the Plugin, they are no longer directly compatible with FL Studio for desktop.
 

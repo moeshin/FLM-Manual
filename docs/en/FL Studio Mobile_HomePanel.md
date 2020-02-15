@@ -2,7 +2,7 @@
 
 The Home Panel contains administrative settings grouped according to the SONGS, SETTINGS, SHOP and SHARE tabs.
 
-![Home panel](../assets/home/HomePanel.png)
+![Home panel](../assets/home/home_panel.png)
 
 ## Parameters
 
@@ -26,7 +26,7 @@ The help button is your friend! Under it you can find...
 
 *   **New** - Opens the New Project template.
     
-    ![New song](../assets/home/NewSong.png)
+    ![New song](../assets/home/new_song.png)
     
     **Starting a new project...**
     
@@ -45,7 +45,7 @@ The help button is your friend! Under it you can find...
 *   <a id="save"></a>**Save** - Saves the current project.
     **NOTE:** Setting a '**SEND**' destination, allows you to send content via email and file-sharing Apps. Options include:
     
-    ![Save song](../assets/home/SaveSong.png)
+    ![Save song](../assets/home/save_song.png)
     
     **Saving or sending files...**
     
@@ -56,7 +56,7 @@ The help button is your friend! Under it you can find...
        **NOTE:** This is different to '[SHARE](FL%20Studio%20Mobile_HomePanel.htm#sharingdata)' TAB that allows you share files directly between FL Studio Mobile installations.
     5.  **SAVE** - This saves to the default FL Studio Mobile user data folders. When saving Audio formats you will see the following options:
         
-        ![Save song options](../assets/home/SaveSongOptions.png)
+        ![Save song options](../assets/home/save_song_options.png)
         
         *   **Normalize level** - Maximize level so the loudest peaks reach 100% volume.
         *   **Trim initial silence** - Removes silence from the start of the render.
@@ -158,7 +158,7 @@ SHARE / SYNC Files Between FL Studio Mobile Installations
 **Share** - You can share project related files between your mobile devices running FL Studio Mobile. When your devices are [connected to the same network (including WiFi)](FL%20Studio%20Mobile_WiFi.htm) choose a target device receive '**Your Files**', that is everything in the **FLM User Files** folder. This page allows you to sync projects across a network and between FL Studio Mobile installation on ALL detected Android, iOS and Windows (App and FL Plugin) devices.
 **NOTE:** The first time you do this with a computer, you may see a **Firewall pop-up security message**. Allow FL Studio Mobile access to your Network. **How to Share:**
 
-![Share](../assets/home/Share.png)
+![Share](../assets/home/share.png)
 
 https://www.bilibili.com/video/av29552167?p=3
 
@@ -177,7 +177,7 @@ https://www.bilibili.com/video/av29552167?p=3
 
 This section relates to the internal file browser that opens when you choose Presets or add Audio Clips. The options here are available **only for user files**. They do not apply for factory installed content.
 
-![Managing User Files](../assets/home/UserFilesManagement.png)
+![Managing User Files](../assets/home/user_files_management.png)
 
 #### Working with files
 
@@ -233,11 +233,11 @@ Android allows direct access to internal folders, there are two main options:
 
 1.  Connect your device to your computer with a **USB cable**. Then set the device to work in '**Data transfer**' mode. You should now have drag-and-drop access to your Data Folders. You will need to find the **FLM User Files** folder. This is usually in the root/top of the main storage.
     
-    ![View Android data with Windows browser](../assets/home/ViewAndroidDataWithWindows.png)
+    ![View Android data with Windows browser](../assets/home/view_android_data_with_windows.png)
     
 2.  **OR** 2. Use [AirDroid](http://play.google.com/store/apps/details?id=com.sand.airdroid) that will allow you to use a **Web Browser** to access folders and files on any Android device (works on Windows and Macs). If you are working internal on an Android device, [Total Commander](http://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) will allow you to copy and paste your files between folders on the device. There are also a number of [plugins available](http://www.ghisler.com/androidplugins/googleplay/) for working across networks, for example a [LAN plugin](https://play.google.com/store/apps/details?id=com.ghisler.tcplugins.LAN).
     
-    ![View Android data with Android browser](../assets/home/ViewAndroidDataWithAndroid.png)
+    ![View Android data with Android browser](../assets/home/view_android_data_with_android.png)
     
 
 #### Apple iOS File Management
@@ -246,17 +246,17 @@ There following methods are available:
 
 1.  **System Import** - iOS will recognize most file-types associated with FL Studio Mobile (.flm, .mid, .flmpst, .flms, .wav, .mp3) in emails, cloud storage etc, and allow you to open them with FL Studio Mobile. **Long-tap on the attachment or file**, as show in your email or cloud storage App, then select **FL Studio Mobile** from the pop-up options to open the file.
     
-    ![Copy from email](../assets/home/CopyFromEmail.png)
+    ![Copy from email](../assets/home/copy_from_email.png)
     
     When FL Studio Mobile starts, the file will be moved to the appropriate folder in the App. This method works, one file at a time.
     
-    ![Copy from email done](../assets/home/CopyFromEmailDone.png)
+    ![Copy from email done](../assets/home/copy_from_email_done.png)
     
 2.  **iTunes Import/Export** - Connect your iOS device to your computer with iTunes. After syncing and selecting FL Studio Mobile 3, you will have access to the **FLM User Files** folders. You will be able to copy these folders in their entirety FROM FL Studio Mobile TO your computer via iTunes. (**YOU MUST** **select the files and or folder/s** and then use '**Save to...**' from iTunes. This will allow you to send files and folders across to your computer. You can't look inside these folders in iTunes.
     
     To **upload all file types** (.flm, .mid, .flmpst, .flms, .wav, .mp3 etc), TO FL Studio Mobile, use the '**Add File...**' button so add files to the Root Folder of FL Studio Mobile. These will show under **My Samples**, **SONGS** and other appropriate locations in FL Studio Mobile automatically, the next time you restart the App.
     
-    ![View IOS data](../assets/home/ViewIOSData.png)
+    ![View IOS data](../assets/home/view_ios_data.png)
     
 
 #### FL Studio Plugin File Management
@@ -265,7 +265,7 @@ There following methods are available:
 
 Make a desktop shortcut to the **FL Studio User data folder**. Under **\[user\]\\Documents\\Image-Line\\FL Studio Mobile\\**. This is the same location for macOS and Windows. Then you can drag and drop any content to and from the folders as you need. Use the [Sharing function](#sharingdata) to send this to your mobile device AND also back to your Windows or Mac computer.
 
-![View plugin data](../assets/home/ViewPluginData.png)
+![View plugin data](../assets/home/view_plugin_data.png)
 
 #### FL Studio Windows App File Management
 
@@ -273,11 +273,11 @@ The following options are available:
 
 1.  **Windows App (Windows Desktop)** - Make a desktop shortcut to the FL Studio Mobile user data folder. The path has some custom data as shown in red. Normally under **C:\\Users\\<font color="red">YOUR\_ACCOUNT</font>\\AppData\\Local\\Packages\\Image-Line.FLStudioMobile\_<font color="red">RANDOM\_LETTERS\_NUMBERS</font>\\LocalState**. **NOTE:** the **AppData** folder is hidden, so you will need to have '**Show hidden items**' selected in the file browser. If you don't have **permission to enter the folder**, check [this guide](http://www.fixedbyvonnie.com/2013/12/where-are-apps-in-the-windows-store-installed). Windows 8 and 10 are the same in this regard.
     
-    ![View UWP data](../assets/home/ViewUWPData.png)
+    ![View UWP data](../assets/home/view_uwp_data.png)
     
 2. **Loading from within the App** - It's not possible to browse audio files in folders external to the App from FL Studio Mobile. To load audio files external to the App, open a regular Windows File Browser, then right-click the target file and choose '**Open with > FL Studio Mobile**'. This will import the file to the App.
 
-   ![Load from within the app](../assets/home/LoadFromWithinAPP.png)
+   ![Load from within the app](../assets/home/load_from_within_app.png)
 
 
 #### Windows Phone App File Management

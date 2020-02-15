@@ -2,7 +2,7 @@
 
 **FL Studio Mobile 3** 是一个完整的音乐制作环境，适用于 Android，iOS 和 Windows 平台上的 App 以及作为 [FL Studio](https://www.image-line.com/flstudio/) 的插件使用。 这样，您可以随时随地处理你的移动项目，然后继续在 FL Studio 中进行操作，将它们带入新的高度。
 
-![Main Interface](../assets/images/MainUI.png)
+![Main Interface](../assets/images/main_ui.png)
 
 https://www.bilibili.com/video/av29552167?p=37
 
@@ -12,7 +12,7 @@ https://www.bilibili.com/video/av29552167?p=37
 
 FL Studio Mobile 可以在 **Android**、**iOS** 和 **Windows**（作为应用或者 FL Studio 的插件）上运行。每个 FL Studio Mobile 3 播放列表轨道都有一个关联的「轨道机架」。它可以容纳任意数量的乐器和效果插件。唯一的限制是您的CPU能力。现在，还可以像在 FL Studio 电脑版一样编辑自动切片的轨道。
 
-[![Apple Store](../assets/stores/AppleStore.png)](https://itunes.apple.com/app/fl-studio-mobile-hd/id432850619) [![Google Play](../assets/stores/GooglePlay.png)](https://play.google.com/store/apps/details?id=com.imageline.FLM) [![Microsoft Store](../assets/stores/MicrosoftStore.png)](https://www.microsoft.com/store/apps/9nblggh1zjcr)
+[![Apple Store](../assets/stores/apple_store.png)](https://itunes.apple.com/app/fl-studio-mobile-hd/id432850619) [![Google Play](../assets/stores/google_play.png)](https://play.google.com/store/apps/details?id=com.imageline.FLM) [![Microsoft Store](../assets/stores/microsoft_store.png)](https://www.microsoft.com/store/apps/9nblggh1zjcr)
 
 ## 概括
 

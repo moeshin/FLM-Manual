@@ -2,7 +2,7 @@
 
 **FL Studio Mobile** 可作为 [**FL Studio（桌面版）**](http://www.image-line.com/flstudio/)的免费插件使用，因此您可以将移动创作提升到一个新的水平。
 
-![FL Studio Plugin](../assets/images/FLStudioPlugin.png)
+![FL Studio Plugin](../assets/images/fl_studio_plugin.png)
 
 **注意：**从 FL Studio Mobile 3 开始，您必须在插件中加载项目，这些项目不再与桌面 FL Studio 直接兼容。
 

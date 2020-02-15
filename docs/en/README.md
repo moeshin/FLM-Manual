@@ -2,7 +2,7 @@
 
 **FL Studio Mobile 3** is a complete music production environment that works as an App on Android, iOS and Windows platforms plus as an [FL Studio](https://www.image-line.com/flstudio/) native plugin. In this way you can work on your mobile projects while on-the-go then continue in FL Studio and take them to the next level.
 
-![Main Interface](../assets/images/MainUI.png)
+![Main Interface](../assets/images/main_ui.png)
 
 https://www.bilibili.com/video/av29552167?p=37
 
@@ -10,7 +10,7 @@ https://www.bilibili.com/video/av29552167?p=37
 
 FL Studio Mobile works on **Android**, **iOS** and **Windows** (App and FL Studio plugin).
 
-[![Apple Store](../assets/stores/AppleStore.png)](https://itunes.apple.com/app/fl-studio-mobile-hd/id432850619) [![Google Play](../assets/stores/GooglePlay.png)](https://play.google.com/store/apps/details?id=com.imageline.FLM) [![Microsoft Store](../assets/stores/MicrosoftStore.png)](https://www.microsoft.com/store/apps/9nblggh1zjcr)
+[![Apple Store](../assets/stores/apple_store.png)](https://itunes.apple.com/app/fl-studio-mobile-hd/id432850619) [![Google Play](../assets/stores/google_play.png)](https://play.google.com/store/apps/details?id=com.imageline.FLM) [![Microsoft Store](../assets/stores/microsoft_store.png)](https://www.microsoft.com/store/apps/9nblggh1zjcr)
 
 
 ## Overview

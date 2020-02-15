@@ -2,7 +2,7 @@
 
 主页面板包含 SONGS、SETTING、SHOP 和 SHARE 这几个选项组。
 
-![Home panel](../assets/home/HomePanel.png)
+![Home panel](../assets/home/home_panel.png)
 
 ## 参数
 
@@ -26,7 +26,7 @@
 
 *   **New**——打开新工程模板
     
-    ![New song](../assets/home/NewSong.png)
+    ![New song](../assets/home/new_song.png)
     
     **开始一个新的项目……**
     
@@ -44,7 +44,7 @@
     
 *   <a id="save"></a>**Save**——保存当前工程。**注意：**点击 **SEND** 可让您通过电子邮件和文件共享应用程序发送内容。选项包括：
     
-    ![Save song](../assets/home/SaveSong.png)
+    ![Save song](../assets/home/save_song.png)
     
     **正在保存或发送文件……**
     
@@ -54,7 +54,7 @@
     4.  **SEND（发送）**（可选）——这是保存到设备的另一种方法。点击此处可选择电子邮件和任何其他外部位置，这些位置可通过应用程序共享您设备上的文件。**注意：**这与 [SHARE](#share（共享）) 选项卡不同，后者允许您在 FL Studio Mobile 安装之间直接共享文件。
     5.  **SAVE（保存）**——这将保存到默认的 FL Studio Mobile 用户数据文件夹。保存音频格式时，你将看到以下选项：
         
-        ![Save song options](../assets/home/SaveSongOptions.png)
+        ![Save song options](../assets/home/save_song_options.png)
         
         *   **Normalize level（标准化级别）**——最大化音量，使最大的峰值达到 100％ 的音量。
         *   **Trim initial silence（去除初始静音）**——从渲染开始时消除静音。
@@ -102,7 +102,7 @@
 
 #### Audio（音频）
 
-* **Audio Input（音频输入）**（默认显示麦克风）——当多个输入可用时，选择音频输入。在带有立体声麦克风的移动设备上，您将看到 **Recording Source: Stereo（录制源：立体声）**和选择左声道或右声道（麦克风）的选项。当一个麦克风不如另一个麦克风时，有时这是必要的。如果将麦克风设计为主要用于消除噪音并且不捕获语音的情况，则会发生这种情况。连接 **音频接口**（在移动设备上，[通过适配器](../assets/home/Adapters.jpg)）后，将提供其他输入选项。如果不能正确地被标识，那可能需要逐个尝试来找到所需的输入。iOS 上的输入选项还包括 [Audiobus 输入](FL Studio Mobile_iOS_InterApp.htm)。
+* **Audio Input（音频输入）**（默认显示麦克风）——当多个输入可用时，选择音频输入。在带有立体声麦克风的移动设备上，您将看到 **Recording Source: Stereo（录制源：立体声）**和选择左声道或右声道（麦克风）的选项。当一个麦克风不如另一个麦克风时，有时这是必要的。如果将麦克风设计为主要用于消除噪音并且不捕获语音的情况，则会发生这种情况。连接 **音频接口**（在移动设备上，[通过适配器](../assets/home/adapters.jpg)）后，将提供其他输入选项。如果不能正确地被标识，那可能需要逐个尝试来找到所需的输入。iOS 上的输入选项还包括 [Audiobus 输入](FL Studio Mobile_iOS_InterApp.htm)。
 
 *   **Enable audio recording latency compensation（启用录音延迟补偿）**——确保录制的音频与播放列表正确对齐。例如，你正在录制自己演奏的 FL Studio Mobile 击鼓音轨，那么延迟校准将确保击鼓声音从麦克风录制到的并与击鼓紧有序的紧密对齐。这是必要的，因为在移动设备上，播放列表中生成声音的时间到扬声器发出声音之间通常存在明显的延迟。该设备的 **音频延迟** 通常在 40 到 200 毫秒之间。如果您正在用实时输出进行唱歌或演奏，实际上你的行为是在设备声音事件的 40 到 200 毫秒 **之后** 发生的。如果没有延迟补偿，实时输出的录音将滞后于内部排序。补偿时，删除录音开始的一段音频，这段音频就等于声音往返的延迟。这是校准设备延迟的最准确方法。
     **Calibrate（校准）** - 要执行校准时，FL Studio Mobile 必须能够录制到自己的输出。该过程通过录制一声蜂鸣音来计算录音从输出到输入的延迟。
@@ -156,7 +156,7 @@
 **Share**——您可以在运行 FL Studio mobile 的移动设备之间共享项目相关文件。当您的设备[连接到同一网络（包括WiFi）](FL%20Studio%20Mobile_WiFi.md)时，选择目标设备接收「你的文件」，即「FLM User Files」文件夹中的所有内容。通过此页面，您可以通过网络上在所有检测到的 Android、iOS 和 Windows（应用程序 和 FL 插件）设备上的 FL Studio Mobile 之间同步项目。
 **注意：**第一次使用计算机执行此操作时，可能会看到 **防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。**分享方式：**
 
-![Share](../assets/home/Share.png)
+![Share](../assets/home/share.png)
 
 https://www.bilibili.com/video/av29552167?p=3
 
@@ -177,7 +177,7 @@ https://www.bilibili.com/video/av29552167?p=3
 
 此部分与内部文件浏览器有关，该浏览器在您选择「预设」或「添加音频片段」时打开。此处的选项 **仅适用于用户文件**。它们不适用于厂家安装的内容。
 
-![Managing User Files](../assets/home/UserFilesManagement.png)
+![Managing User Files](../assets/home/user_files_management.png)
 
 #### 处理文件
 
@@ -232,11 +232,11 @@ Android允许直接访问内部文件夹，主要有两个选项：
 
 1.  使用 **USB 数据线** 将设备连接到计算机。然后将设备设置为在 **数据传输** 模式。现在，您应该具有对数据文件夹的拖放访问权限。您将需要找到 **FLM User Files** 文件夹。 这通常在主存储的根目录/顶部。
     
-    ![View Android data with Windows browser](../assets/home/ViewAndroidDataWithWindows.png)
+    ![View Android data with Windows browser](../assets/home/view_android_data_with_windows.png)
     
 2.  **或者** 使用 [AirDroid](http://play.google.com/store/apps/details?id=com.sand.airdroid)，它将允许您使用 **网页浏览器** 访问任何 Android 设备上的文件夹和文件（在Windows和Mac上均可使用）。如果您在 Android 设备上进行内部操作，[Total Commander](http://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) 将允许您在设备上的文件夹之间复制和粘贴文件。还有许多可用于跨网络工作的 [插件](http://www.ghisler.com/androidplugins/googleplay/)，例如 [LAN plugin](https://play.google.com/store/apps/details?id=com.ghisler.tcplugins.LAN)。
     
-    ![View Android data with Android browser](../assets/home/ViewAndroidDataWithAndroid.png)
+    ![View Android data with Android browser](../assets/home/view_android_data_with_android.png)
     
 
 #### Apple iOS 文件管理
@@ -245,24 +245,24 @@ Android允许直接访问内部文件夹，主要有两个选项：
 
 1.  **系统导入**——iOS将识别电子邮件，云存储等中与 FL Studio Mobile 关联的大多数文件类型（.flm、.mid、.flmpst、.flms、.wav、.mp3），并允许您使用 FL Studio Mobile 打开它们。如您的电子邮件或云存储应用程序中所示，**长按附件或文件**，然后从弹出选项中选择以 **FL Studio Mobile** 打开该文件。
     
-    ![Copy from email](../assets/home/CopyFromEmail.png)
+    ![Copy from email](../assets/home/copy_from_email.png)
     
     当 FL Studio Mobile 启动时，文件将被移动到应用程序中的相应文件夹。此方法有效，一次仅一个文件。
     
-    ![Copy from email done](../assets/home/CopyFromEmailDone.png)
+    ![Copy from email done](../assets/home/copy_from_email_done.png)
     
 2.  **iTunes 导入/导出**——使用iTunes将iOS设备连接到计算机。同步并选择 FL Studio Mobile 3 后，您将可以访问 **FLM User Files** 文件夹。您可以通过iTunes将这些文件夹完整地从 FL Studio Mobile 复制到您的计算机（您必须选择文件和/或文件夹，然后使用iTunes中的「**保存到…**」）。这将使您可以将文件和文件夹发送到计算机上。您无法在iTunes中查看这些文件夹。
     
     要 **上传所有文件类型**（.flm，.mid，.flmpst，.flms，.wav，.mp3等）到 FL Studio Mobile，请使用「**添加文件…**」按钮，以便将文件添加到 FL Studio Mobile 的根文件夹。下次重新启动应用程序时，这些内容将自动显示在 FL Studio Mobile 中的 **My Samples**、**My SONGS** 和 FL Studio Mobile 中的其他适当位置下。
     
-    ![View IOS data](../assets/home/ViewIOSData.png)
+    ![View IOS data](../assets/home/view_ios_data.png)
     
 
 #### FL Studio 插件文件管理
 
 **注意：**从 FL Studio Mobile 3.2.47 开始，插件的数据位置从 **C:\\Program Files (x86)\\Image-Line\\FL Studio N\\Plugins\\Fruity\\Generators\\FL Studio Mobile\\LocalData** 移到 **\[用户名\]\\Documents\\Image-Line\\FL Studio Mobile\\** 下。对于 macOS 和 Windows，该位置相同。然后，您可以根据需要将任何内容拖放到文件夹中。使用 [共享功能](#share（共享）) 将其发送到您的移动设备，然后再发送回 Windows 或 Mac 电脑。
 
-![View plugin data](../assets/home/ViewPluginData.png)
+![View plugin data](../assets/home/view_plugin_data.png)
 
 #### FL Studio Windows 应用程序文件管理
 
@@ -271,11 +271,11 @@ Android允许直接访问内部文件夹，主要有两个选项：
 1.  **Windows 应用程序（Windows 电脑）**——制作一个指向FL Studio Mobile用户数据文件夹的桌面快捷方式。该路径具有一些自定义数据，如红色所示。通常在 **C:\\Users\\<font color="red">用户名</font>\\AppData\\Local\\Packages\\Image-Line.FLStudioMobile\_<font color="red">RANDOM\_LETTERS\_NUMBERS</font>\\LocalState**。
     **注意：** **AppData** 文件夹是隐藏的，因此你需要在文件管理器中选择 **显示隐藏项目**。如果你 **无权限进入该文件夹**，请查阅 [本指南](http://www.fixedbyvonnie.com/2013/12/where-are-apps-in-the-windows-store-installed)。Windows 8 和 10 在这方面是相同的。
     
-    ![View UWP data](../assets/home/ViewUWPData.png)
+    ![View UWP data](../assets/home/view_uwp_data.png)
     
 2. **从应用程序内加载**——无法从FL Studio Mobile 浏览应用程序外部文件夹中的音频文件。若要加载应用程序外部的音频文件，请打开常规的Windows文件浏览器，然后右键单击目标文件并选择 **打开方式 > FL Studio Mobile**。这会将文件导入到应用程序。
 
-   ![Load from within the app](../assets/home/LoadFromWithinAPP.png)
+   ![Load from within the app](../assets/home/load_from_within_app.png)
 
 
 #### Windows Phone 应用程序文件管理
