@@ -2,7 +2,7 @@
 
 The playlist is the place to arrange and edit Note, Audio and Automation to create your song.
 
-![](../assets/play_list/play_list.png)
+![Play list](../assets/play_list/play_list.png)
 
 <a id="paramaters"></a>
 
@@ -12,13 +12,12 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
 
 <a id="channel_menu"></a>
 
-*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select.
+*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select.  
     **NOTE:** The options visible will depend on the track type being used and the content on it.
-    
     *   **Save Template** - This option is available for [Drum Channels][1] (Stepsequencer) and allows you to save the custom set of drums.
     *   **Channel Settings** - Change the **track name** by tapping on the name or slide the **color** selector to change the color of the track.
         
-        ![](../assets/play_list/channel_settings.png)
+        ![Channel settings](../assets/play_list/channel_settings.png)
         
     *   **Hide/Show Tracks** - Hide/Show any Sub-tracks to the selected Channel.
     *   **Reverse sample** - Audio Clip tracks can be reversed.
@@ -31,11 +30,15 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
     *   **Import MIDI Tracks** - Import MIDI (.mid) files. See [My Files > My MIDI][3]. The Tracks will be added to the selected Channel.
     *   **Import Sample** - Load a sample from the file system available on your device.
     *   **Save as MIDI** - Saves the current Channel as a MIDI (.mid) file. See [My Files > My MIDI][3].
-    *   **Sync All Samples** - Sets all Audio Clips to SYNC mode. This locks the sample to the project temo, so pitch remains constant as BPM or length is changed.
-*   **Track Mixer** - Short tap (Right-click) to open.<a id="playlist_clipcontrols"></a>
+    *   **Sync All Samples** - Sets all Audio Clips to SYNC mode. This locks the sample to the project tempo, so pitch remains constant as BPM or length is changed.
+        
+*   **Track Mixer** - Short tap (Right-click) to open.
+    
+    <a id="playlist_clipcontrols"></a>
+    
 *   **Clip Controls** - One short tap to open.
     
-    ![](../assets/play_list/clip_controls.png)
+    ![Clip controls](../assets/play_list/clip_controls.png)
     
     *   **Copy** - Copy the Clip. To place, long-tap where you would like to place and an option to **paste** will open.
     *   **Del** - Delete the Clip.
@@ -48,11 +51,14 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
         *   **Unmute** - Play an muted Clip again.
         *   **Less** - Show the first batch of Clip Control menu items.
     *   **Resize Clip** - The center (height) handles on the ends of Audio and Pattern Clips allow you to resize the Clip (hold and drag). When the end of the data in the Clip has been reached, the Clip will Loop.
-    *   **Stretch Clip** - Only available for Audio Clips. This allows you to Time Stretch the Audio Clip. When **SYNC** is selected the Pitch will remain constant. When it is deselected the Pich will change with length.
-*   **Clip Editor** - 2 taps to open. Depending on the Clip type this will open the Piano roll (note entry), Automation Clip editor, Wave editor or Stepsequencer.<a id="playlist_timeselectionmenu"></a>
+    *   **Stretch Clip** - Only available for Audio Clips. This allows you to Time Stretch the Audio Clip. When **SYNC** is selected the Pitch will remain constant. When it is deselected the Pitch will change with length.
+*   **Clip Editor** - 2 taps to open. Depending on the Clip type this will open the Piano roll (note entry), Automation Clip editor, Wave editor or Stepsequencer.
+    
+    <a id="playlist_timeselectionmenu"></a>
+    
 *   **Time selection options** - After making a time-line selection there will be a (+) icon, tapping this opens a menu. If the (+) icon is not visible, tap one of the bars of the selection:
     
-    ![](../assets/play_list/time_selection.png)
+    ![Time selection](../assets/play_list/time_selection.png)
     
     *   **Deselect** - Remove time-line selection.
     *   **Insert space** - Insert time equal to the selection length. Clips straddling the selection, will be sliced at the start of the selection and moved to the right. Time will be added equivalent to the length of the selection.
@@ -62,7 +68,9 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
     *   **Trim selection** - Clips will be sliced at the selection boundaries and everything outside the selection will be deleted (Time and Clips).
     
     <a id="add_track"></a>
+    
 *   **Add Track Button (+)** - Tap to open. Choose from:
+    
     *   **DirectWave** - Sample player. From the Channel Rack tap the [plugin menu][4] to open the sample / preset browser.
     *   **Minisynth** - Realtime synthesizer.
     *   **GMS** (Groove Machine Synth) - Realtime synthesizer (Additional purchase required).
@@ -78,23 +86,25 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
 
 When recording audio from a microphone, make sure to **wear headphones** so audio from FL Studio Mobile isn't mixed in with the recorded source. **To set up for recording:**
 
-1.  Check the **[SETTINGS > Audio >][7]** section for the correct Audio Input. This is usually set to Microphone (or 'Recording Source Stereo'). You only need change this control if you have more than one Microphone on your device, you are using a **USB audio interface** or there is no audio being recorded. **NOTE:** In the case of Audio interfaces, you may need to test input options to find the correct one for your microphone or instrument (e.g. guitar) input you are using. **Windows App** users, see the NOTES at the bottom of this section.
+1.  Check the **[SETTINGS > Audio >][7]** section for the correct Audio Input. This is usually set to Microphone (or 'Recording Source Stereo'). You only need change this control if you have more than one Microphone on your device, you are using a **USB audio interface** or there is no audio being recorded.  
+    **NOTE:** In the case of Audio interfaces, you may need to test input options to find the correct one for your microphone or instrument (e.g. guitar) input you are using. **Windows App** users, see the NOTES at the bottom of this section.
     
-    ![](../assets/play_list/audio_recording_input.png)
+    ![Audio recording input](../assets/play_list/audio_recording_input.png)
     
 2.  Tap the 'Add Track' icon and select '**Audio Record**'.
     
-    ![](../assets/play_list/audio_recording.png)
+    ![Audio recording](../assets/play_list/audio_recording.png)
     
 3.  [Calibrate the device][8] (optional) - This is normally done once and remembered. Some devices will need to perform a calibration each time the App is restarted. The purpose is to accurately align recorded audio with the Playlist.
-4.  Optionally open the Channel Rack to access the **monitor control**. Tap the microphone icon to mute/activate the live audio monitoring. **OFF:** The input is recorded but not audible through FL Studio Mobile. **ON:** The input is recorded and is also audible through FL Studio Mobile.
+4.  Optionally open the Channel Rack to access the **monitor control**. Tap the microphone icon to mute/activate the live audio monitoring.
+    **OFF:** The input is recorded but not audible through FL Studio Mobile.  
+    **ON:** The input is recorded and is also audible through FL Studio Mobile.
     
-    ![](../assets/play_list/audio_recording_track.png)
+    ![Audio recording track](../assets/play_list/audio_recording_track.png)
     
 5.  Tap the 'Record' button and start recording.
 
-**NOTES:** On the [SETTINGS][9] tab, there are options including '**Audio Input**', '**Enable count-in when recording**', '**Metronome level**' and '**Use 32 Bit format when rendering and recording audio**' that may be useful to you. Additionally '**Sound mode: FAST**' may improve the recording experience on some systems.
-
+**NOTES:** On the [SETTINGS][9] tab, there are options including '**Audio Input**', '**Enable count-in when recording**', '**Metronome level**' and '**Use 32 Bit format when rendering and recording audio**' that may be useful to you. Additionally '**Sound mode: FAST**' may improve the recording experience on some systems.  
 For **Windows devices** you will need to set your **Settings > Sound > Input** to match any custom Audio Interface you are using, for it to be visible in FL Studio Mobile.
 
 #### iOS Inter App Audio (IAA) and Audiobus
@@ -105,7 +115,7 @@ See the section on working with [IAA and Audiobus inputs/outputs][10].
 
 ### Transport Bar
 
-![](../assets/play_list/transport.png)
+![Transport](../assets/play_list/transport.png)
 
 *   **REC** - Arm for recording. Press play to start. You can also engage and disengage Recording on-the-fly.
 *   **REV** - Revert, returns the playhead to the start of the Song.
