@@ -29,7 +29,7 @@ FL Studio Mobile 是为了在从手机大小到电视大小的触摸显示器的
 *   [**DirectWave**][8]<font color="green">【**免费**】</font>——这是一个采样播放器，可用于 **钢琴**，**管弦乐队**，**吉他** 等传统声音。其中包括许多采样库。或者，你可以去 [应用内商店][9] 购买更多采样。
 *   [**MiniSynth**][10]<font color="green">【**免费**】</font>——一款功能齐全的**合成器**，处理器开销低，音质出色。在用户论坛上有1000个补丁可供使用，或者您可以创建自己的补丁。
 *   [**GMS（Groove Machine Synth）**][11]<font color="red">【应用内购】</font>——这是从 FL Studio（电脑版）[Groove Machine plugin][12] 移植的，是多音色混合合成器还有 FX 通道。
-*   [**Transistor Bass**][13]<font color="red">【应用内购】</font>——这音是一种单声道低音线条风格的 **合成器**，用于创建共振风格的低音线条和引线。
+*   [**Transistor Bass**][13]<font color="red">【应用内购】</font>——这音是一种单声道低音 **合成器**，用于创作谐振式的低音和主旋律。
 
 <a id="spaces"></a>
 
@@ -48,7 +48,7 @@ FL Studio Mobile 是为了在从手机大小到电视大小的触摸显示器的
 
 当你首次点击 **HELP > Users & Support forums** 时，我们会要求您将设备注册到您的 Image-Line 帐户。
 
-*   你可以在 [FL Studio Mobile 支持论坛][3]上发布或者下载访问权限，在这里可以直接获得来自来发团队的**技术支持**，以及与其他用户交谈。
+*   你可以在 [FL Studio Mobile 支持论坛][3] 上发布或者下载访问权限，在这里可以直接获得来自来发团队的**技术支持**，以及与其他用户交谈。
 *   论坛上还有许多其他的免费采样、乐器和预设，包括： [DirectWave][21]、[MiniSynth][22]、[GMS][23] 和 [Transistor Bass][24].
 *   我们解锁了你的内容，可用于 [FL Studio 插件版本][25].
 

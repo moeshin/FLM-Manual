@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<h1>Channel Rack</h1>
+<p>Each Playlist track has its own 'Channel Rack'. This holds the Instruments and Effect plugins for that Playlist Track. Rack modules stack and you can use both <a href="#instrumentmodule">instrument</a> AND <a href="#effectmodule">effects modules</a>.
+<p class="justImages">
+<img src="../img_plug/flmobile_rack_open.png" width="600">
+<p class="justImages">
+<img src="../img_plug/flmobile_rack.png" width="600">
+<p><a id="channelrack"></a>
+<h2>Channel Rack</h2>
+<p>To open the Channel Rack, select the Track in the Playlist then tap the Channel Rack open control on the right side of the Playlist.
+<ul>
+<li><b>Channels</b> - There are three main types of Playlist Channels, <b>Instrument</b> (the Channel Rack will hold both instruments and FX modules), <b>Audio</b> and <b>FX</b> (the Channel Rack for these last two holds only FX modules).
+<li><b>Processing order</b> - The order of the instruments and effects in the rack determines processing order (top first, bottom last). For example; If you load DirectWave > Distortion > MiniSynth > Reverb. The Playlist Pattern Clips will play both DirectWave + MiniSynth together. However, DirectWave will pass through the Distortion + Reverb effects, while MiniSynth will have only Reverb effect.
+</ul>
+<p>You can also create FX Racks for grouped submixes. See <a href="#flm_routing">Audio Routing</a> below.
+<p><a id="pluginmodule"></a>
+<h3>Plugin Modules</h3>
+<p>Plugins have two menu items on the upper right, as shown below. The <b>left menu</b> allows you to open presets. The <b>right menu</b> allows you to reorder, copy and delete plugin modules.
+<p class="justImages">
+<img src="../img_plug/flmobile_directwave.png" width="600">
+<p>To <b>copy and paste a module</b>, from one rack to another, open the Module menu, tap Copy, then select the new Rack and use the (+) button at the bottom and use Paste.
+<p><a id="instrumentmodule"></a>
+<h3>Instrument Modules</h3>
+<p>There are 4 instruments and one drum sampler:
+<ul>
+<li><a href="FL%20Studio%20Mobile_Module_DirectWave.htm">DirectWave</a> - This is a multi-sample based player. It can load DirectWave (FL Studio PC format) .dwp files. This is also how you can access your purchased sample-based instruments and custom samples/instruments.
+<li><a href="FL%20Studio%20Mobile_Module_Minisynth.htm">MiniSynth</a> - MiniSynth is a fully featured synthesizer with a low processor overhead and great sound. Load the presets or create your own sounds from scratch. There are 6 tabs covering the synthesizer controls.
+<li><a href="FL%20Studio%20Mobile_Module_GMS.htm">GMS (Groove Machine Synth)</a> <font color="red">[demo]</font> - Additional purchase, see the Shop page. Groove Machine Synth is a multitimbral hybrid synthesizer & FX channel from the FL Studio (PC), <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/GMS.htm" target="_blank">Groove Machine plugin</a>.
+<li><a href="FL%20Studio%20Mobile_Module_TransistorBass.htm">Transistor Bass</a> <font color="red">[demo]</font> - Additional purchase, see the Shop page. Transistor bass is a monophonic bass-line style synth for creating resonant-style basslines and leads.
+<li>Drum Sampler - While not an instrument that you can load in the rack, there is a Drum Sampler Playlist Track type. This holds the Step Sequencer and a multi-channel drum sample player.
+</ul>
+<p><a id="effectmodule"></a>
+<h3>Effect Modules</h3>
+<p>There are many effects available to you. NOTE: To save CPU load, and where you want the effect to apply to all tracks, rather than putting the same effect on every track, add a single effect to the Master FX track. All audio passes though this final track.
+<ul>
+<li><a href="FL%20Studio%20Mobile_Module_Autoduck.htm">Autoduck</a> - Ducking is a form of automated volume dipping. Use this to create 'sidechain' style effects.
+<li><a href="FL%20Studio%20Mobile_Module_Chorus.htm">Chorus</a> - Chorus creates a thicker/lusher sound by detuning multiple voices within the sound.
+<li><a href="FL%20Studio%20Mobile_Module_Compressor.htm">Compressor</a> - Compression is a form of (very fast) automated volume control that reduces the difference between loud and soft sounds. That is, the difference in level between the peaks and troughs of the audio waveform. When the input signal exceeds the threshold the gain, or rate at which the signal level is allowed to increase, is reduced. In other words, the waveform amplitude is 'compressed'.
+<li><a href="FL%20Studio%20Mobile_Module_Distortion.htm">Distortion</a> - The amplifier simulates distortion type 'overdrive' typical of guitar amplifiers. It allows high-overdrive even if a track's volume is quiet.
+<li><a href="FL%20Studio%20Mobile_Module_ParametricEQ.htm">Equalizer (Parametric)</a> - Equalizing is the process of increasing or decreasing the loudness of specific frequencies. An advanced 4-Band parametric equalizer. The Band type (shape), center frequency and width of each Band are fully adjustable. You can choose from: High Shelf, Low Shelf and Peaking.
+<li><a href="FL%20Studio%20Mobile_Module_Filter.htm">Filter</a> - Filters are similar to Equalizers, however they are designed more for creative (automated) effects. Sweeping a filter-cutoff frequency is a very common technique used in electronic dance music (EDM).
+<li><a href="FL%20Studio%20Mobile_Module_Flanger.htm">Flanger</a> - Similar to the Chorus effect Flanging allows you to enrich the stereo panorama of your mix.
+<li><a href="FL%20Studio%20Mobile_Module_GraphicEQ.htm">Graphic EQ</a> - Equalizing is the process of increasing or decreasing the loudness of specific frequencies. This is an 8-band equalizer with sliders set to convenient frequency ranges for general equalizing duties.
+<li><a href="FL Studio%20Mobile_iOS_InterApp.htm">IAA/Audiobus</a> - Input/Output module for working with Inter App Audio and Audiobus (iOS only).
+<li><a href="FL%20Studio%20Mobile_Module_Leveller.htm">Leveller</a> - A precise volume control. Use leveller to monitor levels and to make precise changes to level and stereo panning.
+<li><a href="FL%20Studio%20Mobile_Module_Limiter.htm">Limiter</a> - Limiting is a form of heavy compression (generally used to describe compression ratios greater than 10:1). The purpose is to 'limit' the output level to a set maximum level, usually 0 dB, to avoid clipping in a final mix down. The Limiter can be used to maximize the level of a track dramatically, without introducing noticeable distortion and so limiting is a favorite effect used in mastering.
+<li><a href="FL%20Studio%20Mobile_Module_MultiFX.htm">Multi FX</a> - Combines Delay, Reeverb, Low Pass Filter, High-Pass Filter, Flanger, Phaser, Panner and Vox filter. These are controlled by and X/Y pad. Useful for combined-effects and automation.
+<li><a href="FL%20Studio%20Mobile_Module_Phaser.htm">Phaser</a> - Phasing modulates the relative phase of the dual-voice oscillators. Oscillator voices are delayed by different amounts, causing a moving frequency cancellation effect that you will recognize even if you don't really understand how it works ;)
+<li><a href="FL%20Studio%20Mobile_Module_Reverb.htm">Reverb</a> - Reverb simulates a room of a certain type (Hall/Canyon/Room) and size.
+<li><a href="FL%20Studio%20Mobile_Module_Stereoizer.htm">Stereoizer</a> - Stereoizer creates stereo effects from mono sources. Use it to create a 'wider' sounding mix.
+<li><a href="FL%20Studio%20Mobile_Module_TapeDelay.htm">Tape Delay</a> - Delay is an echo style effect and is particularly effective for out-of-tempo experimental delay sounds.
+<li><a href="FL%20Studio%20Mobile_Module_TranceDelay.htm">Trance Delay</a> - Delay is an echo style effect and is particularly effective when played in sync with the main tempo of the track.
+</ul>
+<p><a id="flm_copypaste"></a>
+<h3>Copying Modules</h3>
+<p>
+<ul>
+<li><b>Paste</b> - Adds the module in the copy/paste buffer including the current settings. Active when you have used the <b>Copy</b> command from a Module menu (shown in the <b>Plugin Modules</b> section above).
+</ul>
+<p><a id="flm_routing"></a>
+<h3>Audio Routing</h3>
+<p>By default all Channel Racks are routed to the <b>Master Mixer FX Track</b>. Use the Output control, at the bottom of Channel Racks, to send audio from the selected Channel to any FX Channel in the project. You can also create new FX Channels. FX Channels are <b>designed to process audio</b>, so only FX modules will be available to add to these Channel Racks from the (+) button. Use FX Channels to create sub-mixes for grouped FX processing.
+<p class="justImages"><img src="../img_plug/flmobile_playlist_fxtrack.png" width="400">
+<p>Tap the control below the <b>Add Module</b> button (+), to access:
+<ul>
+<li><b>Create FX Channel</b> - Adds an <b>FX Channel</b> to the Playlist. Load FX modules on an FX Channel, and route multiple tracks to it for group FX processing.
+<li><b>Send to</b> - Select from an existing list of FX Channels. <b>NOTE:</b> The <b>Master</b> is always available, as it is added to all projects, by design. The example above shows two FX channels have been added to the project (they can be renamed by <b>long-tapping the Track Header > Channel Settings > and tap on the rename area</b>.
+</ul>
+<p><b>NOTE:</b> You can chain FX Channels by sending from one to the next.
+<p><a id="flm_pluginrouting"></a>
+<h4>FL Studio Plugin Version Routing</h4>
+<p>When using FL Studio Mobile as a plugin in the desktop version of FL Studio, you can also choose to send any Racks output to any FL Studio Mixer track.
+<p class="justImages"><img src="../img_plug/flmobile_rack_pluginrouting.png" width="400">
+<hr>
+</td></tr></table></body>
+</html>
