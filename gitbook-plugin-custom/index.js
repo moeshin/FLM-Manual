@@ -2,6 +2,10 @@ const cheerio = require('cheerio');
 module.exports = {
     book: {
         "assets": "assets",
+        "js": [
+            "https://cdn.jsdelivr.net/npm/sweetalert2@9.8.1/dist/sweetalert2.all.min.js",
+            "script.js"
+        ],
         "css": ["style.css"]
     },
     hooks: {
