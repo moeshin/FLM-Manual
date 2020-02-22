@@ -2,7 +2,7 @@
 
 播放列表是布置和编辑「音符」、「音频」和「自动化」来创作歌曲的地方。
 
-![播放列表](../assets/play_list/play_list.png)
+![播放列表](../assets/playlist/playlist.png)
 
 <a id="paramaters"></a>
 
@@ -17,7 +17,7 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
     *   **Save Template（保存模板）**——此选项可用于 [鼓通道][1]（步进音序器），并允许您保存自定义的鼓组。
     *   **Channel Settings（通道设置）**——通过点击名称来更改通道名称，或滑动颜色选择器以更改通道的颜色。
         
-        ![通道设置](../assets/play_list/channel_settings.png)
+        ![通道设置](../assets/playlist/channel_settings.png)
         
     *   **Hide/Show Tracks（隐藏/显示通道）**——隐藏/显示所选通道的所有子轨道。
     *   **Reverse sample（反转采样）**——音频片段轨道可以反转。
@@ -38,7 +38,7 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
     
 *   **片段控制**——轻按一下即可打开。
     
-    ![片段控制](../assets/play_list/clip_controls.png)
+    ![片段控制](../assets/playlist/clip_controls.png)
     
     *   **Copy（复制）**——复制片段。如要放置，请长按您要放置的位置，然后选择 **粘贴**。
     *   **Del（删除）**——删除这个片段。
@@ -58,7 +58,7 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
     
 *   **时间选择选项**——选择时间轴后，将有一个 (+) 图标，点击此按钮将打开一个菜单。 如果 (+) 图标不可见，请点击选区的其中一边：
     
-    ![时间选择](../assets/play_list/time_selection.png)
+    ![时间选择](../assets/playlist/time_selection.png)
     
     *   **Deselect（取消选择）**——移除时间轴上的选择。
     *   **Insert space（插入空间）**——插入时间等于选择的长度。跨选区的片段将在选区的开头进行切片，并移至右侧。将添加与选择的时间相等的时间。
@@ -89,18 +89,18 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
 1.  检查 **[SETTINGS > Audio][7]**，来获取正确的音频输入。 通常将其设置为「麦克风」（或「录制源立体声」）。仅当设备上有多个麦克风，正在使用 **USB 音频接口** 或没有音频录制时，才需要更改此控件。  
     **注意：** 对于音频接口，您可能需要测试输入选项以为您正在使用的麦克风或乐器（例如吉他）输入找到正确的选项。**Windows App** 用户，请参阅本节底部的「说明」。
     
-    ![录音输入](../assets/play_list/audio_recording_input.png)
+    ![录音输入](../assets/playlist/audio_recording_input.png)
     
 2.  点击」添加轨道」图标，然后选择 **Audio Record（录音）**。
     
-    ![录音](../assets/play_list/audio_recording.png)
+    ![录音](../assets/playlist/audio_recording.png)
     
 3.  [校准设备][8]（可选）——这通常只做一次并记住。每次重新启动应用程序时，某些设备都需要执行校准。目的是使录制的音频与播放列表准确对齐。
 4.  可以选择打开通道机架来访问 **监听控件**。点击麦克风图标可静音/激活实时音频监听。  
     **OFF：** 输入已录制，但无法通过 FL Studio Mobile 听到声音。  
     **ON：** 输入已录制，也可以通过 FL Studio Mobile 听到声音。
     
-    ![录音轨道](../assets/play_list/audio_recording_track.png)
+    ![录音轨道](../assets/playlist/audio_recording_track.png)
     
 5.  点击「录制」按钮并开始录制。
 
@@ -115,7 +115,7 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
 
 ### 控制栏
 
-![控制栏](../assets/play_list/transport.png)
+![控制栏](../assets/playlist/transport.png)
 
 *   **REC**——录制，按播放开始。您还可以启用和取消动态录制。
 *   **REV**——还原，将播放头返回到乐曲的开头。
