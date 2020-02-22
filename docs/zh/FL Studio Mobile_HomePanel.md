@@ -19,9 +19,9 @@
 帮助按钮是您的朋友！ 在它下面您可以找到……
 
 *   **Manual（手册）**——你这在阅读。
-*   **Video Tutorials（视频教程）**——丰富的 [FL Studio Mobile 视频教程][1].
+*   **Video Tutorials（视频教程）**——丰富的 [FL Studio Mobile 视频教程][1]。
 *   **Users & Support Forums（用户与论坛）**——[用户论坛][2] 是询问「操作方法」问题，进行功能请求或报告错误的好地方。如果某事不起作用，则报告它是修复问题的最快方法。
-*   **Play Tutorial（播放教程）**——播放 [入门视频教程][3].
+*   **Play Tutorial（播放教程）**——播放 [入门视频教程][3]。
 *   **Register at Image-Line（注册到服务器）**——创建的我们的一个 Image-Line 账号。这将使您可以访问 [用户论坛][2]。
 
 <a id="songs"></a>
@@ -75,7 +75,7 @@
 *   **Save format（保存格式）**——选择要保存的文件类型。
     *   **FLM**——FL Studio Mobile 工程格式（在文件浏览器中查看时，扩展名为 **.flm**）
     *   **MIDI**——MIDI是一种数据格式（在文件浏览器中查看时，扩展名为 **.mid**），用于与其他 DAW 软件共享FL Studio Mobile 项目数据（注释和控制信息）。  
-        **注意：** 此选项将项目的前16个音轨保存到单个MIDI文件中。如果你有 16 个以上的音轨，则可以重新排列音轨顺序并进行多次保存，或者将每个音轨 [另存为 MIDI][6].
+        **注意：** 此选项将项目的前16个音轨保存到单个MIDI文件中。如果你有 16 个以上的音轨，则可以重新排列音轨顺序并进行多次保存，或者将每个音轨 [另存为 MIDI][6]。
     *   **WAV (audio)**——最高质量，文件大。Wave 是一种无损的音频格式，是在生产环境中处理音频的首选格式（与 FLAC 一起）。文件是 16 位 WAV 格式（在文件浏览器中查看时，扩展名为 **.wav**），除非您在保存弹出选项中设置了「高质量」（请参见上文），然后才是 32 位格式。
     *   **FLAC (audio)**——免费的无损音频编解码器。在将所有音频信息保留在编码波形中的方式类似于 WAV 格式。FLAC 的另一个好处是可以大大减小文件大小。FLAC 文件通常比等效的 WAV 文件小 20％ 至 30％，同时保留原始数据的位完美副本。保存弹出菜单中的「高质量」（参见上文），每个采样在 16 至 24 位之间。
     *   **MP3 (audio)**——质量较差，文件较小。文件比特率为 192 或 320 kbps（HQ）（在文件浏览器中查看时，扩展名为 **.mp3**）。
@@ -228,7 +228,7 @@ https://www.bilibili.com/video/av29552167?p=3
 *   **My Presets**——此文件夹包含所有插件预设（乐器和效果）。没有子文件夹，因为预置包含预置中的元数据，因此 FL Studio Mobile 将只在您打开加载它们的插件里显示兼容的预置。例如，MiniSynth（迷你合成器 ）**.flms**，其他预置文件 **.flmpst** 包括：GMS（合成器）、Transistor Bass（贝斯合成器）和 FX Modules（效果模块）。
 *   **My Recordings**——在 FL Studio Mobile 中进行的录音。WAV（未压缩格式，16、24 或 32 位）。见 **说明**。
 *   **My Samples**——你想要的导入的任何一个镜头、采样、声响。WAV（未压缩格式，16、24 或 32 位）或 MP3。见 **说明**。
-*   **My Songs**——工程文件。它们显示在 **Home Page > SONGS** 选项卡上.
+*   **My Songs**——工程文件。它们显示在 **Home Page > SONGS** 选项卡上。
 *   **My Tracks**——这些音频文件是在渲染工程时创建的。如果要重用 FL Studio Mobile 中的轨道，请确保渲染为 **无损**（WAV）或 MP3 格式（创建要加载的「波形」类型的新播放列表轨道）。**压缩**（AAC 格式）文件不会显示在 FL Studio Mobile 中使用。这些将在您的媒体播放器中播放。  
     **节省 CPU：** 您可以将任何播放列表的轨道转换为音频，方法是让其独奏，并点击 **Home page > SONGS > SAVE** 将其保存为未压缩（WAV）格式。然后使用 **+（添加轨道）按钮 > Audio Clip（音频片段）** 选项（找到保存的文件并加载）将其重新加载到播放列表中。乐句和完整的歌曲使用「My Tracks」。
 
@@ -245,7 +245,7 @@ https://www.bilibili.com/video/av29552167?p=3
 
 #### 所有操作系统：使用 SHARE
 
-If you have access to a Desktop PC, by far, the easiest method is to use [SHARE with the FL Studio Plugin][5] TO and FROM the Mobile Device. In this case, add content to the FL Studio Mobile plugin folder on your PC, then SHARE to the mobile device. Or SHARE from the device to your PC. Alternatively, proceed as follows:
+到目前为止，如果您可以访问台式 PC，最简单的方法是使用 FL Studio 插件与移动设备 [进行共享][5]。在这种情况下，将内容添加到 PC 上的 FL Studio Mobile 插件文件夹中，然后再共享到移动设备上。或从设备共享到您的 PC。或者，执行以下操作：
 
 <a id="userdata_android"></a>
 
@@ -268,7 +268,7 @@ Android允许直接访问内部文件夹，主要有两个选项：
 
 有以下方法可用：
 
-1.  **系统导入**——iOS将识别电子邮件，云存储等中与 FL Studio Mobile 关联的大多数文件类型（.flm、.mid、.flmpst、.flms、.wav、.mp3），并允许您使用 FL Studio Mobile 打开它们。如您的电子邮件或云存储应用程序中所示，**长按附件或文件**，然后从弹出选项中选择以 **FL Studio Mobile** 打开该文件。
+1.  **系统导入**——iOS 将识别电子邮件，云存储等中与 FL Studio Mobile 关联的大多数文件类型（.flm、.mid、.flmpst、.flms、.wav、.mp3），并允许您使用 FL Studio Mobile 打开它们。如您的电子邮件或云存储应用程序中所示，**长按附件或文件**，然后从弹出选项中选择以 **FL Studio Mobile** 打开该文件。
     
     ![从电子邮件复制](../assets/home/copy_from_email.png)
     
@@ -276,9 +276,9 @@ Android允许直接访问内部文件夹，主要有两个选项：
     
     ![从电子邮件复制完成](../assets/home/copy_from_email_done.png)
     
-2.  **iTunes 导入/导出**——使用iTunes将iOS设备连接到计算机。同步并选择 FL Studio Mobile 3 后，您将可以访问 **FLM User Files** 文件夹。您可以通过iTunes将这些文件夹完整地从 FL Studio Mobile 复制到您的计算机（您必须选择文件和/或文件夹，然后使用iTunes中的「**保存到…**」）。这将使您可以将文件和文件夹发送到计算机上。您无法在iTunes中查看这些文件夹。
+2.  **iTunes 导入/导出**——使用 iTunes 将 iOS 设备连接到计算机。同步并选择 FL Studio Mobile 3 后，您将可以访问 **FLM User Files** 文件夹。您可以通过iTunes将这些文件夹完整地从 FL Studio Mobile 复制到您的计算机（您必须选择文件和/或文件夹，然后使用iTunes中的「**保存到…**」）。这将使您可以将文件和文件夹发送到计算机上。您无法在 iTunes 中查看这些文件夹。
     
-    要 **上传所有文件类型**（.flm，.mid，.flmpst，.flms，.wav，.mp3等）到 FL Studio Mobile，请使用「**添加文件…**」按钮，以便将文件添加到 FL Studio Mobile 的根文件夹。下次重新启动应用程序时，这些内容将自动显示在 FL Studio Mobile 中的 **My Samples**、**My SONGS** 和 FL Studio Mobile 中的其他适当位置下。
+    要 **上传所有文件类型**（.flm，.mid，.flmpst，.flms，.wav，.mp3 等）到 FL Studio Mobile，请使用「**添加文件…**」按钮，以便将文件添加到 FL Studio Mobile 的根文件夹。下次重新启动应用程序时，这些内容将自动显示在 FL Studio Mobile 中的 **My Samples**、**My SONGS** 和 FL Studio Mobile 中的其他适当位置下。
     
     ![查看 iOS 数据](../assets/home/view_ios_data.png)
     
