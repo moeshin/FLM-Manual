@@ -134,14 +134,14 @@ FL Studio Mobile 界面专为触摸而设计，因此使用了点击、短按和
 *   **Undo（撤销）**——撤消上一个动作。仅在对项目进行更改后可见。
 *   **Prv（预览）** (Preview)——独奏所选轨道、模板或者音频片段的音频，具体取决于所选内容。
 
-[1]: FL%20Studio%20Mobile_Editors.md#stepsequencer
-[2]: FL%20Studio%20Mobile_Editors.md#stepsequencer_advanced
-[3]: FL%20Studio%20Mobile_HomePanel.md#userdata
-[4]: FL%20Studio%20Mobile_Rack.md#pluginmodule
-[5]: FL%20Studio%20Mobile_Rack.md
-[6]: FL%20Studio%20Mobile_Editors.md#drumtrack_tabs
-[7]: FL%20Studio%20Mobile_HomePanel.md#audio
-[8]: FL%20Studio%20Mobile_HomePanel.md#latency_compensation
-[9]: FL%20Studio%20Mobile_HomePanel.md#settings
-[10]: FL%20Studio%20Mobile_iOS_InterApp.md
-[11]: FL%20Studio%20Mobile_HomePanel.md
+[1]: Editors.md#stepsequencer
+[2]: Editors.md#stepsequencer_advanced
+[3]: HomePanel.md#userdata
+[4]: Rack.md#pluginmodule
+[5]: Rack.md
+[6]: Editors.md#drumtrack_tabs
+[7]: HomePanel.md#audio
+[8]: HomePanel.md#latency_compensation
+[9]: HomePanel.md#settings
+[10]: iOS_InterApp.md
+[11]: HomePanel.md

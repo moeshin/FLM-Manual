@@ -35,8 +35,8 @@
 
 *   [DirectWave（采样播放器）][4]——这是一个基于多采样的播放器。 它可以加载 DirectWave（FL Studio 电脑版格式）的 .dwp 文件。这也是您可以访问购买的基础采样的乐器和自定义采样/乐器的方式。
 *   [MiniSynth（迷你合成）][5]——这是功能齐全的合成器，处理器功耗低，音质好。加载预设或从头开始创建自己的声音。有 6 个选项卡涵盖了合成器控件。
-*   [GMS（合成器）(Groove Machine Synth)][6] <font color="red">【演示】</font>——如需另外购买，请参阅 SHOP（商店）页面。这是来自 FL Studio 电脑版的 [Groove Machine 插件][7]，是多音色混合合成器还有 FX 通道。
-*   [Transistor Bass（低音合成器）][8] <font color="red">【演示】</font>——如需另外购买，请参阅 SHOP（商店）页面。这是一种单声道低音合成器，用于创作谐振式的低音和主旋律。
+*   [GMS（合成器）(Groove Machine Synth)][6]<font color="red">【演示】</font>——如需另外购买，请参阅 SHOP（商店）页面。这是来自 FL Studio 电脑版的 [Groove Machine 插件][7]，是多音色混合合成器还有 FX 通道。
+*   [Transistor Bass（低音合成器）][8]<font color="red">【演示】</font>——如需另外购买，请参阅 SHOP（商店）页面。这是一种单声道低音合成器，用于创作谐振式的低音和主旋律。
 *   Drum Sampler（鼓采样器）——虽然不是可以装入机架的乐器，但它是播放列表音轨的一种类型。它具有步进音序器和多通道鼓采样播放器。
 
 <a id="effectmodule"></a>
@@ -97,25 +97,25 @@
 [1]: #instrumentmodule
 [2]: #effectmodule
 [3]: #flm_routing
-[4]: FL%20Studio%20Mobile_Module_DirectWave.md
-[5]: FL%20Studio%20Mobile_Module_Minisynth.md
-[6]: FL%20Studio%20Mobile_Module_GMS.md
+[4]: Module_DirectWave.md
+[5]: Module_Minisynth.md
+[6]: Module_GMS.md
 [7]: https://www.image-line.com/support/FLHelp/html/plugins/GMS.htm
-[8]: FL%20Studio%20Mobile_Module_TransistorBass.md
-[9]: FL%20Studio%20Mobile_Module_Autoduck.md
-[10]: FL%20Studio%20Mobile_Module_Chorus.md
-[11]: FL%20Studio%20Mobile_Module_Compressor.md
-[12]: FL%20Studio%20Mobile_Module_Distortion.md
-[13]: FL%20Studio%20Mobile_Module_ParametricEQ.md
-[14]: FL%20Studio%20Mobile_Module_Filter.md
-[15]: FL%20Studio%20Mobile_Module_Flanger.md
-[16]: FL%20Studio%20Mobile_Module_GraphicEQ.md
-[17]: FL%20Studio%20Mobile_iOS_InterApp.md
-[18]: FL%20Studio%20Mobile_Module_Leveller.md
-[19]: FL%20Studio%20Mobile_Module_Limiter.md
-[20]: FL%20Studio%20Mobile_Module_MultiFX.md
-[21]: FL%20Studio%20Mobile_Module_Phaser.md
-[22]: FL%20Studio%20Mobile_Module_Reverb.md
-[23]: FL%20Studio%20Mobile_Module_Stereoizer.md
-[24]: FL%20Studio%20Mobile_Module_TapeDelay.md
-[25]: FL%20Studio%20Mobile_Module_TranceDelay.md
+[8]: Module_TransistorBass.md
+[9]: Module_Autoduck.md
+[10]: Module_Chorus.md
+[11]: Module_Compressor.md
+[12]: Module_Distortion.md
+[13]: Module_ParametricEQ.md
+[14]: Module_Filter.md
+[15]: Module_Flanger.md
+[16]: Module_GraphicEQ.md
+[17]: iOS_InterApp.md
+[18]: Module_Leveller.md
+[19]: Module_Limiter.md
+[20]: Module_MultiFX.md
+[21]: Module_Phaser.md
+[22]: Module_Reverb.md
+[23]: Module_Stereoizer.md
+[24]: Module_TapeDelay.md
+[25]: Module_TranceDelay.md

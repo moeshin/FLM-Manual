@@ -75,6 +75,9 @@ function toMarkdown(html, out = undefined) {
                     // 替换链接中的空格——Url 编码
                     hasChange = true;
                     return '%20';
+                }).replace(/^FL%20Studio%20Mobile_/, function () {
+                    hasChange = true;
+                    return '';
                 });
                 if (out !== undefined) {
                     // 简化在当前页的锚点
@@ -134,7 +137,9 @@ function toHtml(markdown) {
 }
 
 module.exports = {
-    basename: (name, extname) => path.basename(name).replace(/\..+$/, '') + '.' + extname,
+    basename: (name, extname) => path.basename(name)
+        .replace(/^FL Studio Mobile_/, '')
+        .replace(/\..+$/, '') + '.' + extname,
     read: path => fs.readFileSync(path, CODING),
     write: (path, data) => fs.writeFileSync(path, data, CODING),
     toMarkdown: toMarkdown,

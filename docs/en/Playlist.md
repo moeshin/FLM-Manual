@@ -134,14 +134,14 @@ See the section on working with [IAA and Audiobus inputs/outputs][10].
 *   **Undo** - Undo the last action. Only visible when a change has been made to the project.
 *   **Prv** (Preview) - Solo audio for the selected Track, Pattern or Audio Clip, depending on what is selected.
 
-[1]: FL%20Studio%20Mobile_Editors.md#stepsequencer
-[2]: FL%20Studio%20Mobile_Editors.md#stepsequencer_advanced
-[3]: FL%20Studio%20Mobile_HomePanel.md#userdata
-[4]: FL%20Studio%20Mobile_Rack.md#pluginmodule
-[5]: FL%20Studio%20Mobile_Rack.md
-[6]: FL%20Studio%20Mobile_Editors.md#drumtrack_tabs
-[7]: FL%20Studio%20Mobile_HomePanel.md#audio
-[8]: FL%20Studio%20Mobile_HomePanel.md#latency_compensation
-[9]: FL%20Studio%20Mobile_HomePanel.md#settings
-[10]: FL%20Studio%20Mobile_iOS_InterApp.md
-[11]: FL%20Studio%20Mobile_HomePanel.md
+[1]: Editors.md#stepsequencer
+[2]: Editors.md#stepsequencer_advanced
+[3]: HomePanel.md#userdata
+[4]: Rack.md#pluginmodule
+[5]: Rack.md
+[6]: Editors.md#drumtrack_tabs
+[7]: HomePanel.md#audio
+[8]: HomePanel.md#latency_compensation
+[9]: HomePanel.md#settings
+[10]: iOS_InterApp.md
+[11]: HomePanel.md

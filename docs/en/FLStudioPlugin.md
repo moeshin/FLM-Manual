@@ -30,7 +30,7 @@ Think of the FL Studio Mobile project as the core of the track. [SHARE][3] the `
 
 [1]: https://www.image-line.com/flstudio/
 [2]: https://support.image-line.com/redirect/flmobile_flplugin
-[3]: FL%20Studio%20Mobile_HomePanel.md#sharingdata
-[4]: FL%20Studio%20Mobile_Rack.md#flm_pluginrouting
-[5]: FL%20Studio%20Mobile_Playlist.md#channel_menu
-[6]: FL%20Studio%20Mobile_HomePanel.md#save
+[3]: HomePanel.md#sharingdata
+[4]: Rack.md#flm_pluginrouting
+[5]: Playlist.md#channel_menu
+[6]: HomePanel.md#save
