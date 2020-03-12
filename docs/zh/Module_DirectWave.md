@@ -1,4 +1,4 @@
-# DirectWave
+# DirectWave（采样播放器）
 
 DirectWave 是一个采样播放器，可用于 **钢琴**、**管弦乐队**、**吉他** 等传统声音。包含许多采样库您可以从 [应用内商店][1] 购买更多样本库或创建自己的样本库(见下文)。在 FL Studio Mobile 用户论坛上也有一个帖子（[链接在这里][2]），那里有很多可用的。
 
@@ -65,7 +65,7 @@ DirectWave 将加载 **.wav**、**.mp3**、**.dwp**（DirectWave 预设）和 **
     
     ![从电子邮箱直接打开](../assets/home/copy_from_email.png)
     
-3.  **手动传输**——将 **.dwp** 或 **.instr** 文件复制到 [你的数据/My Instruments][3]。如果您使用的是 iOS 设备，请 [通过 iTunes 将文件放在用户数据][9] 根文件夹中。或在设备上的任何浏览器，电子邮件等中打开 **.dwp** 或 **.instr** 文件。 FL Studio 将显示为打开选项。这样做会将它们导入到 [你的数据/My Instruments][3] 中（使用单独 .dwp）。
+3.  **手动传输**——将 **.dwp** 或 **.instr** 文件复制到 [你的数据/My Instruments][3]。如果您使用的是 iOS 设备，请 [通过 iTunes 将文件放在用户数据][9] 根文件夹中。或在设备上的任何浏览器，电子邮件等中打开 **.dwp** 或 **.instr** 文件。FL Studio 将显示为打开选项。这样做会将它们导入到 [你的数据/My Instruments][3] 中（使用单独 .dwp）。
 
 <a id="free_content"></a>
 
