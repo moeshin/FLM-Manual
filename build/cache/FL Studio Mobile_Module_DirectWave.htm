@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<h1>DirectWave</h1>
+<p>DirectWave is a sample player and is useful for traditional sounds such as <b>Piano</b>, <b>Orchestra</b>, <b>Guitar</b> etc. There are many included sample banks, you can purchase more from the <a href="FL%20Studio%20Mobile_HomePanel.htm#shop">in-app shop</a> or create your own (see below). There is also a thread on the FL Studio Mobile users forum (<a class="extLink" href="http://support.image-line.com/redirect/FLM_user_library" target="_blank">linked here</a>) where many are available.
+<p class="justImages">
+<img src="../img_plug/flmobile_directwave.png" width="600">
+<p><b>To load instruments</b> - Tap the preset selector on the upper-right of the interface (where it says 'Default' in the image above) and choose presets from the pop-up browser on the left of screen. See the NOTE below about adding your own custom samples.
+<p><a id="paramaters"></a>
+<h2>Parameters</h2>
+<p>DirectWave is an easy-to-use sample player. It can play single samples or multi-samples.
+<ul>
+<li><b>Pitch</b> - Transpose the Pitch +/- 24 semitones (2 octaves).
+<li><b>Fine Tune</b> - Transpose the pitch +/- 100 cents (1 semitone).
+<li><b>Attack</b> - Time taken for the filter to reach the maximum level.
+<li><b>Decay</b> - Time taken to go from the maximum level to the Sustain level.
+<li><b>Sustain</b> - Level when the key is held.
+<li><b>Release</b> - Time taken to fall from the Sustain level to zero when the key is released.
+<li><b>Slide time</b> - Time taken to slide from one note to another. <b>Legato</b> mode will restrict slides to overlapping notes.
+<li><b>Loop</b> - Turn sample loops on/off. This will depend if the sample already has inbuilt loop-points.
+<li><b>Legato</b> - When notes overlap they will slide from one to another, depending on the <b>Slide time</b> setting. When legato mode if OFF all note changes will slide depending on the time.
+<li><b>Reverse</b> - Reverse sample (loop must be disabled for this to work).
+<li><b>Mono</b> - Monophonic mode. New notes will cut sustaining ones. When in <b>Legato</b> mode, new notes will slide from one to another, but the original sample will be used on the second note.
+</ul>
+<p><b>NOTES:</b>
+<ul>
+<li><b>Where does DirectWave look for samples?</b> - DirectWave will scan <a href="FL%20Studio%20Mobile_HomePanel.htm#userdata"><b>User Files</b></a> for any WAV (8, 16, 24 or 32 Bit) and MP3 format samples. It will also scan for <b>.instr</b> and <b>.dwp</b> multi-sampled instruments (see below).
+</ul>
+<p><a id="directwave_making_patches"></a>
+<h3>Make your own multi-sample instruments</h3>
+<p>DirectWave will load <b>.wav</b>, <b>.mp3</b>, <b>.dwp</b> (DirectWave Presets) and <b>.instr</b> (FL Studio Mobile Instrument). While <b>.mp3</b> and <b>.wav</b> are restricted to a single sample, played across the keyboard, <b>.dwp</b> and <b>.instr </b> formats support multi-samples, where each key can contain a unique sample or sound. About <b>.dwp files</b>; These are native to the <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/DirectWave.htm" target="_blank">FL Studio DirectWave Sampler</a> and <b>there are two .dwp formats:</b>
+<ul>
+<li><b>Monolithic</b> - Contains all the multi-sample data in a single <b>.dwp</b> file. <b>This is the ideal format for working on Mobile devices</b> as it's a single file and easy to manage.
+<li><b>Standard (not recommended!)</b> - An instrument patch includes the <b>.dwp</b> program AND <b>associated sub-folder</b> (with same name as the .dwp), that contains the sample data. This format is favored by FL Studio pc users as they can access and edit the patch sample data easily. However, as managing groups of files and sub-folders is complicated on mobile devices, <b>we strongly recommend monolithic .dwp format instead</b>.
+</ul>
+<p>There are several ways to create DirectWave patches using FL Studio for the Desktop:
+<ol>
+<li><b><a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/DirectWave.htm#DirectWave_ChannelSampler" target="_blank">Channel Sampling Robot</a></b> - Available in <b>FL Studio 12.5</b> and later. This will create monolithic DirectWave patches from any plugin in the <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/channelrack.htm">Channel Rack</a>. Right-Click a Channel Rack button and select '<b>Create DirectWave instrument</b>'. Make sure '<b>Monolithic file</b>' is selected on the options.
+<p class="justImages">
+<img src="https://support.image-line.com/redirect/channelsamplingrobotimage" width="500">
+<li><b><a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/DirectWave.htm" target="_blank">FL Studio DirectWave Sampler</a></b> - If you own DirectWave for PC, you can export monolithic <b>.dwp</b> files by selecting the 'Disk operations menu' (folder icon at the top-left of the GUI) and choosing '<b>Save for FL Studio Mobile</b>'. This will create a monolithic .dwp file based on the current patch.
+<p class="justImages">
+<img src="../img_plug/flmobile_rack_directwave_export.png" width="500">
+<li><b><a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/FPC.htm" target="_blank">FPC (Fruity Pad Controller)</a></b> - From the menu indicated below, you can export monolithic <b>.dwp</b> files by selecting the '<b>Save for FL Studio Mobile</b>' option.
+<p class="justImages">
+<img src="../img_plug/flmobile_rack_fpc_export.png" width="500">
+</ul>
+</ol>
+<h4>Transferring .dwp and .instr files to FL Studio Mobile</h4>
+<p>Normally you want to transfer <b>.dwp</b> and <b>.instr</b> files for DirectWave into the <b>My Instruments</b> folder. To transfer the preset/s into FL Studio Mobile there are several methods:
+<ol>
+<li><b>FL Studio for the Desktop</b> - Put the files you have created into the <b>FL Studio Mobile plugin</b> installation folder <b>C:\Program Files (x86)\Image-Line\FL Studio [version number]\Plugins\Fruity\Generators\FL Studio Mobile\LocalData</b> then use the <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">Share function</a> to send to your mobile device.
+<p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/5dYBwoQeFuk" frameborder="0" allowfullscreen></iframe>
+<li><b>System transfer</b> - Open the .dwp or .instr preset within a mobile App that shows that file type (such as email). It will be copied to FL Studio Mobile.
+<p class="justImages">
+<img src="../img_plug/flmobile_copyfromemail.png" width="700">
+<li><b>Manual transfer</b> - Copy the <b>.dwp</b>/<b>.instr</b> files to <a href="FL%20Studio%20Mobile_HomePanel.htm#userdata">Your Data/My Instruments</a></b>. If you are using an iOS device, put the file/s in the root <a href="FL%20Studio%20Mobile_HomePanel.htm#userdata_ios">User Data folder via iTunes</a>. <b>OR</b> Open the <b>.dwp/.instr</b> files in any browser, email etc. on your device. FL Studio will be shown as an open option. Doing this will import them into <a href="FL%20Studio%20Mobile_HomePanel.htm#userdata">Your Data/My Instruments</a></b> (use monolithic .dwp).
+</ol>
+<p><a id="free_content"></a>
+<h3>But wait! There's more...</h3>
+<p><b>FREE STUFF!</b> - There is a thread on the FL Studio Mobile users forum, <a class="extLink" href="http://support.image-line.com/redirect/FLM_user_library" target="_blank">linked here</a>, where users are sharing their <b>.dwp</b> and <b>.instr</b> patches.
+<hr>
+</td></tr></table></body>
+</html>
