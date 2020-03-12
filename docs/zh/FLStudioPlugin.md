@@ -19,14 +19,14 @@
     
 3.  打开 FL Studio Mobile 插件，然后正常在 FL Studio Mobile（插件）中加载项目。
 4.  FL Studio Mobile 插件将自动同步到 FL Studio 中的播放列表。速度也从遵从 FL Studio 的宿主速度。
-5.  添加一个至少等于您的 FL Studio Mobile 项目长度的空样式，然后在FL Studio（桌面版）中按 Play（播放）。
+5.  添加一个至少等于您的 FL Studio Mobile 项目长度的空样式，然后在 FL Studio（桌面版）中按 Play（播放）。
 6.  从这一点开始，您可以添加其他插件，并将 FL Studio 与提供项目核心的 FL Studio Mobile 一起使用。
-7.  如果需要，您可以将 FL Studio Mobile 中的每个轨道路由到FL Studio中自己的混音器轨道。请参阅 [FL Studio 插件路由][4]。
-8.  （可选）您可以使用 FL Studio Mobile 的每轨道 [Save as MIDI（另存为 MIDI）][5]，或使用完整的项目 [Save to MIDI（保存到 MIDI）][6] 功能将MIDI数据导出到 FL Studio Mobile 并将其加载到 FL Studio中。
+7.  如果需要，您可以将 FL Studio Mobile 中的每个轨道路由到 FL Studio 中自己的混音器轨道。请参阅 [FL Studio 插件路由][4]。
+8.  （可选）您可以使用 FL Studio Mobile 的每轨道 [Save as MIDI（另存为 MIDI）][5]，或使用完整的项目 [Save to MIDI（保存到 MIDI）][6] 功能将 MIDI 数据导出到 FL Studio Mobile 并将其加载到 FL Studio 中。
 
 #### 使用哲学
 
-将 FL Studio Mobile 项目视为轨道的核心。在台式计算机和移动设备之间 [共享][3] `.flm` 项目，以添加和开发该项目。当使用台式机版本时，您可以利用更大的CPU来利用专业人士使用的最高质量的乐器和效果插件来增强它。另外，您可以进行比移动设备更复杂的项目。将项目移回时，您可以使音轨静音以使 CPU 使用受到控制。
+将 FL Studio Mobile 项目视为轨道的核心。在台式计算机和移动设备之间 [共享][3] `.flm` 项目，以添加和开发该项目。当使用台式机版本时，您可以利用更大的 CPU 来利用专业人士使用的最高质量的乐器和效果插件来增强它。另外，您可以进行比移动设备更复杂的项目。将项目移回时，您可以使音轨静音以使 CPU 使用受到控制。
 
 [1]: https://www.image-line.com/flstudio/
 [2]: https://support.image-line.com/redirect/flmobile_flplugin
