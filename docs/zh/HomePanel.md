@@ -2,7 +2,7 @@
 
 主页面板包含 SONGS、SETTING、SHOP 和 SHARE 这几个选项组。
 
-![主页面板](../assets/home/home_panel.png)
+![主页面板](../assets/home/home_panel_zh.png)
 
 <a id="paramaters"></a>
 
@@ -34,7 +34,7 @@
 
 *   **New**——打开新工程模板
     
-    ![新建歌曲](../assets/home/new_song.png)
+    ![新建歌曲](../assets/home/new_song_zh.png)
     
     **开始一个新的项目……**
     
@@ -54,7 +54,7 @@
 *   **Save**——保存当前工程。  
     **注意：** 点击 **SEND** 可让您通过电子邮件和文件共享应用程序发送内容。选项包括：
     
-    ![保存歌曲](../assets/home/save_song.png)
+    ![保存歌曲](../assets/home/save_song_zh.png)
     
     **正在保存或发送文件……**
     
@@ -65,7 +65,7 @@
         **注意：** 这与 [SHARE][5] 选项卡不同，后者允许您在 FL Studio Mobile 安装之间直接共享文件。
     5.  **SAVE（保存）**——这将保存到默认的 FL Studio Mobile 用户数据文件夹。保存音频格式时，你将看到以下选项：
         
-        ![保存歌曲选项](../assets/home/save_song_options.png)
+        ![保存歌曲选项](../assets/home/save_song_options_zh.png)
         
         *   **Normalize level（标准化级别）**——最大化音量，使最大的峰值达到 100％ 的音量。
         *   **Trim initial silence（去除初始静音）**——从渲染开始时消除静音。
@@ -173,7 +173,7 @@
 **Share**——您可以在运行 FL Studio mobile 的移动设备之间共享项目相关文件。当您的设备 [连接到同一网络（包括 WiFi）][15] 时，选择目标设备接收「你的文件」，即「FLM User Files」文件夹中的所有内容。通过此页面，您可以通过网络上在所有检测到的 Android、iOS 和 Windows（应用程序 和 FL 插件）设备上的 FL Studio Mobile 之间同步项目。  
 **注意：** 第一次使用计算机执行此操作时，可能会看到 **防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。**分享方式：**
 
-![共享](../assets/home/share.png)
+![共享](../assets/home/share_zh.png)
 
 https://www.bilibili.com/video/av29552167?p=3
 
@@ -274,7 +274,7 @@ Android 允许直接访问内部文件夹，主要有两个选项：
     
     当 FL Studio Mobile 启动时，文件将被移动到应用程序中的相应文件夹。此方法有效，一次仅一个文件。
     
-    ![从电子邮件复制完成](../assets/home/copy_from_email_done.png)
+    ![从电子邮件复制完成](../assets/home/copy_from_email_done_zh.png)
     
 2.  **iTunes 导入/导出**——使用 iTunes 将 iOS 设备连接到计算机。同步并选择 FL Studio Mobile 3 后，您将可以访问 **FLM User Files** 文件夹。您可以通过 iTunes 将这些文件夹完整地从 FL Studio Mobile 复制到您的计算机（您必须选择文件和/或文件夹，然后使用 iTunes 中的「**保存到…**」）。这将使您可以将文件和文件夹发送到计算机上。您无法在 iTunes 中查看这些文件夹。
     
@@ -304,7 +304,7 @@ Android 允许直接访问内部文件夹，主要有两个选项：
     
 2.  **从应用程序内加载**——无法从 FL Studio Mobile 浏览应用程序外部文件夹中的音频文件。若要加载应用程序外部的音频文件，请打开常规的 Windows 文件浏览器，然后右键单击目标文件并选择 **打开方式 > FL Studio Mobile**。这会将文件导入到应用程序。
     
-    ![从应用程序内加载](../assets/home/load_from_within_app.png)
+    ![从应用程序内加载](../assets/home/load_from_within_app_zh.png)
     
 
 <a id="userdata_windowsphone"></a>

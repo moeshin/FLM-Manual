@@ -2,9 +2,9 @@
 
 每个播放列表音轨都有自己的「通道机架」。它包含该播放列表轨道的乐器和效果插件。机架模块堆叠在一起，您可以同时使用 [乐器][1] 和 [效果模块][2]。
 
-![打开机架](../assets/rack/open.png)
+![打开机架](../assets/rack/open_zh.png)
 
-![机架](../assets/rack/rack.png)
+![机架](../assets/rack/rack_zh.png)
 
 <a id="channelrack"></a>
 
@@ -23,7 +23,7 @@
 
 插件的右上方有两个菜单项，如下所示。**左侧菜单** 允许您打开预设。**右侧菜单** 允许您重新排序、复制和删除插件模块。
 
-![DirectWave](../assets/rack/directwave.png)
+![DirectWave](../assets/rack/directwave_zh.png)
 
 要从一个机架 **复制并粘贴一个机架** 到另一个机架，请打开模块菜单，点击「复制」，然后选择新的机架，使用底部的 (+) 按钮并使用「粘贴」。
 
@@ -76,7 +76,7 @@
 
 默认情况下，所有通道机架都被路由到 **主调音台 FX 轨道**。使用通道架底部的「OUTPUT（输出）」控件将音频从所选通道发送到项目中的任何 FX 通道。您还可以创建新的 FX 通道。FX 通道 **专为处理音频而设计**，因此只有 FX 模块可以被通过 (+) 按钮添加到这些通道架中。使用 FX 通道创建子混音，以便对效果器进行分组处理。
 
-![播放列表 FX 轨道](../assets/rack/playlist_fx_track.png)
+![播放列表 FX 轨道](../assets/rack/playlist_fx_track_zh.png)
 
 点击 **添加模块** 按钮 (+)，来访问：
 

@@ -2,7 +2,7 @@
 
 **FL Studio Mobile 3** 是一个完整的音乐制作环境，适用于 Android，iOS 和 Windows 平台上的 App 以及作为 [FL Studio][1] 的插件使用。这样，您可以随时随地处理你的移动项目，然后继续在 FL Studio 中进行操作，将它们带入新的高度。
 
-![主界面](../assets/images/main_ui.png)
+![主界面](../assets/images/main_ui_zh.png)
 
 https://www.bilibili.com/video/av29552167?p=37
 

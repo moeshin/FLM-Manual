@@ -2,7 +2,7 @@
 
 DirectWave 是一个采样播放器，可用于 **钢琴**、**管弦乐队**、**吉他** 等传统声音。包含许多采样库您可以从 [应用内商店][1] 购买更多样本库或创建自己的样本库(见下文)。在 FL Studio Mobile 用户论坛上也有一个帖子（[链接在这里][2]），那里有很多可用的。
 
-![DirectWave](../assets/instruments/directwave/directwave.png)
+![DirectWave](../assets/instruments/directwave/directwave_zh.png)
 
 **加载乐器**——点击界面右上角的预设选择器（在上图中显示「Default」），然后从屏幕左侧的弹出浏览器中选择预设。请参阅以下有关添加您自己的自定义采样的「说明」。
 
