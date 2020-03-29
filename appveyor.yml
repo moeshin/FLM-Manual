@@ -1,0 +1,20 @@
+version: '0.0.1-alpha+{build}'
+
+pull_requests:
+  do_not_increment_build_number: true
+
+image:
+  - Ubuntu1804
+
+install:
+  - npm --version
+  - npm install -g gitbook-cli > /dev/null
+  - gitbook --version
+  - gitbook install docs
+
+build_script:
+  - ./build.sh
+  - zip -r manual.zip public
+
+artifacts:
+  - path: "manual.zip"

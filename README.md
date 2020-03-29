@@ -1,5 +1,7 @@
 # FLM Manual
 
+[![构建状态](https://ci.appveyor.com/api/projects/status/07ol4k59v1iqo80n?svg=true)](https://ci.appveyor.com/project/moeshin/flm-manual)
+
 FLM 中英文手册，由 [GitBook](https://github.com/GitbookIO/gitbook-cli) 构建。
 
 参考 [FLM 官方在线手册](https://www.image-line.com/support/flstudio_mobile_online_manual/html/plugins/FL%20Studio%20Mobile.htm)。
