@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>FL Studio Mobile</title>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+</OBJECT>
+<link type="text/css" href="../flstudio.css" rel="stylesheet">
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var leftFrame = document.getElementById('leftFrame');
+    var rightCol = document.getElementById('rightcol'); 
+    if (window.self !== window.top || window.location.href.indexOf("FL.chm") !== -1) {
+      rightCol.removeAttribute('id');
+      leftFrame.setAttribute('style','display:none');
+    }
+    else if (window.location.href.indexOf("http") !== -1) {
+  	  leftFrame.setAttribute('src','../../Index_Frame_Left.html');
+    }     
+    else{
+  	  leftFrame.setAttribute('src','../../index_frame_left_offline.html');
+    }  	
+  } );
+</script>
+</head>
+<body>
+<table class="container">
+<tr>
+<td>
+<iframe src="" name="leftFrame" id="leftFrame" class="ifr_bh" scrolling="auto"></iframe>
+</td>
+<td id="rightcol">
+<p class="SubTopicOf">FL Studio Mobile</p>
+<h1>Minisynth</h1>
+<p>MiniSynth is a fully featured synthesizer with a low processor overhead and great sound. Load the presets or create your own sounds from scratch. There are 6 tabs covering the synthesizer controls.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_osc.png" width="450">
+<p><a id="videos"></a>
+<h3>Video Tutorial</h3>
+<p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/aBcv9Kw1Mww" frameborder="0" allowfullscreen></iframe>
+<p><a id="paramaters"></a>
+<h2>Parameters</h2>
+<p>Minisynth is fully compatible with the <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/MiniSynth.htm" target="_blank">FL Studio Plugin version</a>. You can share presets between the two. Download them from the <a class="extLink" href="http://forum.image-line.com/viewforum.php?f=1982" target="_blank">Minisynth Users Forum</a> and put them under <b>Your Data > <a href="FL%20Studio%20Mobile_HomePanel.htm#userdata">My Presets</a></b>. As the plugin controls are identical, the following tutorials are relevant to MiniSynth on FL Studio Mobile: <a class="extLink" href="http://support.image-line.com/redirect/MiniSynth_VideoTutorials" target="_blank">See here</a>.
+<p><a id="oscillator"></a>
+<h3>Oscillator</h3>
+<p>Oscillators are the sound source for the synth. MiniSynth has an advanced multi-mode oscillator that changes architecture depending on the waveform selection. Some waveform modes are
+dual-voice where two waveforms are mixed others can be up to 8 voice. A voice is a single, pitchable tone.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_osc.png" width="450">
+<ul>
+<li><b>Oscillator</b> - Controls for the waveform shape and pitch.
+<li><b>Waveform</b> - Choose the wave-shape. Depending on the selection there are some unique behavior of the voices.
+<ul>
+<li><b>Saw</b> - A Saw + Square wave of the same frequency and phase. <b>Modifier</b> controls pulse width of the Square wave, so in positions 0 or 100 pulse width becomes zero and a perfect Saw
+wave is produced.
+<li><b>Saw + Saw</b> - Pair of Saw waveforms. <b>Modifier</b> controls pitch of the second saw +/- 24 semitones.
+<li><b>Pulse</b> - Pair of Square waveforms. <b>Modifier</b> controls pulse width of the waveform so that at 0 or 100% there is complete phase cancellation.
+<li><b>Square + Saw</b> - Square and Saw wave. <b>Modifier</b> controls pitch of the saw +/- 24 semitones.
+<li><b>Square + Square</b> - Pair of Square waveforms. <b>Modifier</b> controls pitch of second square +/- 24 semitones.
+<li><b>SuperSaw</b> 8 Saw waves panned in the stereo field. <b>Modifier</b> detunes the 8 voices.
+<li><b>Bell</b> - Saw-like waveform. <b>Modifier</b> - adds in additional spectral frequencies.
+<li><b>DeafSaw</b> - Two Saws with same frequency. <b>Modifier</b> - Adjusts phase shift of the Saw waves relative to each other creating a 'comb filter' effect.
+<li><b>Spread Oct</b> - 2 Saw waves at 0 octave (root) and +1 octave intervals. <b>Modifier</b> detunes the second Saw.
+<li><b>Spread 5th</b> - 2 Saw waves at 5 semitones apart. <b>Modifier</b> detunes the second Saw.
+</ul>
+<li><b>Transpose</b> - Transpose the oscillator +/- 12 semitones.
+<li><b>Modifier</b> - Action depends on the selected waveform type, see above.
+<li><b>Noise</b> - Adds white noise (hiss) into the mix.
+<li><b>Voice Mode</b> - Polyphony (ability to play more than one note) and voice transitions.
+<ul>
+<li><b>Poly</b> - Polyphonic, play up to 8 notes.
+<li><b>Mono</b> - A monophonic mode (one note playback), slides always sound on note changes and envelopes reset.
+<li><b>Lead</b> - A monophonic mode where auto-portamento is enabled (when notes overlap) and the envelopes are not retrigged. This allows you to play normal lead melodies without the
+slide (portamento) effect and then add it where you want by holding the previous note before playing the next.
+</ul>
+<li><b>Mod Wheel</b> - Select Modulation targets. <b>NOTE:</b> Mod Wheel is only available when a MOD Wheel MIDI controller is connected.
+<ul>
+<li><b>Filter</b> - Modulation will affect the filter cutoff.
+<li><b>LFO</b> - Modulation will affect the LFO speed.
+<li><b>Amount</b> - Multiplier for the Mod wheel effect.
+</ul>
+</ul>
+<p><a id="filter"></a>
+<h3>Filter</h3>
+<p>MiniSynth uses a single Low Pass filter with cutoff and resonance controls. Low Pass filters allow frequencies below the cutoff frequency to pass. When set to the highest frequency this means
+all frequencies can be heard. When set low, only the lower frequencies will be heard.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_filter.png" width="450">
+<ul>
+<li><b>X/Y Control</b> - <b>Horizontal</b> - Filter cutoff frequency (the filter is of the low pass type), <b>Vertical</b> - Resonance. This causes a peak at the cutoff frequency that is most
+noticeable when the cutoff frequency is changed.
+<li><b>Keyboard</b> - Filter Cutoff frequency can be set to increase (turn right) or decrease (turn left) with keyboard position. This is useful to open or close the filter as you progress
+up the keyboard, so higher keys are brighter sounding for example.
+<li><b>Velocity</b> - The filter be set to increase (turn right) or decrease (turn left) with keyboard velocity. This is useful to open or close the filter as you play louder notes, so keys
+played hard (high velocity) are brighter sounding for example (keyboard velocity is simulated by vertical play position).
+</ul>
+<p><a id="filter_envelope"></a>
+<h3>Filter Envelope</h3>
+<p>The (ADSR) envelope controls modulate with the Filter Cutoff frequency. <b>NOTE:</b> The <b>Amount</b> knob will determine if the ADSR controls increase or decrease the values of the filter cutoff.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_flteg.png" width="450">
+<p>To better understand ADSR controls it's useful to have in mind that for any note there are three basic timing events, 'note on', 'note hold time' and 'note off'.
+<ul>
+<li><b>Attack</b> - Time taken for the filter to reach the maximum level.
+<li><b>Decay</b> - Time taken to go from the maximum level to the Sustain level.
+<li><b>Sustain</b> - Level when the key is held.
+<li><b>Release</b> - Time taken to fall from the Sustain level to zero when the key is released.
+<li><b>Amount</b> - Amount of envelope to filter cutoff modulation. Turn right for positive modulation and left for negative modulation (-/+ 100%).
+</ul>
+<h4><b>ADSR Diagram</b></h4>
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_adsr.png" width="450">
+<p><a id="lfo_osc"></a>
+<h3>Low Frequency Oscillator (LFO)</h3>
+<p>LFO's are a modulation source that can be used to create interesting effects by slowly varying the values of other parameters.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_lfo.png" width="450">
+<ul>
+<li><b>LFO Amount</b> - Amount of LFO to destination modulation. Turn right for positive modulation and left for negative modulation (that is to invert the waveform, -/+ 100%).
+<li><b>LFO Rate</b> - Frequency of the LFO repeat period. These are tempo-synced.
+<li><b>LFO Shape</b> - Shape of the LFO waveform. Choose from:
+<ul>
+<li><b>Sine</b> that produces a smoothy varying shape.
+<li><b>Saw</b> which has a sharp attack and linear decay, like a 'Saws teeth'.
+<li><b>Square</b> that flips between two states.
+</ul>
+<li><b>LFO Destination</b> - Choose the modulation target of the LFO waveform:
+<ul>
+<li><b>Filter</b> - Filter cutoff frequency.
+<li><b>Frequency</b> - Oscillator pitch or tune.
+<li><b>Modifier</b> - Oscillator modifier.
+</ul>
+<li><b>MW</b> - Mod Wheel targets.
+<li><b>MW Destination</b> - Choose the target parameter for the Mod Wheel (MW).
+<ul>
+<li><b>Filter</b> - Filter frequency.
+<li><b>Frequency</b> - Oscillator pitch or tune.
+<li><b>Modifier</b> - Oscillator modifier.
+</ul>
+</ul>
+<p><a id="env_master"></a>
+<h3>Master Envelope</h3>
+<p>Oscillator Envelope controls. The ADSR envelope provides a volume envelope (volume changes) at key on, key held and key release. These controls are how you would make a note play on after
+you release the key or to soften the attack of a sound, for example.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_master.png" width="450">
+<p>To better understand ADSR controls it's useful to have in mind that for any note there are three basic timing events, 'note on' event, 'note hold time' and 'note off' event.
+<ul>
+<li><b>Attack</b> - Time taken for the filter to reach the maximum level.
+<li><b>Decay</b> - Time taken to go from the maximum level to the Sustain level.
+<li><b>Sustain</b> - Level when the key is held.
+<li><b>Release</b> - Time taken to fall from the Sustain level to zero when the key is released.
+<li><b>Voice Mode</b> - Polyphony (ability to play more than one note) and voice transitions.
+<ul>
+<li><b>Poly</b> - Polyphonic, play up to 8 notes.
+<li><b>Mono</b> - A monophonic mode (one note playback), slides always sound on note changes and envelopes reset.
+<li><b>Lead</b> - A monophonic mode where auto-portamento is enabled (when notes overlap) and the envelopes are not retrigged. This allows you to play normal lead melodies without the
+slide (portamento) effect and then add it where you want by holding the previous note before playing the next.
+</ul>
+<li><b>Slide</b> - Slide time between notes.
+</ul>
+<h4><b>ADSR Diagram</b></h4>
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_adsr.png" width="450">
+<p><a id="effects"></a>
+<h3>Effects</h3>
+<p>There are four effects tabs. These are separate from the main track FX.
+<p><a id="distortion"></a>
+<h4><b>Distortion</b></h4>
+<p>There are two distortion effects. <b>Overdrive</b> which simulates the distorted sound of guitar amplifiers, for example and <b>Decimator</b> for vocal formant style or digital bit-depth type sounds that can make MiniSynth sound like an old-style video game or broken CD player.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_fx.png" width="450">
+<ul>
+<li><b>Overdrive</b> - Guitar/Amplifier style distortion.
+<li><b>Decimator</b> - Digital style distortion.
+</ul>
+<a name="FX_Delay"></a>
+<h4><b>Delay</b></h4>
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_fx-delay.png" width="450">
+<p>Delay is an echo style effect and is particularly effective when played in sync with the main tempo of the track.
+<ul>
+<li><b>Feedback</b> - Number of echoes.
+<li><b>Filter</b> - Amount of high frequency filtering applied to each round of echoes.
+<li><b>Mix</b> - Echo volume.
+<li><b>Time</b> - Tempo synced delay time.
+</ul>
+<a name="FX_Chorus"></a>
+<h4><b>Chorus</b></h4>
+<p>Chorus creates a thicker/lusher sound by detuning multiple voices within the sound.
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_fx-chorus.png" width="450">
+<ul>
+<li><b>Rate</b> - LFO speed for the modulation of the chorus effect.
+<li><b>Mod</b> - Depth (detune) of the Chorus effect.
+<li><b>Mix</b> - Amount of chorusing heard.
+</ul>
+<a name="FX_Phaser"></a>
+<h4><b>Phaser</b></h4>
+<p>Phasing modulates the relative phase of the dual-voice oscillators. Oscillator voices are delayed by different amounts, causing a moving frequency cancellation effect that you will recognize even if you don't really understand how it works ;)
+<p class="justImages">
+<img src="../img_plug/flmobile_minisynth_fx-phaser.png" width="450">
+<ul>
+<li><b>Speed</b> - Tempo synced LFO style modulation speed of the phase effect.
+<li><b>Width</b> - Min/Max frequency range for the sweep effect.
+<li><b>Feedback</b> - Some of the phaser output can be fed back into the effect to create resonances, similar to resonance (Q) on a filter.
+<li><b>Frequency</b> - Center frequency around which the phase inversion occurs.
+<li><b>Mix</b> - Amount of phasing heard.
+</ul>
+<hr>
+</td></tr></table></body>
+</html>
