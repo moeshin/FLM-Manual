@@ -21,13 +21,18 @@ module.exports = {
                 }
                 if (src === a.html()) {
                     // 生成 bilibili 播放器
-                    const matches = src.match(/^https?:\/\/(?:www|m).bilibili.com\/video\/av(\d+).*(?:[?&]p=(\d+))(?:&|$)/);
+                    const matches = src.match(/^https?:\/\/(?:www|m).bilibili.com\/video\/(?:av(\d+)|(BV[a-z0-9]+))(?:[?&]p=(\d+))?(?:[?&]|$)/i);
                     if (!matches) {
                         throw new Error('Format Error：' + src);
                     }
-                    const av = matches[1];
-                    const page = matches[2] || 1;
-                    a.replaceWith(`<div class="bilibili"><iframe src="https://player.bilibili.com/player.html?aid=${av}&page=${page}" allowfullscreen></iframe></div>`);
+                    let video = matches[1];
+                    if (video) {
+                        video = `aid=${video}`;
+                    } else {
+                        video = `bvid=${matches[2]}`;
+                    }
+                    const page = matches[3] || 1;
+                    a.replaceWith(`<div class="bilibili"><iframe src="https://player.bilibili.com/player.html?${video}&page=${page}" allowfullscreen></iframe></div>`);
                     continue;
                 }
                 // 将相对路径下的 md 后缀改为 html
