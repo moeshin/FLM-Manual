@@ -82,15 +82,17 @@
 <li><b>SONGS Tab > Save</b> - From the SONGS tab select <b>Save</b>
 <li><b>Rename file</b> (optional) - If you want to rename the project tap here and enter a new name
 <li><b>Select format</b> - Choose the save format. FLM is a project file. MIDI is note data. WAV, FLAC, MP3 and AAC are audio formats.
-<li><b>SEND</b> (optional) - This is an alternative to saving to your device. Tap here to select email and any other external locations available through Applications that can share files on your device. <b>NOTE:</b> This is different to '<a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a>' TAB that allows you share files directly between FL Studio Mobile installations.
+<li><b>SEND</b> (optional) - This is an alternative to saving to your device. Tap here to select email and any other external locations available through Applications that can share files on your device. <b>NOTE:</b> This is different to '<a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">SHARE</a>' TAB that allows you share files directly between FL Studio Mobile installations.
 <li><b>SAVE</b> - This saves to the default FL Studio Mobile user data folders. When saving Audio formats you will see the following options:
 <p class="justImages">
-<img src="../img_plug/flmobile_home_saveoptions.png" width="400">
+<img src="../img_plug/flmobile_home_saveoptions.png" width="500">
 <ul>
 <li><b>Normalize level</b> - Maximize level so the loudest peaks reach 100% volume.
-<li><b>Trim initial silence</b> - Removes silence from the start of the render.
 <li><b>High quality</b> - Sets highest quality audio. Action depends on render format - WAV 32 Bit (HQ) / 16 Bit (Off). FLAC 24 Bit (HQ) / 16 Bit (Off), MP3 320 kbps (HQ) / 192 (Off). AAC 320 kbps (HQ) / 192 (off).
+<li><b>Trim initial silence</b> - Removes silence from the start of the render.
 <li><b>Render to last bar</b> - Rendering stops at the end of the last Bar. This can avoid long tails on audio files where effects may run-on.
+<li><b>Split mixer tracks</b> - Creates an audio files corresponding to each Playlist track in isolation of the others. These files are often referred to as '<b>Stems</b>' and you can use them in other DAWs such as FL Studio, to share projects with friends who may not own the same content or plugins as you OR load stems back into the original project and mute the original to save CPU. <b>Save location</b> - Files are saved under <b>My Files > My Tracks > [Project Name] - WAV / FLAC or MP3</b> depending on the format used.
+<li><b>Enable master effects</b> - Split tracks (Stems) will be rendered with the Master Rack effects. When using Stems in another DAW, normally this option is deselected, as this offers more flexibility for subsequent mixing. Select this option if you will reuse stems in FL Studio Mobile, to lower CPU usage. Effects on individual Playlist Tracks are always included. You will need to manually mute effects on each Rack prior to rendering if you don't want these. <b>NOTE:</b> As it's impossible anticipate all use cases, and all types of effects present on the Master Mixer Rack, none of the suggestions above are 'rules'. You will need to think through the logic of how you want to use Stems and whether or not you want Master effects present on each one.
 </ul>
 </ol>
 <li><b>File Name</b> - Tap to edit the file name.
@@ -103,8 +105,8 @@
 <li><b>MP3 (audio)</b> - Lesser quality, smaller file size. Files are 192 or 320 kbps (HQ) (<b>.mp3</b> extension when viewed in a file browser).
 <li><b>AAC (audio)</b> - Lesser quality, smaller file size. Files are 192 or 320 kbps (HQ) (<b>.aac</b> extension when viewed in a file browser).
 </ul>
-<p><b>TIP:</b> Use <b>WAV</b> for reuse in FL Studio Mobile and <a href="FL%20Studio%20Mobile_FLStudioPlugin.htm">other DAW software</a>. Use <b>MP3</b> for music distribution and listening.
-<li><b>SEND</b> - The destinations shown will depend on your device and operating system (they will be shown AFTER you set '<b>SEND</b>' and THEN tap SAVE). Examples include: <b>email</b>, <b>online cloud storage</b> and <b>internal folders</b>.
+<p><b>TIP:</b> Use <b>WAV</b> for reuse in FL Studio Mobile and <a href="FL Studio Mobile_FLStudioPlugin.htm">other DAW software</a>. Use <b>MP3</b> for music distribution and listening.
+<li><b>SEND</b> - The destinations shown will depend on your device and operating system (they will be shown AFTER you set '<b>SEND</b>' and THEN tap SAVE). Examples include: <b>email</b>, <b>online Cloud storage</b> and <b>internal folders</b>.
 </ul>
 <p><b>NOTE:</b> For <font color="red"><b>advanced file sharing</b></font> see the section - <a href="#userdata">Your Files! (Where are Project, WAV, MP3, MIDI files located?)</a>
 <p><a id="settings"></a>
@@ -142,6 +144,7 @@
 <li><b>Enable background audio</b> (iOS) - Allows the App to play when minimized.
 <li><b>Sound mode</b> (Android) - This is an audio-engine option to reduce audio glitches and or crackling:
 <ul>
+
 <li><b>Fast</b> - Lowest latency for devices that can handle this setting. Latency is the delay between tapping on the keyboard and hearing sound.
 <li><b>Safe</b> - Can reduce audio glitching at the expense of increased latency.
 <li><b>Ultrasafe</b> - Longest latency, but has the widest compatibility with devices.
@@ -155,18 +158,74 @@
 <p><b>Shop</b> - You can download free content and or purchase additional content from this tab.
 <ul>
 <li><b>To purchase content</b> - Tap the <b>Buy</b> button and complete the transaction through the App store.
-<li><b>Restore purchases</b> - If you have already purchased content and then later re-installed FL Studio Mobile on a new device (or after deleting and installing it on the same device), the <b>SHOP</b> tab will show a <b>RESTORE</b> button. Tapping this should restore your purchase. Providing you are logged into the same App Store Account used to purchase the Application. For products provided by Image-Line, if you have registered your device with your <a class="extLink" href="https://support.image-line.com/member/profile.php" target="_blank">Image-Line Account</a>, when you re/install FL Studio Mobile on a device, tap the '<b>Users & support forum</b>' button, THEN re/registered your device to your Image-Line Account, this <b>content will be unlocked</b>.
+<li><b>Restore purchases</b> - Provided you are logged into your device using the <b>same account</b> as you used to purchase FL Studio Mobile, and you later re-installed FL Studio Mobile on a new device (or after deleting and installing it on the same device), the <b>SHOP</b> tab will show a <b>RESTORE</b> button. Tapping this should restore your purchase. For products provided by Image-Line, if you have registered your device with your <a class="extLink" href="https://support.image-line.com/member/profile.php" target="_blank">Image-Line Account</a>, when you re/install FL Studio Mobile on a device, tap the '<b>Users & support forum</b>' button, THEN re/registered your device to your Image-Line Account, this <b>content will be unlocked</b>.
 </ul>
 <p><b>NOTE:</b> In-app purchases, like FL Studio Mobile itself, are not transferable between operating systems (Android, iOS and Windows). For more details on why this is so, see <a class="extLink" href="https://support.image-line.com/knowledgebase/base.php?ans=497" target="_blank">this Knowledge Base article</a>.
 <p><a id="sharingdata"></a>
-<h3>SHARE / SYNC Files Between FL Studio Mobile Installations</h3>
+<p><a id="files"></a>
+<h3>FILES (Backup or Share Files Between FL Studio Mobile Installations)</h3>
+<p>This tab allows you to:
+<ol>
+<li><b>Backup</b> your files to an internet file drive service (Google Drive, OneDrive, Dropbox etc). <b>NOTE:</b> Backup will consume space on your Cloud Drive.
+<li><b>Share files</b> between devices logged into the same account using an internet file drive service.
+<li><b>Share files directly</b> between any devices running FL Studio Mobile, connected to the same network, using WiFi.
+</ol>
+<p><a id="cloudbackup"></a>
+<h4>Cloud Backup / Share</h4>
+<p>By logging into one of the supported 'Cloud' file sharing services supported (<b>Google Drive</b> & <b>OneDrive</b>), backup and sync your files online. This will also allow you to share files between devices running FL Studio Mobile and connected to the same account.
+<ol>
+<li><b>Sign in</b> - Tap the <b>Sign In</b> button and choose a Cloud service to login to. Sign in to the account with your normal login details. <b>NOTE:</b> Not all Cloud services are available on all operating systems. Cloud backup is not yet available on Windows UWP.
+<p class="justImages"><img src="../img_plug/flmobile_home_sharecloud.png" width="700">
+<li><b>Sync</b> - After logging in, the <b>Sync</b> will appear and allows you to upload your files to the Cloud drive. If there are already files online from a previous backup, or from another device, these will be downloaded. <b>NOTE:</b> When the files are in sync, or the Cloud Drive is waiting to be scanned, you will see '<b>Cloud sync is active</b>' instead of the <b>Sync</b> /<b> Advanced</b> buttons.
+<p class="justImages"><img src="../img_plug/flmobile_home_sharecloud2.png" width="700">
+<p>Sync applies default actions based on the following rules, where the '<b>Cloud</b>' is your internet file drive:
+<ul>
+<li><b>Upload</b> - The file is missing on the Cloud Drive <b>OR</b> the file was changed locally on your device. <b>Action:</b> Upload to Cloud as it is newer on your device.
+<li><b>Download</b> - The file is missing locally on your device <b>OR</b> the file was changed on the Cloud Drive. <b>Action:</b> Download from the Cloud as it is newer there.
+<li><b>Decide</b> - The file was changed on your device <b>and</b> on the Cloud Drive, so it is not clear which version you want to keep. This can happen if you edit the same project on two devices. In this case you have several options:
+<ul>
+<li><b>Do nothing</b> - Ignore this file until the next Sync.
+<li><b>Delete from cloud</b> - When uploading, delete the file on the Cloud drive and replace with the file on the device.
+<li><b>Delete from device</b> - When downloading, delete the file on the device and replace with the file on the Cloud Drive.
+<li><b>Keep both</b> - Renames the filename_1 to keep copies of both.
+</ul>
+</ul>
+<li><b>Advanced</b> - Use the Advanced option to make more detailed changes:
+<p class="justImages"><img src="../img_plug/flmobile_home_sharecloudadvanced.png" width="800">
+<ul>
+<li><b>Action</b> - Shows the default Sync actions, discussed above. You can <b>tap to change</b> actions for individual files. To apply the actions shown on the Advanced dialog, press the Sync button at the bottom of the list. Once the window is closed, the system will revert to defaults as described above for the next Sync.
+<li><b>File</b> - Each file to be processed is listed. You can make bulk changes by tapping the <b>Select</b> button and then using the select icons and using the new controls that appear (Upload, Download, Keep Both, Do nothing). Keep Both is useful when there is a <b>Decide</b> conflict. That is, there is a file in the cloud and on the device, both of which, are changed.
+<li><b>Select</b> - Changes the lower button from <b>Sync</b>, to the options shown below. Tap Select, then use the individual file 'Select' icons, to choose the files you want to change and finally choose one of the Select options along the bottom:
+<ul>
+<li><b>Download</b> - Replace the file on the device with the one in the cloud.
+<li><b>Upload</b> - Replace the file in the Cloud with the one on the device.
+<li><b>Keep both</b> - Create an name_1 version of the file and keep name and name_1.
+<li><b>Do nothing</b> - Ignore this file until the next Sync.
+</ul>
+<p><b>NOTE:</b> To delete files from the Cloud you need to delete the same file on all devices. Otherwise, it will be uploaded to the cloud again on the next Sync from a device containing it.
+</ol>
+<p><a id="cloudservices"></a>
+<h4>Cloud Drive Notes</h4>
+<p><b>Supported Cloud Services</b> - Not all services are available on all Operating Systems. While it is possible to view the <b>FL Studio Mobile</b> Cloud folder on all Cloud Drive services, from a Web-browser, not all drives allow you to edit or add to the data in the Cloud. See below for the specific limitations and features of each Cloud Drive service:
+<ul>
+<li><b>Deleting files</b> - When Cloud Sync is in use, you must delete them from <b>all</b> devices. Otherwise the file/s will be re-uploaded to the Cloud Drive when a synced device contacts the Cloud Drive. FL Studio Mobile will <b>only delete files from the Cloud Drive</b>, not from <b>cross-synced devices</b>, to minimize the risk of deleting important user files.
+<li><b>Update frequency</b> - When Sync is set to <b>Manual</b> the Cloud Drive is checked when the FILE tab is opened and then at 30 second intervals, so be patient if the Sync button does not immediately appear. When set to <b>Automatic</b> the Cloud Drive is checked every 2 minutes for updates. The Cloud Drive is also checked upon opening the FILES tab. When you see <b>Cloud sync is active</b>, this means all files are in sync <b>or</b> the device has not accessed the Cloud Drive yet, and does not know about pending changes.
+<li><b>Target folders</b> - FL Studio Mobile will only share data with the following locations: My Drumsets, My Instruments, My MIDI, My Presets, My Recordings, My Samples, My Tracks and My Songs. You can't rename these folders on your Cloud Drive, they must remain as set.
+<li><b><a class="extLink" href="https://drive.google.com/drive" target="_blank">Google Drive</a></b> (Google) - FL Studio Mobile has <b>limited permissions</b> to access your drive. It will create a folder called <b>FL Studio Mobile</b> in the root of your drive. It can only access files that were uploaded by itself and won't be able to 'see' any files that you add directly to your Google Drive folder via a Web-browser or any other application, other than FL Studio Mobile.
+<p><b>NOTE:</b> Google Drive <b>does not allow</b> you to manually add files to the FL Studio Mobile folders, as a way of adding content to your device, it will only see files it has put on your drive. <b>You can</b>, however, delete files manually on the cloud drive and this will be reflected on your device in the next sync.
+<li><b><a class="extLink" href="https://onedrive.live.com/" target="_blank">OneDrive</a></b> (Microsoft) - FL Studio Mobile has <b>limited permissions</b> to access your drive. It will create a folder called <b>FL Studio Mobile</b> in the Apps folder of your Cloud Drive and it can only access this folder. Once the parent folder is created, you can rename it, move it OR <b>add your own files in the sub-folders, listed above</b>. In this way you can quickly add files to your connected FL Studio Mobile installations via any Web Browser. The only limitation is that FL Studio Mobile can't see files in the <b>Trash folder</b>. Once you delete files in the cloud, FL Studio Mobile will consider them missing and try to re upload them from your device. So you will need to delete files on your device to delete them on OneDrive.
+<p><b>NOTE:</b> OneDrive allows you to manually add files via a Web Browser to the FL Studio Mobile folders, as a way of adding content to your device.
+</ul>
+<p><b>NOTE:</b> Cloud Drive features are controlled by their respective developers. We can't add features that are not supported by the services, or change how they function. As security is a high priority on these services, FL Studio Mobile can't access any parts of your drive it did not create.
+<p><a id="directshare"></a>
+<h4>Direct Share</h4>
 <p><b>Share</b> - You can share project related files between your mobile devices running FL Studio Mobile. When your devices are <a href="FL%20Studio%20Mobile_WiFi.htm">connected to the same network (including WiFi)</a> choose a target device receive '<b>Your Files</b>', that is everything in the <b>FLM User Files</b> folder. This page allows you to sync projects across a network and between FL Studio Mobile installation on ALL detected Android, iOS and Windows (App and FL Plugin) devices. <b>NOTE:</b> The first time you do this with a computer, you may see a <b>Firewall pop-up security message</b>. Allow FL Studio Mobile access to your Network. <b>How to Share:</b>
 <p class="justImages">
 <img src="../img_plug/flmobile_home_share.png" width="700">
 <p class="justImages"><iframe width="700" height="392" src="https://www.youtube.com/embed/5dYBwoQeFuk" frameborder="0" allowfullscreen></iframe>
 <ol>
 <li>Make sure you are using the latest version of FL Studio Mobile on your device AND have the latest FL Studio plugin update - <a class="extLink" href="http://support.image-line.com/redirect/flmobile_flplugin" target="_blank">get it here</a>.
-<li>Connect your PC and or any Mobile devices to the same network. Normally this will be via <b>Wi-Fi</b>, but it's OK if you have a combination of Wi-Fi and <b>Ethernet</b> connections. The important factor is <b>all devices are connected to the same Network</b>.
+<li>Connect your PC and or any Mobile devices to the same network. Normally this will be via <b>WiFi</b>, but it's OK if you have a combination of WiFi and <b>Ethernet</b> connections. The important factor is <b>all devices are connected to the same Network</b>.
 <li>Open FL Studio Mobile on the PC and on the Mobile device.
 <li>From the PC and Mobile device/s select the <b>Share</b> tab. <b>NOTE:</b> On the PC, the first time you do this, you will see a <b>Firewall pop-up security message</b>. Allow FL Studio Mobile access to your Network.
 <li>On the <b>Share</b> tab, you should see all other instances of FL Studio Mobile, on all devices listed. Sharing goes <b>FROM</b> the device you are using <b>TO</b> the one you select.
@@ -206,11 +265,11 @@
 <ul>
 <li><b>My Drum templates</b> - Drum templates are collection of sounds that make up a drumkit. This is not drum-sample data, it's preset data that loads the samples into a Drumkit.
 <li><b>My Instruments</b> - Place <b><a href="FL%20Studio%20Mobile_Module_DirectWave.htm">DirectWave</a> Program (.dwp)</b> instrument files, including the sample sub-folder and the legacy-format FLM2 (<b>.instr</b>) format here. You can export .dwp and .instr directly from the <a class="extLink" href="http://www.image-line.com/flstudio/" target="_blank">FL Studio (PC version)</a> > <a class="extLink" href="https://www.image-line.com/support/flstudio_online_manual/html/plugins/DirectWave.htm" target="_blank">DirectWave</a> (plugin) > <a class="extLink" href="https://www.image-line.com/support/FLHelp/html/plugins/Directwave_zonewindow.htm" target="_parent">PROGRAM > Right-click the Program label</a> and select '<b>Save program</b>'.
-<li><b>My MIDI</b> - Contains all MIDI format files <b>(.mid)</b>. These will show at the main <a href="FL Studio Mobile_HomePanel.htm#songs">SONGS Menu</a> and on the <a href="FL%20Studio%20Mobile_Playlist.htm#channel_menu">Channel Menu</a> ('Import MIDI Tracks' and 'Save as MIDI').
-<li><b>My Presets</b> - This folder contains all plugin presets (Instruments and Effects). There are no subfolders as presets contain meta-data inside the presets so FL Studio Mobile will only show compatible presets in the plugin you open to load them. Example files are MiniSynth (<b>.flms</b>) and all other presets including GMS, Transistor Bass and FX Modules (<b>.flmpst</b>).
+<li><b>My MIDI</b> - Contains all MIDI format files <b>(.mid)</b>. These will show at the main <a href="FL%20Studio%20Mobile_HomePanel.htm#songs">SONGS Menu</a> and on the <a href="FL%20Studio%20Mobile_Playlist.htm#channel_menu">Channel Menu</a> ('Import MIDI Tracks' and 'Save as MIDI').
+<li><b>My Presets</b> - This folder contains all plugin presets (Instruments and Effects). There are no sub folders as presets contain meta-data inside the presets so FL Studio Mobile will only show compatible presets in the plugin you open to load them. Example files are MiniSynth (<b>.flms</b>) and all other presets including GMS, Transistor Bass and FX Modules (<b>.flmpst</b>).
 <li><b>My Recordings</b> - Audio recordings made from within FL Studio Mobile. WAV (uncompressed format, 16, 24 or 32 Bit). See <b>NOTE</b>.
 <li><b>My Samples</b> - One-shots, samples, sounds anything you want to include in WAV (uncompressed 16, 24 or 32 Bit format) or MP3. See <b>NOTE</b>.
-<li><b>My Songs</b> - Project files. These show at the top of the list on the <b>Home Page > Songs </b>tab.
+<li><b>My Samples</b> - One-shots, samples, sounds anything you want to include in WAV (uncompressed 16, 24 or 32 Bit format) or MP3. See <b>NOTE</b>.
 <li><b>My Tracks</b> - These audio files that are created when you render projects. Make sure to render to <b>Lossless</b> (WAV) or MP3 format if you want to re-use a track in FL Studio Mobile (create a new Playlist track of type 'Wave' to load). <b>Compressed </b>(AAC format) files will not show for use in FL Studio Mobile. These will play in your Media Player however.
 <p><b>Save CPU:</b> you can convert any Playlist Track to audio by Soloing it and rendering to Uncompressed (WAV) format from the <b>Home page > Songs > Render</b> button. Then load it back into the Playlist with the <b>+ button > Audio Wave</b> option (locate your render and load it).
 </ul>
@@ -223,7 +282,7 @@
 <h3>Accessing, Exporting & Importing Your Files (WAV, MP3, MID, FLM etc)</h3>
 <p>This section shows you how to get access to your data on each of the supported App platforms. This is so you can upload and download <b>custom samples</b>, <b>instruments</b>, <b>presets</b>, <b>music</b> and any other files as used above.
 <h4>All Operating Systems: Using SHARE</h4>
-<p>If you have access to a Desktop PC, by far, the easiest method is to use <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE with the FL Studio Plugin</a> TO and FROM the Mobile Device. In this case, add content to the FL Studio Mobile plugin folder on your PC, then SHARE to the mobile device. Or SHARE from the device to your PC. Alternatively, proceed as follows:
+<p>If you have access to a Desktop PC, by far, the easiest method is to use <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">SHARE with the FL Studio Plugin</a> TO and FROM the Mobile Device. In this case, add content to the FL Studio Mobile plugin folder on your PC, then SHARE to the mobile device. Or SHARE from the device to your PC. Alternatively, proceed as follows:
 <p><a id="userdata_android"></a>
 <h4>Android File Management</h4>
 <p>Android allows direct access to internal folders, there are two main options:
@@ -239,7 +298,7 @@
 <h4>Apple iOS File Management</h4>
 <p>There following methods are available:
 <ol>
-<li><b>System Import</b> - iOS will recognize most file-types associated with FL Studio Mobile (.flm, .mid, .flmpst, .flms, .wav, .mp3) in emails, cloud storage etc, and allow you to open them with FL Studio Mobile. <b>Long-tap on the attachment or file</b>, as show in your email or cloud storage App, then select <b>FL Studio Mobile</b> from the pop-up options to open the file.
+<li><b>System Import</b> - iOS will recognize most file-types associated with FL Studio Mobile (.flm, .mid, .flmpst, .flms, .wav, .mp3) in emails, Cloud storage etc, and allow you to open them with FL Studio Mobile. <b>Long-tap on the attachment or file</b>, as show in your email or Cloud storage App, then select <b>FL Studio Mobile</b> from the pop-up options to open the file.
 <p class="justImages">
 <img src="../img_plug/flmobile_copyfromemail.png" width="700">
 <p>When FL Studio Mobile starts, the file will be moved to the appropriate folder in the App. This method works, one file at a time.
@@ -275,15 +334,15 @@
 <li><b>To export data</b>- Two options ...
 <ul>
 <li>Use the '<b>Destination</b>' option to save your content to one of the folders visible when the phone is connected to a PC (or OneDrive).
-<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
+<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
 </ul>
 <li><b>To import data</b> - Two options ...
 <ul>
 <li>From the Playlist, tap the (+) button to add an <b>Audio Track</b>, then choose '<b>Import Sample</b>' and this will open a sample import dialog. After import the sample will be in <b>My Files > My Samples</b>.
-<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL Studio Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
+<li>Install the App on Windows for PC (you get both the Phone and Desktop App). <b>Follow the Windows App (Windows Desktop)</b> instructions above to use the <a href="FL%20Studio%20Mobile_HomePanel.htm#sharingdata">SHARE</a> function.
 </ul>
 </ol>
 <hr>
-<p><b>Credits: </b>Maxx Claster, Daniel Schaack
+<p><b>Credits: </b>Maxx Claster, Daniel Schaack, Maxim Zaev.
 </td></tr></table></body>
 </html>

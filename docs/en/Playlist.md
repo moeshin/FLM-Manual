@@ -12,8 +12,7 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
 
 <a id="channel_menu"></a>
 
-*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select.  
-    **NOTE:** The options visible will depend on the track type being used and the content on it.
+*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select. **NOTE:** The options visible will depend on the track type being used and the content on it.
     *   **Save Template** - This option is available for [Drum Channels][1] (Stepsequencer) and allows you to save the custom set of drums.
     *   **Channel Settings** - Change the **track name** by tapping on the name or slide the **color** selector to change the color of the track.
         
@@ -31,7 +30,6 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
     *   **Import Sample** - Load a sample from the file system available on your device.
     *   **Save as MIDI** - Saves the current Channel as a MIDI (.mid) file. See [My Files > My MIDI][3].
     *   **Sync All Samples** - Sets all Audio Clips to SYNC mode. This locks the sample to the project tempo, so pitch remains constant as BPM or length is changed.
-        
 *   **Track Mixer** - Short tap (Right-click) to open.
     
     <a id="playlist_clipcontrols"></a>
@@ -70,7 +68,6 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
     <a id="add_track"></a>
     
 *   **Add Track Button (+)** - Tap to open. Choose from:
-    
     *   **DirectWave** - Sample player. From the Channel Rack tap the [plugin menu][4] to open the sample / preset browser.
     *   **Minisynth** - Realtime synthesizer.
     *   **GMS** (Groove Machine Synth) - Realtime synthesizer (Additional purchase required).
@@ -104,7 +101,8 @@ When recording audio from a microphone, make sure to **wear headphones** so audi
     
 5.  Tap the 'Record' button and start recording.
 
-**NOTES:** On the [SETTINGS][9] tab, there are options including '**Audio Input**', '**Enable count-in when recording**', '**Metronome level**' and '**Use 32 Bit format when rendering and recording audio**' that may be useful to you. Additionally '**Sound mode: FAST**' may improve the recording experience on some systems.  
+**NOTES:** On the [SETTINGS][9] tab, there are options including '**Audio Input**', '**Enable count-in when recording**', '**Metronome level**' and '**Use 32 Bit format when rendering and recording audio**' that may be useful to you. Additionally '**Sound mode: FAST**' may improve the recording experience on some systems.
+
 For **Windows devices** you will need to set your **Settings > Sound > Input** to match any custom Audio Interface you are using, for it to be visible in FL Studio Mobile.
 
 #### iOS Inter App Audio (IAA) and Audiobus
