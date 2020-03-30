@@ -7,7 +7,7 @@
   - [App Settings](HomePanel.md#settings)
   - [Audio Settings](HomePanel.md#audio)
   - [In App Shop](HomePanel.md#shop)
-  - [Sharing Files](HomePanel.md#sharingdata)
+  - [Backup & Share](HomePanel.md#sharingdata)
   - [File Browser](HomePanel.md#manageuserfiles)
   - [Your Files](HomePanel.md#userdata)
   - [Networking](WiFi.md)
