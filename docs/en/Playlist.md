@@ -12,7 +12,8 @@ The FL Studio Mobile interface is designed for touch so uses tap-and-hold (right
 
 <a id="channel_menu"></a>
 
-*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select. **NOTE:** The options visible will depend on the track type being used and the content on it.
+*   **Channel Menu** - Long tap (Click) the Track Icon to open the menu and select.  
+    **NOTE:** The options visible will depend on the track type being used and the content on it.
     *   **Save Template** - This option is available for [Drum Channels][1] (Stepsequencer) and allows you to save the custom set of drums.
     *   **Channel Settings** - Change the **track name** by tapping on the name or slide the **color** selector to change the color of the track.
         
