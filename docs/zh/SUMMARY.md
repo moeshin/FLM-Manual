@@ -7,7 +7,7 @@
   - [应用设置](HomePanel.md#settings)
   - [音频设置](HomePanel.md#audio)
   - [应用内购](HomePanel.md#shop)
-  - [备份和分享](HomePanel.md#sharingdata)
+  - [分享文件](HomePanel.md#sharingdata)
   - [文件浏览器](HomePanel.md#manageuserfiles)
   - [你的文件](HomePanel.md#userdata)
   - [联网](WiFi.md)
