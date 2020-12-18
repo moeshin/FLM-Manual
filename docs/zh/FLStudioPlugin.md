@@ -1,10 +1,10 @@
 # FL Studio Mobile 插件
 
-**FL Studio Mobile** 可以作为 [**FL Studio（桌面版）**][1]的免费插件使用，因此你可以将移动设备上的创作提升到一个新的高度。
+**FL Studio Mobile** 可以作为 [**FL Studio（桌面版）**][1] 的免费插件使用，因此你可以将移动设备上的创作提升到一个新的高度。
 
 ![FL Studio 插件](../assets/images/fl_studio_plugin.png)
 
-**注意：** 从 FL Studio Mobile 3 开始，你只能在插件中加载 .flm 工程，.flm 工程文件已经不再与 FL Studio 直接兼容。
+**注意：** 从 FL Studio Mobile 3 开始，你只能在插件中加载 `.flm` 工程，`.flm` 工程文件已经不再与 FL Studio 直接兼容。
 
 <a id="sharingdata"></a>
 
