@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 gitbook install docs
-./build.sh
+./make.sh
 #rm public/index.html
