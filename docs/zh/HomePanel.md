@@ -1,4 +1,4 @@
-dee# FL Studio Mobile - 主菜单
+# FL Studio Mobile - 主菜单
 
 主菜单包含 SONGS、SETTING、SHOP 和 SHARE（新版本更名 FILES） 四个栏。
 
@@ -26,7 +26,7 @@ dee# FL Studio Mobile - 主菜单
 
 <a id="songs"></a>
 
-### SONGS  歌曲
+### SONGS 歌曲
 
 **Songs** - 加载或保存 FL Studio Mobile 工程和 MIDI 文件。
 
@@ -59,9 +59,9 @@ dee# FL Studio Mobile - 主菜单
     **正在保存或发送文件…**
     
     1.  **SONGS 栏 > Save 保存** - 从 SONGS 栏中选择 **保存**。
-    2.  **Rename file 重命名**(可选) - 如果要重命名工程，请点击此处并输入新名称。
+    2.  **Rename file 重命名**（可选）- 如果要重命名工程，请点击此处并输入新名称。
     3.  **Select format 选择格式** - 选择保存格式。FLM 是工程文件。MIDI 是音符数据。WAV、FLAC、MP3 和 AAC 是音频格式。
-    4.  **SEND 发送**（可选） - 这是保存到设备的另一种方法。点击此处可选择电子邮件和任何其他外部位置，通过 APP 共享你设备上的文件。  
+    4.  **SEND 发送**（可选）- 这是保存到设备的另一种方法。点击此处可选择电子邮件和任何其他外部位置，通过 APP 共享你设备上的文件。  
         **注意：** 这与 [SHARE（FILES）][5] 栏不同，后者允许你在不同设备上 FL Studio Mobile 之间直接共享文件。
     5.  **SAVE 保存** - 文件会保存到默认的 FLM User Files 文件夹下。选择保存音频格式时，你会看到以下选项：
         
@@ -80,14 +80,14 @@ dee# FL Studio Mobile - 主菜单
     *   **FLM** - FL Studio Mobile 工程格式（在文件浏览器中查看时，扩展名为 **`.flm`**）
     *   **MIDI** - MIDI 是一种数据格式（在文件浏览器中查看时，扩展名为 **`.mid`**），用于与其他 DAW 共享 FL Studio Mobile 工程数据（音符和控制信息）。 
         **注意：** 此选项只会将工程的前 16 个音轨保存到单个 MIDI 文件中。如果你有 16 个以上的音轨，则需要对音轨进行重新顺序并进行多次保存，或者将每个音轨 [另存为 MIDI][6]。
-    *   **WAV (Audio 音频)** - 最高质量，文件大。Wave 是一种无损的音频格式，（此类还有 FLAC 格式）是在创作环境中处理音频的首选格式。正常保存是 16  Bit 的 WAV 文件（在文件浏览器中查看时，扩展名为 **`.wav`**）。如果你在保存选项中启用了「高质量」（请参见上文），那么会输出 32 Bit 文件。
+    *   **WAV (Audio 音频)** - 最高质量，文件大。Wave 是一种无损的音频格式，（此类还有 FLAC 格式）是在创作环境中处理音频的首选格式。正常保存是 16 Bit 的 WAV 文件（在文件浏览器中查看时，扩展名为 **`.wav`**）。如果你在保存选项中启用了「高质量」（请参见上文），那么会输出 32 Bit 文件。
     *   **FLAC (Audio 音频)** - 无损音频压缩格式。类似于 WAV，FLAC 将所有音频信息保留在编码波形中。FLAC 的另一个好处是可以大大减小文件大小。FLAC 文件通常比等效的 WAV 文件小 20％ 至 30％，同时完美的保留了原始数据。如果你在保存选项中启用了「高质量」（请参见上文），那么会输出 32 Bit 文件。
     *   **MP3 (Audio 音频)** - 质量相比较低，文件较小。文件比特率为 192 或 320 kbps（HQ）（在文件浏览器中查看时，扩展名为 **`.mp3`**）。
     *   **AAC (Audio 音频)** - 质量相比较低，文件较小。文件比特率为 192 或 320 kbps（HQ）（在文件浏览器中查看时，扩展名为 **`.acc`**）。
     
     **建议：** 在 FL Studio Mobile 或[其他 DAW][7] 中使用 **WAV** 格式。而在发布或试听时使用 **MP3** 格式。
     
-*   **SEND 发送** - 发送的位置将取决于你的设备和系统（它会在你点击 **「SEND  发送」** 然后点击「SAVE 保存」后显示）。例如： **电子邮箱**、**云存储**或**内部文件夹**。
+*   **SEND 发送** - 发送的位置将取决于你的设备和系统（它会在你点击 **「SEND 发送」** 然后点击「SAVE 保存」后显示）。例如： **电子邮箱**、**云存储** 或 **内部文件夹**。
 
 **注意：** 有关 <font color="red">**高级文件共享**</font> 请参见 [你的文件！（工程、WAV、MP3、MIDI 文件储存在哪里？）][8]。
 
@@ -100,7 +100,7 @@ dee# FL Studio Mobile - 主菜单
 #### MIDI Device MIDI 设备
 
 *   **MIDI Input MIDI 输入** - 当检测到 [外部 MIDI 设备][9] 时，你可以将此控件设置到播放界面选定的轨道。
-*   **Enable MIDI over Bluetooth LE 启用通过蓝牙连接 MIDI** - 选择此项来连接蓝牙 MIDI 设备。**Android** 设备上会要求打开 **位置访问权限**。**位置访问权限**是 [Google 要求的][10] （请参阅 「LE Beacons note」），而这项权限可能从附近的蓝牙设备定位你的位置。我们只会在 MIDI 键盘连接时使用蓝牙功能，我们不会尝试定位你的位置或向我们的服务器发送任何数据。
+*   **Enable MIDI over Bluetooth LE 启用通过蓝牙连接 MIDI** - 选择此项来连接蓝牙 MIDI 设备。**Android** 设备上会要求打开 **位置访问权限**。**位置访问权限** 是 [Google 要求的][10] （请参阅 「LE Beacons note」），而这项权限可能从附近的蓝牙设备定位你的位置。我们只会在 MIDI 键盘连接时使用蓝牙功能，我们不会尝试定位你的位置或向我们的服务器发送任何数据。
 
 **注意：** 有关使用 MIDI 控制器的更多信息，请点击 [这里][9]。
 
@@ -120,7 +120,7 @@ dee# FL Studio Mobile - 主菜单
 
 #### Audio 音频
 
-*   **Audio Input 音频输入**（默认显示 Microphone 麦克风） - 当多个输入可用时，选择一个音频输入。在带有立体声麦克风的移动设备上，你会看到 **Recording Source: Stereo 录音源：立体声**。你可以选择左声道或右声道（麦克风）。这项设置在一个麦克风不如另一个麦克风时是必要的。如果将你的麦克风设计用于消除噪音或者不捕获声音的情况可以尝试上述设置。当**音频接口**（移动设备需要 [通过适配器][11]）被连接后，其他输入选项会处于可选择状态。如果不能准确正确地标识，你可能需要逐个尝试来找到所需的输入。iOS 上的输入选项还包括 [Audiobus 输入][12]。
+*   **Audio Input 音频输入**（默认显示 Microphone 麦克风）- 当多个输入可用时，选择一个音频输入。在带有立体声麦克风的移动设备上，你会看到 **Recording Source: Stereo 录音源：立体声**。你可以选择左声道或右声道（麦克风）。这项设置在一个麦克风不如另一个麦克风时是必要的。如果将你的麦克风设计用于消除噪音或者不捕获声音的情况可以尝试上述设置。当**音频接口**（移动设备需要 [通过适配器][11]）被连接后，其他输入选项会处于可选择状态。如果不能准确正确地标识，你可能需要逐个尝试来找到所需的输入。iOS 上的输入选项还包括 [Audiobus 输入][12]。
     
     <a id="latency_compensation"></a>
     
@@ -158,7 +158,7 @@ dee# FL Studio Mobile - 主菜单
     
     **Troubleshooting 故障检测：** 有两个与音频性能有关的选项：**Multi core processing（多核处理）** 和 **Sound mode（声音模式）**。这里给出 6 种可能的组合。把它们都试一试，看看有没有什么组合能解决你的问题：开/FAST、开/SAFE、开/ULTRASAFE、关/FAST、关/SAFE、关/ULTRASAFE。
     
-*   **Multi core processing（多核处理）** - 这是一个 CPU 选项，可减少音频故障或炸音。实际上，根据所使用的设备，开启多核可能会更糟。尝试一下不同的**声音模式**和**多核处理**的组合来解决你的问题。
+*   **Multi core processing（多核处理）** - 这是一个 CPU 选项，可减少音频故障或炸音。实际上，根据所使用的设备，开启多核可能会更糟。尝试一下不同的 **声音模式** 和 **多核处理** 的组合来解决你的问题。
 
 <a id="shop"></a>
 
@@ -167,7 +167,7 @@ dee# FL Studio Mobile - 主菜单
 **Shop** - 你可以在此栏下载免费内容或购买其他内容。
 
 *   **To purchase content 购买内容** - 点击 **Buy 购买** 按钮，然后通过应用商店完成交易。
-*   **Restore purchases 恢复购买** - 如果你已经购买了内容，然后又在新设备上重新安装了 FL Studio Mobile（或在同一设备上删除并将其安装后），那么 **SHOP 商店** 栏将就会显示 **RESTORE 恢复**按钮。点击此按钮可以恢复你的购买，前提是你登录了购买应用程序时的应用商店账户。对于 Image - Line 提供的产品，如果你已经用你的 Image - Line 账户注册了你的设备，当你在设备上重新安装 FL Studio Mobile 时，点击 **Users & support forum** 按钮，然后注册或重新注册你的设备到你的 [Image - Line 账户][13]，这个**内容将被解锁**。
+*   **Restore purchases 恢复购买** - 如果你已经购买了内容，然后又在新设备上重新安装了 FL Studio Mobile（或在同一设备上删除并将其安装后），那么 **SHOP 商店** 栏将就会显示 **RESTORE 恢复** 按钮。点击此按钮可以恢复你的购买，前提是你登录了购买应用程序时的应用商店账户。对于 Image - Line 提供的产品，如果你已经用你的 Image - Line 账户注册了你的设备，当你在设备上重新安装 FL Studio Mobile 时，点击 **Users & support forum** 按钮，然后注册或重新注册你的设备到你的 [Image - Line 账户][13]，这个 **内容将被解锁**。
 
 **注意：** 应用内购买（例如 FL Studio Mobile 本身）不可在操作系统（Android、iOS 和 Windows）之间转移。有关为什么这样做的更多详细信息，请参见 [关于这个问题的文章][14]。
 
@@ -243,18 +243,18 @@ By logging into one of the supported 'Cloud' file sharing services supported (**
 
 **Direct Share 直接分享**
 
-**Share 分享** - 你可以在运行 FL Studio mobile 的移动设备之间共享工程文件。当你的设备 [连接到同一网络（包括 WiFi）下][15] 时，选择目标设备接收「你的文件」，即「FLM User Files」文件夹中的所有内容。通过此页面，你可以通过网络在所有检测到的 Android、iOS 和 Windows（应用程序和 FL 插件）设备上的 FL Studio Mobile 之间同步工程。**注意：**第一次使用计算机执行此操作时，可能会看到**防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。**分享方式：**
+**Share 分享** - 你可以在运行 FL Studio mobile 的移动设备之间共享工程文件。当你的设备 [连接到同一网络（包括 WiFi）下][15] 时，选择目标设备接收「你的文件」，即「FLM User Files」文件夹中的所有内容。通过此页面，你可以通过网络在所有检测到的 Android、iOS 和 Windows（应用程序和 FL 插件）设备上的 FL Studio Mobile 之间同步工程。**注意：**第一次使用计算机执行此操作时，可能会看到 **防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。**分享方式：**
 
 ![共享](../assets/home/share_zh.png)
 
 https://www.bilibili.com/video/av29552167?p=3
 
 1.  确保你在设备上使用的是最新版本的 FL Studio Mobile，并且具有 [最新的 FL Studio 插件][16]。
-2.  将你的 PC 和或任何移动设备连接到同一个网络。通常情况下是通过 **Wi - Fi** 连接，但如果你同时使用 Wi - Fi 和**以太网**连接也可以。重要的是**所有设备都得连接到同一个网络**。
+2.  将你的 PC 和或任何移动设备连接到同一个网络。通常情况下是通过 **Wi-Fi** 连接，但如果你同时使用 Wi-Fi 和 **以太网** 连接也可以。重要的是 **所有设备都得连接到同一个网络**。
 3.  在 PC 和移动设备上打开 FL Studio Mobile。
-4.  在 PC 和移动设备上，选择 **SHARE（共享）**栏。  
-    **注意：**第一次使用计算机执行此操作时，可能会看到**防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。
-5.  在 **SHARE（FILES）共享（文件）**栏上，你应该在设备列表上看到其他 FL Studio Mobile 的实例。**从**你正在使用的设备共享**到**你选择的设备。
+4.  在 PC 和移动设备上，选择 **SHARE（共享）** 栏。  
+    **注意：**第一次使用计算机执行此操作时，可能会看到 **防火墙弹出的安全消息**。允许 FL Studio Mobile 访问你的网络。
+5.  在 **SHARE（FILES）共享（文件）** 栏上，你应该在设备列表上看到其他 FL Studio Mobile 的实例。**从** 你正在使用的设备共享 **到** 你选择的设备。
 6.  点击要传输到的设备，**你的文件**（请参阅下文）将被传输到该设备上。
 7.  你需要重新启动接受数据的 FL Studio Mobile，在重启时会读取到的新数据，在此之后你才能看到同步数据。
 8.  创建一个「我的文件」的快捷方式到你的电脑上，然后你可以手动复制文件进出这个位置，然后使用「Send 共享」发送到你的移动设备，或者在共享到计算机后得到这些文件，非常简单！
@@ -284,7 +284,7 @@ https://www.bilibili.com/video/av29552167?p=3
 *   **Cut 剪切** - 选择准备移动到另一个位置的文件（粘贴）。
 *   **Paste 粘贴** - 粘贴「Cut」剪切的文件。
 *   **Export 导出** - 使用系统提供的共享选项导出文件。
-*   **Wave**（仅 iOS ） - 音频粘贴。
+*   **Wave**（仅 iOS）- 音频粘贴。
 
 <a id="userdata"></a>
 
@@ -359,7 +359,7 @@ Android 允许直接访问内部文件夹，主要有两个选项：
 
 #### FL Studio 插件文件管理
 
-**注意：** 从 FL Studio Mobile 3.2.47 开始，插件的数据位置从 **C:\\Program Files (x86)\\Image - Line\\FL Studio N\\Plugins\\Fruity\\Generators\\FL Studio Mobile\\LocalData** 移到 **\[用户名\]\\Documents\\Image - Line\\FL Studio Mobile\\** 下。对于 macOS 和 Windows，该位置相同。然后，你可以根据需要将任何内容拖放到文件夹中。使用 [共享功能][5] 将其发送到你的移动设备，然后再发送回 Windows 或 Mac 电脑。
+**注意：** 从 FL Studio Mobile 3.2.47 开始，插件的数据位置从 **C:\\Program Files (x86)\\Image-Line\\FL Studio N\\Plugins\\Fruity\\Generators\\FL Studio Mobile\\LocalData** 移到 **\[用户名\]\\Documents\\Image-Line\\FL Studio Mobile\\** 下。对于 macOS 和 Windows，该位置相同。然后，你可以根据需要将任何内容拖放到文件夹中。使用 [共享功能][5] 将其发送到你的移动设备，然后再发送回 Windows 或 Mac 电脑。
 
 ![查看插件数据](../assets/home/view_plugin_data.png)
 
@@ -369,7 +369,7 @@ Android 允许直接访问内部文件夹，主要有两个选项：
 
 提供以下选项：
 
-1.  **Windows 应用程序（Windows 电脑）** - 制作一个指向 FL Studio Mobile 用户数据文件夹的桌面快捷方式。该路径具有一些自定义数据，如红色所示。通常在 **C:\\Users\\<font color="red">用户名</font>\\AppData\\Local\\Packages\\Image - Line.FLStudioMobile\_<font color="red">RANDOM\_LETTERS\_NUMBERS</font>\\LocalState**。  
+1.  **Windows 应用程序（Windows 电脑）** - 制作一个指向 FL Studio Mobile 用户数据文件夹的桌面快捷方式。该路径具有一些自定义数据，如红色所示。通常在 **C:\\Users\\<font color="red">用户名</font>\\AppData\\Local\\Packages\\Image-Line.FLStudioMobile\_<font color="red">RANDOM\_LETTERS\_NUMBERS</font>\\LocalState**。  
     **注意：** **AppData** 文件夹是隐藏的，因此你需要在文件管理器中选择 **显示隐藏工程**。如果你 **无权限进入该文件夹**，请查阅 [本指南][28]。Windows 8 和 10 在这方面是相同的。
     
     ![查看 UWP 数据](../assets/home/view_uwp_data.png)
