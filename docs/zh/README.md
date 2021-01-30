@@ -26,10 +26,10 @@ FL Studio Mobile 可以在 **Android**、**iOS** 和 **Windows**（独立应用�
 
 ### Instruments 乐器
 
-*   [**DirectWave**][8]<font color="green">[**免费**]</font> - 这是一个采样播放器，多用于传统音色，如 **钢琴**，**管弦乐**，**吉他** 等。预设中有很多采样可供你使用，你也可以在 [应用内商店][9] 购买更多采样。
-*   [**MiniSynth**][10]<font color="green">[**免费**]</font> - 这一款功能齐全的 **合成器**，很少的处理就能得到非常棒的音色。你可以自己制作音色，也可以在用户论坛上找到超过 1000 个可供使用的预设。
+*   [**DirectWave**][8] <font color="green">[**免费**]</font> - 这是一个采样播放器，多用于传统音色，如 **钢琴**，**管弦乐**，**吉他** 等。预设中有很多采样可供你使用，你也可以在 [应用内商店][9] 购买更多采样。
+*   [**MiniSynth**][10] <font color="green">[**免费**]</font> - 这一款功能齐全的 **合成器**，很少的处理就能得到非常棒的音色。你可以自己制作音色，也可以在用户论坛上找到超过 1000 个可供使用的预设。
 *   [**GMS（Groove Machine Synth）**][11]<font color="red">[应用内购]</font> - 这是一个移植 FL Studio（PC）[Groove Machine 插件][12] 的 FX 效果 & 多音色混合器。
-*   [**Transistor Bass**][13]<font color="red">[应用内购]</font> - 这是一个适用于单音 Bass-line 风格的 **合成器**，用于创作 Resonant 风格的 Basslines 或 Leads 。
+*   [**Transistor Bass**][13] <font color="red">[应用内购]</font> - 这是一个适用于单音 Bass-line 风格的 **合成器**，用于创作 Resonant 风格的 Basslines 或 Leads 。
 
 <a id="spaces"></a>
 
@@ -48,7 +48,7 @@ FL Studio Mobile 可以在 **Android**、**iOS** 和 **Windows**（独立应用�
 
 当你第一次点击 **HELP > Users & Support forums** 时，我们会要求你将你的设备注册到你的 Image-Line 帐户。
 
-*   你可以在 [FL Studio Mobile 支持论坛][3] 上发布或下载数据。在这里你可以直接获得来自来发团队的**技术支持**，也可以与其他用户交谈。
+*   你可以在 [FL Studio Mobile 支持论坛][3] 上发布或下载数据。在这里你可以直接获得来自来发团队的 **技术支持**，也可以与其他用户交谈。
 *   论坛上有大量免费的采样、乐器和预设，包括： [DirectWave][21]、[MiniSynth][22]、[GMS][23] 和 [Transistor Bass][24]。
 *   我们会解锁你 [FL Studio 的插件版本][25]，你可以免费获得 FL Studio Mobile 的最新版本。
 
