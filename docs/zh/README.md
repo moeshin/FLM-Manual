@@ -56,7 +56,7 @@ FL Studio Mobile 可以在 **Android**、**iOS** 和 **Windows**（独立应用�
 
 ### 常问问题
 
-*   **如何将工程另存为音频或音乐文件？**- 在[主菜单][14]上点击 **Save > WAV、FLAC or MP3**。你的音频文件会保存在 FLM User Files 下 **My Tracks** 文件夹中。如果你的操作系统支持，则还可以选择保存在其他位置。
+*   **如何将工程另存为音频或音乐文件？**- 在[主菜单][14]上点击 **Save > WAV、FLAC 或 MP3**。你的音频文件会保存在 FLM User Files 下 **My Tracks** 文件夹中。如果你的操作系统支持，则还可以选择保存在其他位置。
 *   **我在哪里可以获得技术支持？**- 注册 FL Studio Mobile 并访问 [FL Studio Mobile 支持论坛][3]。
 *   **如何提出功能需求和建议？**- 注册 FL Studio Mobile 并访问 [FL Studio Mobile 支持论坛][3]。
 *   **如何获取该应用的 FL Studio 插件版本？**- 从 [FL Studio 12.4][26] 版本开始支持 [FL Studio Mobile 插件][27]。点击 [此处][28] 查看更新。你需要使用12.4及以后的 FL Studio。FL Studio 终身免费更新，因此在你购买后，你将始终免费获得最新版本。就像一个独立程序一样！
