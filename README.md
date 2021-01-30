@@ -10,7 +10,7 @@ FLM 中英文手册，由 [GitBook](https://github.com/GitbookIO/gitbook-cli) �
 
 1. 您需要安装 [Node.js](https://nodejs.org/zh-cn/)。
 2. 执行 `npm install -g gitbook-cli`，安装 GitBook。
-3. 第一次构建请运行 `setup.sh`，以后只要运行 `build.sh` 就可以完成构建。
+3. 第一次构建请运行 `setup.sh`，以后只要运行 `make.sh` 就可以完成构建。
    记得要在 **该项目的目录** 下。
 4. 如果你想要的在本地浏览的话，运行 `monitor.sh`，然后浏览器浏览 [http://127.0.0.1:4000](http://127.0.0.1:4000)，默认 `4000` 端口，需要 [Python](https://www.python.org/)。当然，你也可以直接访问静态文件。
 
