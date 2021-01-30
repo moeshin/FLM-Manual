@@ -393,7 +393,7 @@ Android 允许直接访问内部文件夹，主要有两个选项：
     *   在 Windows 电脑上安装应用程序（同时获得手机和桌面应用程序）。**请按照上面的 Windows 应用程序（Windows 桌面）** 说明使用 [SHARE][5] 功能。
 
 [1]: https://www.bilibili.com/video/av29552167
-[2]: http://support.image - line.com/redirect/flmobile_forum
+[2]: http://support.image-line.com/redirect/flmobile_forum
 [3]: https://www.bilibili.com/video/av80167389
 [4]: Playlist.md#flmobile_transportbar
 [5]: #sharingdata
@@ -401,22 +401,22 @@ Android 允许直接访问内部文件夹，主要有两个选项：
 [7]: FLStudioPlugin.md
 [8]: #userdata
 [9]: Controllers.md#flm_externalcontrollers
-[10]: https://developer.android.com/guide/topics/connectivity/bluetooth - le.html#permissions
+[10]: https://developer.android.com/guide/topics/connectivity/bluetooth-le.html#permissions
 [11]: ../assets/home/adapters.jpg
 [12]: iOS_InterApp.md
-[13]: https://support.image - line.com/member/profile.php
-[14]: https://support.image - line.com/knowledgebase/base.php?ans=497
+[13]: https://support.image-line.com/member/profile.php
+[14]: https://support.image-line.com/knowledgebase/base.php?ans=497
 [15]: WiFi.md
-[16]: http://support.image - line.com/redirect/flmobile_flplugin
+[16]: http://support.image-line.com/redirect/flmobile_flplugin
 [17]: #userdata_access
 [18]: Module_DirectWave.md
-[19]: http://www.image - line.com/flstudio/
-[20]: https://www.image - line.com/support/flstudio_online_manual/html/plugins/DirectWave.htm
-[21]: https://www.image - line.com/support/FLHelp/html/plugins/Directwave_zonewindow.htm
+[19]: http://www.image-line.com/flstudio/
+[20]: https://www.image-line.com/support/flstudio_online_manual/html/plugins/DirectWave.htm
+[21]: https://www.image-line.com/support/FLHelp/html/plugins/Directwave_zonewindow.htm
 [22]: #songs
 [23]: Editors.md#stepsequencer
 [24]: http://play.google.com/store/apps/details?id=com.sand.airdroid
 [25]: http://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander
 [26]: http://www.ghisler.com/androidplugins/googleplay/
 [27]: https://play.google.com/store/apps/details?id=com.ghisler.tcplugins.LAN
-[28]: http://www.fixedbyvonnie.com/2013/12/where - are - apps - in - the - windows - store - installed
+[28]: http://www.fixedbyvonnie.com/2013/12/where-are-apps-in-the-windows-store-installed
