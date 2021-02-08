@@ -5,7 +5,7 @@
   "description": "Build tool",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
-    "marked": "^1.2.8",
+    "marked": "^2.0.0",
     "turndown": "^7.0.0",
     "turndown-plugin-gfm": "^1.0.2",
     "yargs": "^16.2.0"
