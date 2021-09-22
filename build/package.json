@@ -4,11 +4,11 @@
   "author": "moeshin",
   "description": "Build tool",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.5",
-    "marked": "^2.0.0",
-    "turndown": "^7.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "marked": "^3.0.4",
+    "turndown": "^7.1.1",
     "turndown-plugin-gfm": "^1.0.2",
-    "yargs": "^16.2.0"
+    "yargs": "^17.1.1"
   },
   "devDependencies": {},
   "scripts": {
